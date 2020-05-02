@@ -1,0 +1,188 @@
+###
+### Enemy/Spawn Changes
+###
+
+# Guarantee rare spawns (and buff vehicle rare spawns)
+guaranteed_rare_spawns
+
+###
+### Cheat Type Mods
+###
+
+# Movement Speed Cheats
+movement_speed_cheats_reasonable
+#movement_speed_cheats_extreme
+
+# Challenge icons are always visible
+always_visible_challenge_icons
+
+# ECHO Log loot bar is bigger
+more_visible_echo_logs
+
+# Better Mayhem rewards (mostly just for XP; Better Loot further buffs
+# anoint rates).  Make sure this stays above Better Loot!
+better_mayhem_rewards
+
+# Alterations to the first couple of weapon chests in the game
+first_gun_full_loadout
+#first_gun_testing_gear
+
+###
+### Gameplay Changes
+###
+
+# Make NVHM GameStage level along with the char (like in TVHM/Mayhem)
+nvhm_gamestage_follows_level
+
+# Better Loot!  Improves loot quality and other such tweaks
+better_loot
+
+# Randomize boss drops and mission rewards.  I imagine I am the only
+# person who would possibly want this.  Heh.  Make sure the boss one
+# in particular happens *after* Better Loot in the file.
+boss_drop_randomizer
+mission_reward_randomizer
+
+# Get rid of DLC-specific world drops
+dlc_loot_de-emphasizer
+
+# Vehicle Unlocks
+vehicle_unlocks
+
+# Mayhem 2.0 Scaling Changes
+mayhem2_no_drop_scaling
+mayhem2_decreased_enemy_scaling
+
+###
+### Economy-related mods
+###
+
+# Cheaper SDUs
+cheaper_sdus
+
+# Cheaper Slots
+cheaper_slots
+
+# Improved Slot Machines
+better_slots
+
+# Cheaper Eridium economy
+cheaper_eridium_economy
+
+###
+### Gear Functionality Changes
+###
+
+# Red Text Explainer
+red_text_explainer
+
+# Improve Maliwan charge times
+maliwan_charge_time
+
+###
+### Partlocks / Part Changes
+###
+
+# Only get COMs/Skins/Heads/Anoints for chars actively in the game
+no_wasted_equipment
+
+# Unlock all weapon/item parts from the beginning of the game
+early_bloomer
+
+# Add all uniques/legendaries to the relevant world drop pools
+expanded_legendary_pools
+
+# Add anoints to weapons which don't ordinarily have them
+all_weapons_can_anoint
+
+# More tracker darts!
+more_tracker_darts
+
+# More elemental weapons
+more_elemental_weapons
+
+# Disable "projected" shields
+no_projected_shields
+
+# Disable non-legendary/unique slam artifacts
+no_slam_artifacts
+
+# Only spawn Atlas grenads (using this on my Zane)
+only_atlas_grenades
+
+###
+### Customization Tweaks
+###
+
+# Add all customizations to the global drop pools
+#expanded_customization_pools_all
+#expanded_customization_pools_no_mission_rewards
+expanded_customization_pools_no_mission_rewards_or_earl
+
+# Unlock cosmetic items
+customization_unlocks
+
+# Only drop heads+skins from the global customization drop pool
+#only_heads_and_skins
+
+# Customization drop rates
+customization_drops_none
+#customization_drops_improved
+#customization_drops_frequent
+#customization_drops_constant
+
+###
+### Manufacturer locks
+###
+
+#manufacturer_lock_atlas
+#manufacturer_lock_cov
+#manufacturer_lock_dahl
+#manufacturer_lock_hyperion
+#manufacturer_lock_jakobs
+#manufacturer_lock_maliwan
+#manufacturer_lock_tediore
+#manufacturer_lock_torgue
+#manufacturer_lock_vladof
+#manufacturer_lock_custom_ted_vla
+#manufacturer_lock_custom_dal_jak
+
+###
+### Timed Event mods
+###
+
+# Event-enabling mods
+#bloody_harvest_enable
+#broken_hearts_enable
+#cartels_enable
+
+# Guaranteed Ghosts in Bloody Harvest event
+#guaranteed_ghosts
+
+###
+### Main Menu
+###
+
+#main_menu_normal
+#main_menu_halloween
+#main_menu_christmas
+
+###
+### Mod-testing Mods
+###
+
+# Mod-Testing Gear
+#craders_emp5_super_buff
+#transformer_super_buff
+
+# Testing loot drops
+#testing_loot_drops
+
+# Real quick XP gains
+#fast_levelling_fast
+#fast_levelling_faster
+#fast_levelling_insane
+
+# Mod-testing Char Setup (for new games)
+#modtest_char_setup
+
