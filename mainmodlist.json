@@ -1,7 +1,7 @@
 {
     "service_name": "Micropatch",
     "configuration_group": "OakDefault",
-    "configuration_version": "1.129.147",
+    "configuration_version": "1.0",
     "parameters": [
         {
         "key": "SparkCharacterLoadedEntry9090",
