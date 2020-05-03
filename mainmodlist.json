@@ -13,11 +13,11 @@
         },
         {
         "key":"SparkCharacterLoadedEntry",
-        "value": "(1,1,0,BPChar_GoonBadass_Coco),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/ItemPool_LocoChantelle.ItemPool_LocoChantelle,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/Creamer/Balance/Balance_HW_TOR_Creamer.Balance_HW_TOR_Creamer,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/Creamer/Balance/Balance_HW_TOR_Creamer.Balance_HW_TOR_Creamer\"',Weight=(BaseValueConstant=0.25)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
+        "value": "(1,1,0,BPChar_EnforcerBadass_Lawrence),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/ItemPool_StLawrence.ItemPool_StLawrence,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/IonLaser/Balance/Balance_SM_MAL_IonLaser.Balance_SM_MAL_IonLaser,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/IonLaser/Balance/Balance_SM_MAL_IonLaser.Balance_SM_MAL_IonLaser\"',Weight=(BaseValueConstant=0.25)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
         },
         {
         "key":"SparkCharacterLoadedEntry",
-        "value": "(1,2,0,BPChar_GoonBadass_Coco),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/Table_Legendary_SpecificLootOdds_Dandelion.Table_Legendary_SpecificLootOdds_Dandelion,Kill_LocoChantelle,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1"
+        "value": "(1,2,0,BPChar_EnforcerBadass_Lawrence),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/Table_Legendary_SpecificLootOdds_Dandelion.Table_Legendary_SpecificLootOdds_Dandelion,Kill_Kill_StLawrence,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1"
         },
         {
         "key": "SparkPatchEntry904",
