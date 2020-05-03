@@ -8,8 +8,12 @@
         "value": "(1,1,0,BPChar_TinkRare02),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_Thunk.ItemPool_Thunk,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/_Bangarang/Balance/Balance_PS_TED_Bangerang.Balance_PS_TED_Bangerang,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/_Bangarang/Balance/Balance_PS_TED_Bangerang.Balance_PS_TED_Bangerang,Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Fastball/Balance/InvBalD_GM_TED_Fastball.InvBalD_GM_TED_Fastball,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/GrenadeMods/_Design/_Unique/Fastball/Balance/InvBalD_GM_TED_Fastball.InvBalD_GM_TED_Fastball,Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData,/Game/GameData/Loot/ItemPools/Unique/ItemPool_Mongol_ThunkandSloth.ItemPool_Mongol_ThunkandSloth,Weight=(BaseValueConstant=1)))"
         },
         {
+        "key": "SparkCharacterLoadedEntry9099",
+        "value": "(1,1,0,BPChar_TinkRare02),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_Thunk.ItemPool_Thunk,Quantity.BaseValueConstant,8,1.000000,3.000000"
+        },
+        {
         "key": "SparkPatchEntry702",
-        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,0.300000,1.000000"
+        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
         },
         {
         "key": "SparkPatchEntry904",
