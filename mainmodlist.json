@@ -13,7 +13,7 @@
         },
         {
         "key":"SparkCharacterLoadedEntry",
-        "value": "(1,1,0,BPChar_Ratch_Hunt01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_BloodSucker_Chupacabratch.ItemPool_BloodSucker_Chupacabratch,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Chupa/Balance/InvBalD_GM_Chupa.InvBalD_GM_Chupa,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/GrenadeMods/_Design/_Unique/Chupa/Balance/InvBalD_GM_Chupa.InvBalD_GM_Chupa,Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData,/Game/GameData/Loot/ItemPools/Unique/ItemPool_Mongol_ThunkandSloth.ItemPool_Mongol_ThunkandSloth,Weight=(BaseValueConstant=2)))"
+        "value": "(1,1,0,BPChar_Ratch_Hunt01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_BloodSucker_Chupacabratch.ItemPool_BloodSucker_Chupacabratch,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Chupa/Balance/InvBalD_GM_Chupa.InvBalD_GM_Chupa,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/GrenadeMods/_Design/_Unique/Chupa/Balance/InvBalD_GM_Chupa.InvBalD_GM_Chupa,Weight=(BaseValueConstant=0.25)),(ItemPoolData=ItemPoolData,/Game/GameData/Loot/ItemPools/Unique/ItemPool_Mongol_ThunkandSloth.ItemPool_Mongol_ThunkandSloth,Weight=(BaseValueConstant=1)))"
         },
         {
         "key":"SparkCharacterLoadedEntry",
