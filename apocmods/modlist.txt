@@ -34,6 +34,13 @@ first_gun_full_loadout
 # Make NVHM GameStage level along with the char (like in TVHM/Mayhem)
 nvhm_gamestage_follows_level
 
+# Mayhem 2.0 Drop Rate Fixes - run this before Better Loot so that
+# Better Loot's eridium drop rate overwrites this
+fix_mayhem2_drops
+
+# Fix Shield drops on standard enemies in DLC2
+fix_dlc2_shield_drops
+
 # Better Loot!  Improves loot quality and other such tweaks
 better_loot
 
@@ -115,21 +122,21 @@ only_atlas_grenades
 ###
 
 # Add all customizations to the global drop pools
-expanded_customization_pools_all
-expanded_customization_pools_no_mission_rewards
+#expanded_customization_pools_all
+#expanded_customization_pools_no_mission_rewards
 expanded_customization_pools_no_mission_rewards_or_earl
 
 # Unlock cosmetic items
 customization_unlocks
 
 # Only drop heads+skins from the global customization drop pool
-only_heads_and_skins
+#only_heads_and_skins
 
 # Customization drop rates
 customization_drops_none
-customization_drops_improved
-customization_drops_frequent
-customization_drops_constant
+#customization_drops_improved
+#customization_drops_frequent
+#customization_drops_constant
 
 ###
 ### Manufacturer locks
@@ -152,7 +159,7 @@ customization_drops_constant
 ###
 
 # Event-enabling mods
-bloody_harvest_enable
+#bloody_harvest_enable
 #broken_hearts_enable
 #cartels_enable
 
