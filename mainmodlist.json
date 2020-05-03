@@ -12,10 +12,6 @@
         "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,0.300000,1.000000"
         },
         {
-        "key": "SparkCharacterLoadedEntry616",
-        "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_Thunk.ItemPool_Thunk,Quantity.BaseValueConstant,8,1.000000,3"
-        },
-        {
         "key": "SparkPatchEntry904",
         "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
         },
