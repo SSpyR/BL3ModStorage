@@ -4,11 +4,11 @@
     "configuration_version": "1.0",
     "parameters": [
         {
-        "key": "SparkCharacterLoadedEntry=MongolDrop",
-        "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,Weight=(BaseValueConstant=0)),(ItemPoolData=ItemPoolData,/Game/GameData/Loot/ItemPools/Unique/ItemPool_Mongol_ThunkandSloth.ItemPool_Mongol_ThunkandSloth,Weight=(BaseValueConstant=1)))"
+        "key": "SparkCharacterLoadedEntry",
+        "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData,/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData,/Game/GameData/Loot/ItemPools/Unique/ItemPool_Mongol_ThunkandSloth.ItemPool_Mongol_ThunkandSloth,Weight=(BaseValueConstant=2)))"
         },
         {
-        "key":"SparkCharacterLoadedEntry=MongolGuaranteed",
+        "key":"SparkCharacterLoadedEntry",
         "value": "(1,2,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1"
         },
         {
