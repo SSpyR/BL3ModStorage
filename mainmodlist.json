@@ -4,14 +4,6 @@
     "configuration_version": "1.0",
     "parameters": [
         {
-        "key": "SparkCharacterLoadedEntry",
-        "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss\"',Weight=(BaseValueConstant=1)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
-        },
-        {
-        "key": "SparkPatchEntry",
-        "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,HW_Mongol,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,0.6,2.3"
-        },
-        {
         "key": "SparkPatchEntry904",
         "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
         },
@@ -258,6 +250,14 @@
         {
         "key": "SparkPatchEntry982",
         "value": "(1,7,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Projectiles/PhaseWeb/BPFistOverMatterActor.BPFistOverMatterActor_C,0,1,ExecuteUbergraph_BPFistOverMatterActor,1,1067,26:1.000000:1.000000:1.000000,26:0.250000:0.250000:0.250000"
+        },
+        {
+        "key": "SparkCharacterLoadedEntry1502",
+        "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss\"',Weight=(BaseValueConstant=1)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
+        },
+        {
+        "key": "SparkPatchEntry1503",
+        "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,HW_Mongol,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,0.6,2.3"
         }
     ]
 }
