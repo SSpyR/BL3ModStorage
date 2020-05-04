@@ -8,10 +8,6 @@
         "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss\"',Weight=(BaseValueConstant=0)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=999999999)))"
         },
         {
-        "key": "SparkCharacterLoadedEntry",
-        "value": "(1,2,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1"
-        },
-        {
         "key": "SparkPatchEntry904",
         "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
         },
