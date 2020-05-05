@@ -269,11 +269,19 @@
         },
         {
         "key": "SparkCharacterLoadedEntry-Spy5",
-        "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,Quantity.BaseValueConstant,8,1.000000,2"
+        "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,Quantity,0,,(BaseValueConstant=2)"
         },
         {
         "key": "SparkCharacterLoadedEntry-Spy6",
-        "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,Quantity.BaseValueConstant,8,1.000000,2"
+        "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,Quantity,0,,(BaseValueConstant=2)"
+        },
+        {
+        "key": "SparkPatchEntry-Spy7",
+        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidBoss,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
+        },
+        {
+        "key": "SparkPatchEntry-Spy8",
+        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidMiniboss3,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
         },
         {
         "key": "SparkPatchEntry-Spy9",
