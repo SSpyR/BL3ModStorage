@@ -274,6 +274,14 @@
         {
         "key": "SparkCharacterLoadedEntry1507",
         "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,Quantity.BaseValueConstant,8,1.000000,2"
+        },
+        {
+        "key": "SparkPatchEntry1508",
+        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidBoss,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
+        },
+        {
+        "key": "SparkPatchEntry1509",
+        "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidMiniboss3,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
         }
     ]
 }
