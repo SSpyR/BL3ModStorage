@@ -2,3 +2,11 @@
 "key": "SparkCharacterLoadedEntry",
 "value": "(1,2,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,CaptainThunkandSloth,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1"
 },
+{
+"key": "SparkPatchEntry1508",
+"value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidBoss,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
+},
+{
+"key": "SparkPatchEntry1509",
+"value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidMiniboss3,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,8,,1.000000"
+},
