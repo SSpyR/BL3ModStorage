@@ -1,0 +1,187 @@
+{
+  "service_name": "Micropatch",
+  "configuration_group": "OakDefault",
+  "configuration_version": "1.0",
+  "parameters": [
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMongol1",
+      "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss\"',Weight=(BaseValueConstant=1)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMongol2",
+      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,HW_Mongol,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.3"
+    },
+    {
+      "key": "SparkLevelPatchEntry-SpyHotfixSign1",
+      "value": "(1,11,0,MenuMap_P),/Game/Maps/MenuMap,/Game/Patch/MicropatchApplied,IO_MainMenu_HotfixIndicator,80,\"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000\""
+    },
+    {
+      "key": "SparkPatchEntry-SpyHotfixSign2",
+      "value": "(1,11,0,),/Game/Maps/MenuMap,/Game/Patch/MicropatchApplied,IO_MainMenu_HotfixIndicator,80,\"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000\""
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet1",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet2",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C,PreEnragedActorScale,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet3",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.150000,Y=0.150000,Z=0.150000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet4",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo1_Horned.Default__BPChar_PetSkag_Evo1_Horned_C:CharacterMesh0,RelativeScale3D,34,(X=1.250000,Y=1.250000,Z=1.250000),(X=0.317000,Y=0.317000,Z=0.317000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet5",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo1_Horned.Default__BPChar_PetSkag_Evo1_Horned_C,PreEnragedActorScale,34,(X=1.250000,Y=1.250000,Z=1.250000),(X=0.317000,Y=0.317000,Z=0.317000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet6",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo1_Horned.Default__BPChar_PetSkag_Evo1_Horned_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet7",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo2_Eridian.Default__BPChar_PetSkag_Evo2_Eridian_C:CharacterMesh0,RelativeScale3D,34,(X=1.250000,Y=1.250000,Z=1.250000),(X=0.317000,Y=0.317000,Z=0.317000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet8",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo2_Eridian.Default__BPChar_PetSkag_Evo2_Eridian_C,PreEnragedActorScale,34,(X=1.250000,Y=1.250000,Z=1.250000),(X=0.317000,Y=0.317000,Z=0.317000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet9",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag_Evo2_Eridian.Default__BPChar_PetSkag_Evo2_Eridian_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet10",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey.Default__BPChar_PetMonkey_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet11",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey.Default__BPChar_PetMonkey_C,PreEnragedActorScale,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet12",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey.Default__BPChar_PetMonkey_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.150000,Y=0.150000,Z=0.150000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet13",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo1_Beefcake.Default__BPChar_PetMonkey_Evo1_Beefcake_C:CharacterMesh0,RelativeScale3D,34,(X=1.400000,Y=1.400000,Z=1.400000),(X=0.350000,Y=0.350000,Z=0.350000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet14",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo1_Beefcake.Default__BPChar_PetMonkey_Evo1_Beefcake_C,PreEnragedActorScale,34,(X=1.400000,Y=1.400000,Z=1.400000),(X=0.350000,Y=0.350000,Z=0.350000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet15",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo1_Beefcake.Default__BPChar_PetMonkey_Evo1_Beefcake_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet16",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo2_Gunslinger.Default__BPChar_PetMonkey_Evo2_Gunslinger_C:CharacterMesh0,RelativeScale3D,34,(X=1.300000,Y=1.300000,Z=1.300000),(X=0.325000,Y=0.325000,Z=0.325000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet17",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo2_Gunslinger.Default__BPChar_PetMonkey_Evo2_Gunslinger_C,PreEnragedActorScale,34,(X=1.300000,Y=1.300000,Z=1.300000),(X=0.325000,Y=0.325000,Z=0.325000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet18",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Monkey/_Design/Character/BPChar_PetMonkey_Evo2_Gunslinger.Default__BPChar_PetMonkey_Evo2_Gunslinger_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet19",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant.Default__BPChar_PetSpiderant_C:CharacterMesh0,RelativeScale3D,34,(X=1.150000,Y=1.150000,Z=1.150000),(X=0.287500,Y=0.287500,Z=0.287500)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet20",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant.Default__BPChar_PetSpiderant_C,PreEnragedActorScale,34,(X=1.150000,Y=1.150000,Z=1.150000),(X=0.287500,Y=0.287500,Z=0.287500)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet21",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant.Default__BPChar_PetSpiderant_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet22",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo1_Fire.Default__BPChar_PetSpiderant_Evo1_Fire_C:CharacterMesh0,RelativeScale3D,34,(X=1.300000,Y=1.300000,Z=1.300000),(X=0.325000,Y=0.325000,Z=0.325000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet23",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo1_Fire.Default__BPChar_PetSpiderant_Evo1_Fire_C,PreEnragedActorScale,34,(X=1.300000,Y=1.300000,Z=1.300000),(X=0.325000,Y=0.325000,Z=0.325000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet24",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo1_Fire.Default__BPChar_PetSpiderant_Evo1_Fire_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet25",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo2_King.Default__BPChar_PetSpiderant_Evo2_King_C:CharacterMesh0,RelativeScale3D,34,(X=1.400000,Y=1.400000,Z=1.400000),(X=0.350000,Y=0.350000,Z=0.350000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet26",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo2_King.Default__BPChar_PetSpiderant_Evo2_King_C,PreEnragedActorScale,34,(X=1.400000,Y=1.400000,Z=1.400000),(X=0.350000,Y=0.350000,Z=0.350000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet27",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/Pet/Spiderant/_Design/Character/BPChar_PetSpiderant_Evo2_King.Default__BPChar_PetSpiderant_Evo2_King_C,EnragedActorScale,34,(X=1.700000,Y=1.700000,Z=1.700000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet28",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPChar_IronBear.Default__BPChar_IronBear_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet29",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPChar_IronBear_DakkaBear.Default__BPChar_IronBear_DakkaBear_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet30",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPFirstPersonConfig_IronBear.Default__BPFirstPersonConfig_IronBear_C:Arms,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet31",
+      "value": "(1,1,1,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPFirstPersonConfig_IronBear.Default__BPFirstPersonConfig_IronBear_C:Arms,GlobalAnimRateScale,8,1.000000,0.250000"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet32",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/Melee/A_IronBear_Stomp.Default__A_IronBear_Stomp_C,PlayRate,8,1.000000,4.0"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet33",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/Cores/GunnersNest/BPSeatPawn_GunnersNest.Default__BPSeatPawn_GunnersNest_C:SeatComponent,PersistentAttachInfo.AttachOffset,34,(X=0.000000,Y=0.000000,Z=0.000000),(X=50.000000,Y=0.000000,Z=220.000000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet34",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/Cores/GunnersNest/BPSeatPawn_GunnersNest.Default__BPSeatPawn_GunnersNest_C:SeatComponent,AttachTransitions.AttachTransitions[0].AttachInfo.AttachOffset,34,(X=0.000000,Y=0.000000,Z=0.000000),(X=50.000000,Y=0.000000,Z=220.000000)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyTinyPet35",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/ActionAnims/Action_GunnersNest_Enter.Default__Action_GunnersNest_Enter_C,BlendInTime,8,0.000000,2.0"
+    },
+    {
+      "key": "SparkPatchEntry-SpyModGear1",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/CraderMP5/Parts/Part_SM_DAL_Barrel_CraderMP5.Part_SM_DAL_Barrel_CraderMP5,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=6000)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_ShotAmmoCost.Att_Weapon_ShotAmmoCost\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=0)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.5)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_Spread.Att_Weapon_Spread\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_AccuracyImpulse.Att_Weapon_AccuracyImpulse\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_SwayScale.Att_Weapon_SwayScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_SwayZoomScale.Att_Weapon_SwayZoomScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_RecoilHeightScale.Att_Weapon_RecoilHeightScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_RecoilWidthScale.Att_Weapon_RecoilWidthScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyModGear2",
+      "value": "(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/Transformer/Parts/Shield_Part_Aug_HYP_LGD_Transformer.Shield_Part_Aug_HYP_LGD_Transformer,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Naming/Att_Shield_IgnoreManufacturerName.Att_Shield_IgnoreManufacturerName\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=1)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_ElementalResistance.Att_ShieldBalance_ElementalResistance\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=1.25)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_Capacity.Att_ShieldBalance_Capacity\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=10000)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_RegenDelay.Att_ShieldBalance_RegenDelay\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.0001)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_RegenRate.Att_ShieldBalance_RegenRate\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=100000)))"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyTakedownLoot1",
+      "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Customizations/ItemPool_Raid1_Customization.ItemPool_Raid1_Customization\"',Weight=(BaseValueConstant=1)))"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyTakedownLoot2",
+      "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',Weight=(BaseValueConstant=0,BaseValueScale=0)))"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyTakedownLoot3",
+      "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyTakedownLoot4",
+      "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,Quantity,0,,(BaseValueConstant=2)"
+    }
+  ]
+}
