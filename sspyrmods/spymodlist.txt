@@ -10,17 +10,21 @@ mongol_fix_and_buff
 ###
 
 #Hotfix Sign
-hotfix_applied_sign
+#hotfix_applied_sign
 
 #April Fools Tiny Pets
-tiny_pets
+#tiny_pets
 
 ###
-### Mod Fun
+### Apoc Mods
 ###
 
 #Mod Gear
-mod_gear
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\craders_emp5_super_buff
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\transformer_super_buff
+
+#Loot Stuff
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
 
 ###
 ### Balance and Loot

@@ -1,5 +1,5 @@
 # SSpyR's Borderlands 3 Mod Storage
-Personal GitHub repo for storage of Hotfix mods for Borderlands 3. All of my mods can be found in the sspyrmods folder (the mod_gear mod is provided from apocalyptech)
+Personal GitHub repo for storage of Hotfix mods for Borderlands 3. All of my mods can be found in the sspyrmods folder (spymodlist.txt is my mods list to load active mods, some of apocalyptech's mods are listed here for me to load and are labeled as his)
 
 Along with my mods I also store apocalyptech's mods here for some reference while I still get used to making these, that folder is labeled appriorately.
 
