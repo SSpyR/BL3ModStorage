@@ -24,7 +24,17 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\transformer_super_buff
 
 #Loot Stuff
-#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
+
+###
+### Fun Stuff
+###
+
+#Skag God Mode
+skag_god_mode
+
+#No Mayhem 2 Modifiers
+mayhem2_mods_no_weights
 
 ###
 ### Balance and Loot

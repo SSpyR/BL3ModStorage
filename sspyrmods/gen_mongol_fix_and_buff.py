@@ -1,9 +1,9 @@
 from bl3hotfixmod import Mod
 
 mod=Mod('mongol_fix_and_buff.txt',
-"Making the Mongol Spawn and Balancing It",
+'Making the Mongol Spawn and Balancing It',
 [],
-'Mongol'
+''
 )
 
 mod.comment('Making it drop')

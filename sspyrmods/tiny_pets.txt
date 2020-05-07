@@ -1,5 +1,3 @@
-prefix: TinyPet
-
 #Hotfix for Small Pets from April Fools
 
 SparkPatchEntry,(1,1,1,),/Game/PlayerCharacters/Beastmaster/Pet/Skag/_Design/Character/BPChar_PetSkag.Default__BPChar_PetSkag_C:CharacterMesh0,RelativeScale3D,34,(X=1.000000,Y=1.000000,Z=1.000000),(X=0.250000,Y=0.250000,Z=0.250000)

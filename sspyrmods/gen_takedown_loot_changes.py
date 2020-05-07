@@ -3,7 +3,7 @@ from bl3hotfixmod import Mod
 mod=Mod('takedown_loot_changes.txt',
 'Adjusting Takedown Loot Cause its Dumb',
 [],
-'TakedownLoot'
+''
 )
 
 mod.comment('Adjusting weights and pools')
