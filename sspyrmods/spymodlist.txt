@@ -24,7 +24,7 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\transformer_super_buff
 
 #Loot Stuff
-C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
 
 ###
 ### Fun Stuff
@@ -42,3 +42,6 @@ mayhem2_mods_no_weights
 
 #Takedown Loot Stuff
 takedown_loot_changes
+
+#Shiv Things
+give_shiv_drop
