@@ -4,76 +4,104 @@
   "configuration_version": "1.0",
   "parameters": [
     {
-      "key": "SparkCharacterLoadedEntry-SpyMod0-1",
-      "value": "(1,1,0,BPChar_Goon_Rare01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Piss_ThunkandSloth.ItemPool_Piss_ThunkandSloth,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss\"',Weight=(BaseValueConstant=1)),(InventoryBalancedData=/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/HeavyWeapons/Vladof/_Shared/_Design/_Unique/Mongol/Balance/Balance_HW_VLA_Mongol.Balance_HW_VLA_Mongol\"',Weight=(BaseValueConstant=1)))"
-    },
-    {
-      "key": "SparkPatchEntry-SpyMod0-2",
-      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,HW_Mongol,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.3"
-    },
-    {
-      "key": "SparkPatchEntry-SpyMod1-1",
+      "key": "SparkPatchEntry-SpyMod0-1",
       "value": "(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/CraderMP5/Parts/Part_SM_DAL_Barrel_CraderMP5.Part_SM_DAL_Barrel_CraderMP5,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=6000)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_ShotAmmoCost.Att_Weapon_ShotAmmoCost\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=0)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.5)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_Spread.Att_Weapon_Spread\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_AccuracyImpulse.Att_Weapon_AccuracyImpulse\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_SwayScale.Att_Weapon_SwayScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_SwayZoomScale.Att_Weapon_SwayZoomScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_RecoilHeightScale.Att_Weapon_RecoilHeightScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)),(AttributeToModify=GbxAttributeData'\"/Game/GameData/Weapons/Att_Weapon_RecoilWidthScale.Att_Weapon_RecoilWidthScale\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.001)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-2",
+      "key": "SparkPatchEntry-SpyMod0-2",
       "value": "(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/CraderMP5/Balance/Balance_SM_DAHL_CraderMP5.Balance_SM_DAHL_CraderMP5,RuntimePartList.AllParts.AllParts[24].Weight.BaseValueConstant,0,,0"
     },
     {
-      "key": "SparkPatchEntry-SpyMod2-1",
+      "key": "SparkPatchEntry-SpyMod1-1",
       "value": "(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/Transformer/Parts/Shield_Part_Aug_HYP_LGD_Transformer.Shield_Part_Aug_HYP_LGD_Transformer,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Naming/Att_Shield_IgnoreManufacturerName.Att_Shield_IgnoreManufacturerName\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=1)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_ElementalResistance.Att_ShieldBalance_ElementalResistance\"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=1.25)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_Capacity.Att_ShieldBalance_Capacity\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=10000)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_RegenDelay.Att_ShieldBalance_RegenDelay\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.0001)),(AttributeToModify=GbxAttributeData'\"/Game/Gear/Shields/_Design/Balance/Attributes/Att_ShieldBalance_RegenRate.Att_ShieldBalance_RegenRate\"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=100000)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod3-1",
+      "key": "SparkPatchEntry-SpyMod2-1",
       "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Beastmaster/DataTable_Beastmaster_SkillBalance.DataTable_Beastmaster_SkillBalance,Global_Pet_MeleeDamage,Scalar_5_230D633C4A306BF04AB690B7CD89D6AA,0,,99999999"
     },
     {
-      "key": "SparkPatchEntry-SpyMod3-2",
+      "key": "SparkPatchEntry-SpyMod2-2",
       "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Beastmaster/DataTable_Beastmaster_SkillBalance.DataTable_Beastmaster_SkillBalance,Global_Pet_RangedAttack,Scalar_5_230D633C4A306BF04AB690B7CD89D6AA,0,,99999999"
     },
     {
-      "key": "SparkPatchEntry-SpyMod3-3",
+      "key": "SparkPatchEntry-SpyMod2-3",
       "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Beastmaster/DataTable_Beastmaster_SkillBalance.DataTable_Beastmaster_SkillBalance,Skill_PetEnrage,Cooldown_8_237733FC43C8C6F2B3A6558D8A0FB0C1,0,,0"
     },
     {
-      "key": "SparkPatchEntry-SpyMod3-4",
+      "key": "SparkPatchEntry-SpyMod2-4",
       "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Beastmaster/DataTable_Beastmaster_SkillBalance.DataTable_Beastmaster_SkillBalance,Skill_PetEnrage,Secondary_21_5ED678CA4FB7C9C602D841A55EDD67B9,0,,99999"
     },
     {
-      "key": "SparkPatchEntry-SpyMod4-1",
+      "key": "SparkPatchEntry-SpyMod3-1",
       "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/PartyTime/Ability_Mayhem2_PartyTime.Ability_Mayhem2_PartyTime_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/AimForTheSky/Ability_Mayhem2_AimForTheSky.Ability_Mayhem2_AimForTheSky_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RoidRage/Ability_Mayhem2_RoidRage.Ability_Mayhem2_RoidRage_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/SoulStealer/Ability_Mayhem2_SoulStealer.Ability_Mayhem2_SoulStealer_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Shared/Bighetti/Ability_Mayhem2_Bighetti.Ability_Mayhem2_Bighetti_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FinishThem/Ability_Mayhem2_FinishThem.Ability_Mayhem2_FinishThem_C,Weight=(BaseValueConstant=0)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod4-2",
+      "key": "SparkPatchEntry-SpyMod3-2",
       "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/FloorIsLava/Ability_Mayhem2_FLoorIsLava.Ability_Mayhem2_FloorIsLava_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FrozenPulse/Ability_Mayhem2_FrozenPulse.Ability_Mayhem2_FrozenPulse_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/Rally/Ability_Mayhem2_Rally.Ability_Mayhem2_Rally_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/OlSwitcheroo/Ability_Mayhem2_OlSwitcheroo.Ability_Mayhem2_OlSwitcheroo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Corrosive.Ability_Mayhem2_ElementalInfusion_Corrosive_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Cryo.Ability_Mayhem2_ElementalInfusion_Cryo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Fire.Ability_Mayhem2_ElementalInfusion_Fire_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Radiation.Ability_Mayhem2_ElementalInfusion_Radiation_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Shock.Ability_Mayhem2_ElementalInfusion_Shock_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/HealNo/Ability_Mayhem2_HealNo.Ability_Mayhem2_HealNo_C,Weight=(BaseValueConstant=0)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod4-3",
+      "key": "SparkPatchEntry-SpyMod3-3",
       "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ChainGang/Ability_Mayhem2_ChainGang.Ability_Mayhem2_ChainGang_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ArcaneEnchanter/Ability_Mayhem2_ArcaneEnchanter.Ability_Mayhem2_ArcaneEnchanter_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DroneBuddy/Ability_Mayhem2_DroneBuddy.Ability_Mayhem2_DroneBuddy_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/EleBreaker/Ability_Mayhem2_Ele_Breaker.Ability_Mayhem2_Ele_Breaker_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/StayBack/Ability_Mayhem2_StayBack.Ability_Mayhem2_StayBack_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/BegoneDot/Ability_Mayhem2_BegoneDot.Ability_Mayhem2_BegoneDot_C,Weight=(BaseValueConstant=0)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod4-4",
+      "key": "SparkPatchEntry-SpyMod3-4",
       "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DeathFromBeyond/Ability_Mayhem2_DeathFromBeyond.Ability_Mayhem2_DeathFromBeyond_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RogueLite/Ability_Mayhem2_RogueLite.Ability_Mayhem2_RogueLite_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/CriticalFailure/Ability_Mayhem2_CritFail.Ability_Mayhem2_CritFail_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/Sharpshot/Ability_Mayhem2_Sharpshot.Ability_Mayhem2_Sharpshot_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/PriorityTarget/Ability_Mayhem2_PriorityTarget.Ability_Mayhem2_PriorityTarget_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_All.Ability_Mayhem2_ElementalInfusion_All_C,Weight=(BaseValueConstant=0)))"
     },
     {
-      "key": "SparkCharacterLoadedEntry-SpyMod5-1",
-      "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Customizations/ItemPool_Raid1_Customization.ItemPool_Raid1_Customization\"',Weight=(BaseValueConstant=1)))"
-    },
-    {
-      "key": "SparkCharacterLoadedEntry-SpyMod5-2",
-      "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',Weight=(BaseValueConstant=0,BaseValueScale=0)))"
-    },
-    {
-      "key": "SparkCharacterLoadedEntry-SpyMod5-3",
-      "value": "(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,Quantity,0,,(BaseValueConstant=2)"
-    },
-    {
-      "key": "SparkCharacterLoadedEntry-SpyMod5-4",
-      "value": "(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,Quantity,0,,(BaseValueConstant=2)"
-    },
-    {
-      "key": "SparkCharacterLoadedEntry-SpyMod6-1",
+      "key": "SparkCharacterLoadedEntry-SpyMod4-1",
       "value": "(1,1,0,BPChar_PsychoBadassPrologue),/Game/Enemies/Psycho_Male/_Unique/BadassPrologue/_Design/Character/BPChar_PsychoBadassPrologue.BPChar_PsychoBadassPrologue_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/Shotguns/ItemPool_Shotguns_Common.ItemPool_Shotguns_Common\"'),(ItemPool=ItemPoolData'\"/Game/Missions/Plot/EP01_ChildrenOfTheVault/ItemPool_Prologue_Ammo.ItemPool_Prologue_Ammo\"',NumberOfTimesToSelectFromThisPool=(BaseValueConstant=3.000000)),(ItemPool=ItemPoolData'\"/Game/Missions/Plot/EP01_ChildrenOfTheVault/ItemPool_Need_Prologue.ItemPool_Need_Prologue\"'),(ItemPool=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Headsplosion_Mothman.ItemPool_Headsplosion_Mothman\"',PoolProbability=(DataTableValue=(DataTable=DataTable'\"/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds\"',RowName=\"Shiv\",ValueName=\"LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111\")))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-1",
+      "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,TrialBoss1,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,0.6"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-2",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[49],211,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-3",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[66],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-4",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[48],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-5",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[54],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod5-6",
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[60],209,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-7",
+      "value": "(1,1,0,BPChar_Skag_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-8",
+      "value": "(1,1,0,BPChar_Guardian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-9",
+      "value": "(1,1,0,BPChar_Tink_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-10",
+      "value": "(1,1,0,BPChar_Goon_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-11",
+      "value": "(1,1,0,BPChar_Mech_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-12",
+      "value": "(1,1,0,BPChar_Saurian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,Quantity,0,,(BaseValueConstant=2)"
+    },
+    {
+      "key": "SparkCharacterLoadedEntry-SpyMod5-13",
+      "value": "(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian\"',PoolProbability=(BaseValueConstant=0.100000)))"
     }
   ]
 }

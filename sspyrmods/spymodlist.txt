@@ -1,11 +1,4 @@
 ###
-### Fixes for GBX
-###
-
-#Mongol Fix
-mongol_fix_and_buff
-
-###
 ### Stuff from GBX 
 ###
 
@@ -41,7 +34,13 @@ mayhem2_mods_no_weights
 ###
 
 #Takedown Loot Stuff
-takedown_loot_changes
+#takedown_loot_changes
 
 #Shiv Things
 give_shiv_drop
+
+#Mongol Fix
+#mongol_fix_and_buff
+
+#Trials Loot Stuff
+trials_loot_changes

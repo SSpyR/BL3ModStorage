@@ -6,7 +6,7 @@ mod=Mod('takedown_loot_changes.txt',
 ''
 )
 
-mod.comment('Adjusting weights and pools')
+mod.comment('Adjusting weights and pools (adding Networker too)')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool',
 'BalancedItems',
@@ -51,6 +51,11 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
         InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,
         ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',
         Weight=(BaseValueConstant=0,BaseValueScale=0)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
     ),
     (
         ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',
