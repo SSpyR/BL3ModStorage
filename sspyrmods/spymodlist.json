@@ -53,51 +53,51 @@
     },
     {
       "key": "SparkPatchEntry-SpyMod5-1",
-      "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,TrialBoss1,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,0.6"
+      "value": "(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,TrialBoss1,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod5-2",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[49],211,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[49],211,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)"
     },
     {
       "key": "SparkPatchEntry-SpyMod5-3",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[66],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[66],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)"
     },
     {
       "key": "SparkPatchEntry-SpyMod5-4",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[48],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[48],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)"
     },
     {
       "key": "SparkPatchEntry-SpyMod5-5",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[54],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[54],203,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)"
     },
     {
       "key": "SparkPatchEntry-SpyMod5-6",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[60],209,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=0.600000))),ItemPoolExpansions=)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1,CharacterExpansions.CharacterExpansions_Value[60],209,(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=),(DropOnDeathItemPools=((ItemPool=ItemPoolData/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-7",
-      "value": "(1,1,0,BPChar_Skag_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Skag_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-8",
-      "value": "(1,1,0,BPChar_Guardian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Guardian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-9",
-      "value": "(1,1,0,BPChar_Tink_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Tink_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-10",
-      "value": "(1,1,0,BPChar_Goon_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Goon_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-11",
-      "value": "(1,1,0,BPChar_Mech_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Mech_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-12",
-      "value": "(1,1,0,BPChar_Saurian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,Quantity,0,,(BaseValueConstant=2)"
+      "value": "(1,1,0,BPChar_Saurian_TrialBoss),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian,Quantity,158,(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),(BaseValueConstant=1.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=BlueprintGeneratedClas'\"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_SomeMinOne.Init_RandomLootCount_SomeMinOne_C\"',BaseValueScale=1.000000)"
     },
     {
       "key": "SparkCharacterLoadedEntry-SpyMod5-13",
