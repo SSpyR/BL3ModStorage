@@ -1,9 +1,12 @@
 from bl3hotfixmod import Mod
 
 mod=Mod('mongol_fix_and_buff.txt',
-'Making the Mongol Spawn and Balancing It',
-[],
-''
+'Mongol Spawn Fix and Buff',
+'SSpyR',
+[
+    'Enables the Mongol to Drop and Buffs it to Respectable Levels.'
+],
+lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Making it drop')

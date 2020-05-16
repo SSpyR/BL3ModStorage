@@ -4,9 +4,13 @@ from bl3hotfixmod import Mod
 #(ItemPools=,ItemPoolLists=(ItemPoolListData'"/Game/GameData/Loot/ItemPools/ItemPoolList_BadassEnemyGunsGear.ItemPoolList_BadassEnemyGunsGear"'))
 
 mod=Mod('trials_loot_changes.txt',
-'Adjusting Trial Loot Pools to be More Reasonable',
-[],
-''
+'Trials Loot Adjustments',
+'SSpyR',
+[
+    'Adjusts Trial Boss Drop Rate and Quantity of Drops.',
+    'Also gave the Mid-Trial Guardian a chance to drop something from all the Trial Pools.'
+],
+lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Adjusting Skag Rate')
@@ -14,7 +18,7 @@ mod.table_hotfix(Mod.PATCH, '',
 '/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds',
 'TrialBoss1',
 'LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111',
-1.00
+0.90
 )
 mod.newline()
 
@@ -22,7 +26,7 @@ mod.comment('Adjusting Guardian Rate')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1',
 'CharacterExpansions.CharacterExpansions_Value[49]',
-'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)',
+'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=0.900000))),ItemPoolExpansions=)',
 '(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=)'
 )
 mod.newline()
@@ -31,7 +35,7 @@ mod.comment('Adjusting Tink Rate')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1',
 'CharacterExpansions.CharacterExpansions_Value[66]',
-'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)',
+'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=0.900000))),ItemPoolExpansions=)',
 '(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=)'
 )
 mod.newline()
@@ -40,7 +44,7 @@ mod.comment('Adjusting Goon Rate')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1',
 'CharacterExpansions.CharacterExpansions_Value[48]',
-'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)',
+'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=0.900000))),ItemPoolExpansions=)',
 '(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=)'
 )
 mod.newline()
@@ -49,7 +53,7 @@ mod.comment('Adjusting Mech Rate')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1',
 'CharacterExpansions.CharacterExpansions_Value[54]',
-'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)',
+'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=0.900000))),ItemPoolExpansions=)',
 '(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=)'
 )
 mod.newline()
@@ -58,7 +62,7 @@ mod.comment('Adjusting Saurian Rate')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/CharacterItemPoolExpansions_Raid1.CharacterItemPoolExpansions_Raid1',
 'CharacterExpansions.CharacterExpansions_Value[60]',
-'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=1.000000))),ItemPoolExpansions=)',
+'(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=0.900000))),ItemPoolExpansions=)',
 '(DropOnDeathItemPools=((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=0.200000))),ItemPoolExpansions=)'
 )
 mod.newline()

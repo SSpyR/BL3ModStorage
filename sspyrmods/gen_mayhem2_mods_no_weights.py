@@ -1,9 +1,12 @@
 from bl3hotfixmod import Mod 
 
 mod=Mod('mayhem2_mods_no_weights.txt',
-'Mayhem 2 Modifiers with Weights Set to 0',
-[],
-''
+'Mayhem 2 No Modifiers',
+'SSpyR',
+[
+    'Turns of modifiers for Mayhem Mode'
+],
+lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Setting Easy Modifiers Weights to 0')

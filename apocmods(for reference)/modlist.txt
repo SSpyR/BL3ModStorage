@@ -27,6 +27,15 @@ better_mayhem_rewards
 first_gun_full_loadout
 #first_gun_testing_gear
 
+# Vastly decreased enemy scaling in Mayhem 2.0 (conflicts with mayhem_level_cheats)
+#mayhem2_decreased_enemy_scaling
+
+# Mayhem 2.0 Outright Cheating (conflicts with mayhem2_decreased_enemy_scaling)
+mayhem_level_cheats
+
+# Various nerfs to some Mayhem 2.0 modifiers.  Nothing too drastic.
+mayhem2_modifier_nerfs
+
 ###
 ### Gameplay Changes
 ###
@@ -34,9 +43,9 @@ first_gun_full_loadout
 # Make NVHM GameStage level along with the char (like in TVHM/Mayhem)
 nvhm_gamestage_follows_level
 
-# Mayhem 2.0 Drop Rate Fixes - run this before Better Loot so that
-# Better Loot's eridium drop rate overwrites this
-fix_mayhem2_drops
+# Hardcode various Mayhem 2.0 droprates, since it feels like those still
+# aren't totally fixed yet.
+hardcode_mayhem2_drops
 
 # Fix Shield drops on standard enemies in DLC2
 fix_dlc2_shield_drops
@@ -56,9 +65,17 @@ dlc_loot_de-emphasizer
 # Vehicle Unlocks
 vehicle_unlocks
 
-# Mayhem 2.0 Scaling Changes
+# Mayhem 2.0 - Remove drop scaling altogether
 mayhem2_no_drop_scaling
-mayhem2_decreased_enemy_scaling
+
+# Disable Mayhem 2.0 Modifier "Rogue Lite"
+disable_rogue_lite
+
+# Allow Trials missions as soon as you get to the maps which have them
+no_trials_dependencies
+
+# Make (nearly) all Torgue ARs full-auto
+torgue_ar_full_auto
 
 ###
 ### Economy-related mods
@@ -85,6 +102,9 @@ red_text_explainer
 
 # Improve Maliwan charge times
 maliwan_charge_time
+
+# Stronger Snipers
+stronger_snipers
 
 ###
 ### Partlocks / Part Changes
@@ -115,7 +135,26 @@ no_projected_shields
 no_slam_artifacts
 
 # Only spawn Atlas grenads (using this on my Zane)
-only_atlas_grenades
+#only_atlas_grenades
+
+# Fix P2P Networker's missing second element
+p2p_networker_element_fix
+
+# Enable Pendant of Terramorphous as a valid legendary artifact drop
+enable_pendant_of_terra
+
+# Fixes the blank parts that Siren COMs can sometimes roll
+fix_siren_com_blank_parts
+
+###
+### Mission-specific Mods
+###
+
+# More money from the malfunctioning slots in Sisterly Love
+sisterly_love_more_money
+
+# Better gifts from Joy in Heart of Gold
+heart_of_gold_better_gifts
 
 ###
 ### Customization Tweaks
@@ -163,8 +202,24 @@ customization_drops_none
 #broken_hearts_enable
 #cartels_enable
 
+# Enable all Timed Event enemy spawn modifications at once.  This
+# shouldn't actually require any events to be active.  Make sure
+# this appears *after* any mod which enables an event.
+#all_event_spawns
+
+# Expand enemy spawn modifications to apply everywhere that any
+# timed event has used in the past.  Will allow ghosts+hearts in
+# DLC maps, for instance.  Doesn't do anything unless an event or
+# my all_event_spawns mod is active.
+#expanded_event_spawners_cartels
+#expanded_event_spawners_bloody_harvest
+#expanded_event_spawners_broken_hearts
+
 # Guaranteed Ghosts in Bloody Harvest event
 #guaranteed_ghosts
+
+# Fewer Cartel spawns
+fewer_cartel_operatives
 
 ###
 ### Main Menu

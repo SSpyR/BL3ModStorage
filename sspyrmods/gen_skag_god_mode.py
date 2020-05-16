@@ -1,10 +1,14 @@
 from bl3hotfixmod import Mod
 
-
 mod=Mod('skag_god_mode.txt',
-'Making Skag God (technically all pets but skag best)',
-[],
-'')
+'God Skag',
+'SSpyR',
+[
+    'Buffs Skag Damage by a lot.',
+    'Also infinite Gamma Burst'
+],
+lic=Mod.CC_BY_SA_40
+)
 
 mod.comment('Buffing Skag melee damage multiplier')
 mod.table_hotfix(Mod.PATCH, '',

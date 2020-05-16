@@ -1,9 +1,12 @@
 from bl3hotfixmod import Mod 
 
 mod=Mod('give_shiv_drop.txt',
-'Example of Giving Shiv a Drop',
-[],
-''
+'Shiv Legendary Drop',
+'SSpyR',
+[
+    'Gives Shiv a dedicated Legendary Drop.'
+],
+lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Giving Shiv a Drop (HeadSplosion)')

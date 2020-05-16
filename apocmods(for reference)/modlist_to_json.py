@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
 # vim: set expandtab tabstop=4 shiftwidth=4:
 
+# Copyright 2019-2020 Christopher J. Kucera
+# <cj@apocalyptech.com>
+# <http://apocalyptech.com/contact.php>
+#
+# This Borderlands 3 Hotfix Mod is free software: you can redistribute it
+# and/or modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This Borderlands 3 Hotfix Mod is distributed in the hope that it will
+# be useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this Borderlands 3 Hotfix Mod.  If not, see
+# <https://www.gnu.org/licenses/>.
+
 import os
 import sys
 import json
@@ -48,11 +66,10 @@ if not os.path.exists(args.modlist):
     print('ERROR: {} does not exist'.format(args.modlist))
     sys.exit(1)
 
-def process_modfile(modpath, verbose=False):
+def process_modfile(modpath, prefix, verbose=False):
 
     to_ret = []
     with open(modpath, encoding='utf-8') as mod_df:
-        prefix = None
         hf_counter = 0
         for linenum, modline in enumerate(mod_df):
             modline = modline.strip()
@@ -62,19 +79,10 @@ def process_modfile(modpath, verbose=False):
                 continue
 
             # Check for prefix
-            if not prefix:
-                if not modline.lower().startswith('prefix:'):
-                    print('WARNING: {} did not contain a prefix line, skipping'.format(modpath))
-                    if verbose:
-                        print('')
-                    return []
-                else:
-                    prefix = modline.split(':', 1)[1].strip()
-            else:
-                hf_counter += 1
-                hftype, hf = modline.split(',', 1)
-                key = '{}-Apoc{}{}'.format(hftype, prefix, hf_counter)
-                to_ret.append((key, hf))
+            hf_counter += 1
+            hftype, hf = modline.split(',', 1)
+            key = '{}-Apoc{}-{}'.format(hftype, prefix, hf_counter)
+            to_ret.append((key, hf))
 
     if verbose:
         print('')
@@ -88,7 +96,7 @@ json_out = {
         'parameters': [],
         }
 mod_count = 0
-with open(args.modlist) as modlist_df:
+with open(args.modlist, encoding='utf-8') as modlist_df:
     for line in modlist_df:
         line = line.strip()
         if line == '' or line.startswith('#'):
@@ -100,7 +108,7 @@ with open(args.modlist) as modlist_df:
             continue
 
         print('Processing: {}'.format(modpath))
-        for (key, value) in process_modfile(modpath, verbose=args.verbose):
+        for (key, value) in process_modfile(modpath, '{:X}'.format(mod_count), verbose=args.verbose):
             json_out['parameters'].append({'key': key, 'value': value})
         mod_count += 1
 

@@ -1,23 +1,19 @@
-#!/usr/bin/env python
-# vim: set expandtab tabstop=4 shiftwidth=4:
-# File courtesy of apocalyptech
-
-# Copyright 2019 Christopher J. Kucera
+# Copyright 2019-2020 Christopher J. Kucera
 # <cj@apocalyptech.com>
 # <http://apocalyptech.com/contact.php>
 #
-# Borderlands ModCabinet Sorter is free software: you can redistribute it
+# Borderlands 3 Hotfix Modding Library is free software: you can redistribute it
 # and/or modify it under the terms of the GNU General Public License
 # as published by the Free Software Foundation, either version 3 of
 # the License, or (at your option) any later version.
 #
-# Borderlands ModCabinet Sorter is distributed in the hope that it will
+# Borderlands 3 Hotfix Modding Library is distributed in the hope that it will
 # be useful, but WITHOUT ANY WARRANTY; without even the implied
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See the GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with Borderlands ModCabinet Sorter.  If not, see
+# along with Borderlands 3 Hotfix Modding Library.  If not, see
 # <https://www.gnu.org/licenses/>.
 
 import os
@@ -28,6 +24,7 @@ class Mod(object):
     Helper class for writing hotfix-injection mods for BL3
     """
 
+    # Hotfix target types
     (PATCH, LEVEL, EARLYLEVEL, CHAR, PACKAGE, POST) = range(6)
 
     # We have no examples of SparkPostLoadedEntry or SparkStreamedPackageEntry, and
@@ -45,14 +42,59 @@ class Mod(object):
             POST: 'SparkPostLoadedEntry',
         }
 
-    def __init__(self, filename, title, description, prefix):
+    # "Known" licenses
+    (CC_40,
+            CC_BY_ND_40,
+            CC_BY_SA_40,
+            CC_NC_40,
+            CC_BY_NC_ND_40,
+            CC_BY_NC_SA_40,
+            CC0,
+            PUBLICDOMAIN) = range(8)
+
+    # Reporting constants to the user
+    LIC_TO_LABEL = {
+            CC_40: 'CC_40',
+            CC_BY_ND_40: 'CC_BY_ND_40',
+            CC_BY_SA_40: 'CC_BY_SA_40',
+            CC_NC_40: 'CC_NC_40',
+            CC_BY_NC_ND_40: 'CC_BY_NC_ND_40',
+            CC_BY_NC_SA_40: 'CC_BY_NC_SA_40',
+            CC0: 'CC0',
+            PUBLICDOMAIN: 'PUBLICDOMAIN',
+            }
+
+    # Known license info
+    LIC_INFO = {
+            CC_40: ('Creative Commons Attribution 4.0 International (CC BY 4.0)',
+                'https://creativecommons.org/licenses/by/4.0/'),
+            CC_BY_ND_40: ('Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)',
+                'https://creativecommons.org/licenses/by-nd/4.0/'),
+            CC_BY_SA_40: ('Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)',
+                'https://creativecommons.org/licenses/by-sa/4.0/'),
+            CC_NC_40: ('Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)',
+                'https://creativecommons.org/licenses/by-nc/4.0/'),
+            CC_BY_NC_ND_40: ('Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)',
+                'https://creativecommons.org/licenses/by-nc-nd/4.0/'),
+            CC_BY_NC_SA_40: ('Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)',
+                'https://creativecommons.org/licenses/by-nc-sa/4.0/'),
+            # These two are essentially just aliases for each other
+            CC0: ('Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication',
+                'https://creativecommons.org/publicdomain/zero/1.0/'),
+            PUBLICDOMAIN: ('Public Domain (Creative Commons CC0 1.0 Universal (CC0 1.0))',
+                'https://creativecommons.org/publicdomain/zero/1.0/'),
+            }
+
+    def __init__(self, filename, title, author, description, version=None, lic=None):
         """
         Initializes ourselves and starts writing the mod
         """
         self.filename = filename
         self.title = title
+        self.author = author
         self.description = description
-        self.prefix = prefix
+        self.version = version
+        self.lic = lic
         self.last_was_newline = True
 
         self.source = os.path.basename(sys.argv[0])
@@ -62,7 +104,11 @@ class Mod(object):
             raise Exception('Unable to write to {}'.format(self.filename))
 
         print('###', file=self.df)
-        print('### {}'.format(self.title), file=self.df)
+        if self.version is None:
+            print('### {}'.format(self.title), file=self.df)
+        else:
+            print('### {} v{}'.format(self.title, self.version), file=self.df)
+        print('### by {}'.format(self.author), file=self.df)
         print('###', file=self.df)
         for desc in self.description:
             if desc == '':
@@ -71,10 +117,38 @@ class Mod(object):
                 print('### {}'.format(desc), file=self.df)
         if len(self.description) > 0:
             print('###', file=self.df)
+
+        # Process license information, if it's been specified (complaint to the user
+        # if it hasn't!)
+        if self.lic is None:
+            print('')
+            print('WARNING: You should specify a license with the `lic=` argument to Mod()')
+            print('')
+            print('Available pre-configured licenses:')
+            print('')
+            max_strlen = str(max([len(l) for l in Mod.LIC_TO_LABEL.values()]) + 4)
+            format_str = ' {:' + max_strlen + 's} {} {}'
+            for lic_key, lic_label in Mod.LIC_TO_LABEL.items():
+                lic_title, lic_url = Mod.LIC_INFO[lic_key]
+                print(format_str.format('Mod.{}'.format(lic_label), '-', lic_title))
+                print(format_str.format('', ' ', lic_url))
+                print('')
+            print('')
+            print('You can alternatively specify text for `lic=` to use any other license.')
+            print('Apocalyptech recommends `Mod.CC_BY_SA_40` but you do you!')
+            print('')
+        else:
+            if self.lic in Mod.LIC_INFO:
+                lic_name, lic_url = Mod.LIC_INFO[self.lic]
+                print('### Licensed under {}'.format(lic_name), file=self.df)
+                print('### {}'.format(lic_url), file=self.df)
+            else:
+                print('### License: {}'.format(self.lic), file=self.df)
+            print('###', file=self.df)
+
+        # Now continue on.
         print('### Generated by {}'.format(self.source), file=self.df)
         print('###', file=self.df)
-        print('', file=self.df)
-        #print('prefix: {}'.format(self.prefix), file=self.df)
         print('', file=self.df)
 
     @staticmethod
@@ -583,7 +657,7 @@ class Balance(object):
                     num_min=apl['MultiplePartSelectionRange']['Min'],
                     num_max=apl['MultiplePartSelectionRange']['Max'],
                     index=apl['PartType'],
-                    part_type_enum=apl['PartTypeEnum'],
+                    part_type_enum=apl['PartTypeEnum'][1],
                     select_multiple=apl['bCanSelectMultipleParts'],
                     use_weight_with_mult=apl['bUseWeightWithMultiplePartSelection'],
                     enabled=apl['bEnabled'])

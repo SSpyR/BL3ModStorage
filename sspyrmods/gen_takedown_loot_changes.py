@@ -1,9 +1,14 @@
 from bl3hotfixmod import Mod
 
 mod=Mod('takedown_loot_changes.txt',
-'Adjusting Takedown Loot Cause its Dumb',
-[],
-''
+'Takedown Loot Balancing',
+'SSpyR',
+[
+    'Takes out M4 Exclusives from Raid Pools.',
+    'Takes Shields out of Wotans Pool.',
+    'Increases Raid Drop Quantity'
+],
+lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Adjusting weights and pools (adding Networker too)')
