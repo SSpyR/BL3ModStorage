@@ -9,7 +9,8 @@ mod=Mod('god_clone.txt',
 'SSpyR',
 [
     'Makes Clone actually do some good Damage.',
-    'Also why have a swap cooldown?'
+    'Also why have a swap cooldown?',
+    'And making Doppelbanger ridic cause why not.'
 ],
 lic=Mod.CC_BY_SA_40
 )
