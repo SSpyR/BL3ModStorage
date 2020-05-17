@@ -23,8 +23,10 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 ### Fun Stuff
 ###
 
-#Skag God Mode
-skag_god_mode
+#God Mode Pets
+god_skag
+god_bear
+god_clone
 
 #No Mayhem 2 Modifiers
 mayhem2_mods_no_weights

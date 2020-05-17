@@ -1,6 +1,10 @@
 from bl3hotfixmod import Mod
 
-mod=Mod('skag_god_mode.txt',
+#Buff Other Pets?
+#Buff Attack Command
+#Buff Radius?
+
+mod=Mod('god_skag.txt',
 'God Skag',
 'SSpyR',
 [
