@@ -18,6 +18,11 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 
 #Loot Stuff
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\fix_siren_com_blank_parts
+
+#Misc
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 
 ###
 ### Fun Stuff
@@ -37,6 +42,7 @@ mayhem2_mods_no_weights
 
 #Takedown Loot Stuff
 #takedown_loot_changes
+#wotan_loot_test
 
 #Shiv Things
 give_shiv_drop

@@ -4,9 +4,9 @@ mod=Mod('takedown_loot_changes.txt',
 'Takedown Loot Balancing',
 'SSpyR',
 [
-    'Takes out M4 Exclusives from Raid Pools.',
     'Takes Shields out of Wotans Pool.',
-    'Increases Raid Drop Quantity'
+    'Increases Raid Drop Quantity',
+    'Adds in Networker.'
 ],
 lic=Mod.CC_BY_SA_40
 )
@@ -64,7 +64,7 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
     ),
     (
         ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',
-        Weight=(BaseValueConstant=0,BaseValueScale=0)
+        Weight=(BaseValueConstant=1,BaseValueScale=0.60)
     ),
     (
         ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Customizations/ItemPool_Raid1_Customization.ItemPool_Raid1_Customization\"',
@@ -101,7 +101,7 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_MechRaidBossBar',
     ),
     (
         ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',
-        Weight=(BaseValueConstant=0,BaseValueScale=0)
+        Weight=(BaseValueConstant=1,BaseValueScale=0.60)
     )
 )
 """)
