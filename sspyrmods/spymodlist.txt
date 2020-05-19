@@ -40,9 +40,11 @@ mayhem2_mods_no_weights
 ### Balance and Loot
 ###
 
+#Loot Test
+#loot_test
+
 #Takedown Loot Stuff
 #takedown_loot_changes
-#wotan_loot_test
 
 #Shiv Things
 give_shiv_drop
@@ -52,3 +54,6 @@ give_shiv_drop
 
 #Trials Loot Stuff
 trials_loot_changes
+
+#Green Monster Fix
+green_monster_clickclick_fix
