@@ -1,7 +1,6 @@
 from bl3hotfixmod import Mod, Balance
 from bl3data import BL3Data
 
-#Add More Click Click Parts to Green Monster
 
 mod = Mod('green_monster_clickclick_fix.txt',
         'Green Monster Click Click Points Fix',

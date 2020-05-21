@@ -18,10 +18,10 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 
 #Loot Stuff
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
-C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\fix_siren_com_blank_parts
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\fix_siren_com_blank_parts
 
 #Misc
-C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
 C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 
 ###
@@ -35,6 +35,18 @@ god_clone
 
 #No Mayhem 2 Modifiers
 mayhem2_mods_no_weights
+
+#Randomizer Stuff
+#randomizer_runtime
+randomizer_mal
+#randomizer_ted
+#randomizer_vla
+#randomizer_dal
+#randomizer_tor
+#randomizer_jak
+#randomizer_cov
+#randomizer_hyp
+#randomizer_atl
 
 ###
 ### Balance and Loot
@@ -56,4 +68,4 @@ give_shiv_drop
 trials_loot_changes
 
 #Green Monster Fix
-green_monster_clickclick_fix
+#green_monster_clickclick_fix

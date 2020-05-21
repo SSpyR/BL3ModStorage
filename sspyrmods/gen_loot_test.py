@@ -11,19 +11,19 @@ lic=Mod.CC_BY_SA_40
 )
 
 mod.comment('Adjusting rate to 100%')
-mod.table_hotfix(Mod.CHAR, 'BPChar_GoonBadass_Coco',
-'/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/Table_Legendary_SpecificLootOdds_Dandelion',
-'Kill_LocoChantelle',
+mod.table_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
+'/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds',
+'RaidBoss',
 'LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111',
 1.00
 )
 mod.newline()
 
 mod.comment('Adjusting quantity drops')
-mod.reg_hotfix(Mod.CHAR, 'BPChar_GoonBadass_Coco',
-'/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/ItemPool_GoatEater',
+mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
+'/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool',
 'Quantity',
-'(BaseValueConstant=5)')
+'(BaseValueConstant=20)')
 mod.newline()
 
 mod.close()

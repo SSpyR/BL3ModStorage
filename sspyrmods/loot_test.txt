@@ -12,8 +12,8 @@
 ###
 
 # Adjusting rate to 100%
-SparkCharacterLoadedEntry,(1,2,0,BPChar_GoonBadass_Coco),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/Table_Legendary_SpecificLootOdds_Dandelion.Table_Legendary_SpecificLootOdds_Dandelion,Kill_LocoChantelle,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1.0
+SparkCharacterLoadedEntry,(1,2,0,BPChar_BehemothRaid),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,RaidBoss,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,1.0
 
 # Adjusting quantity drops
-SparkCharacterLoadedEntry,(1,1,0,BPChar_GoonBadass_Coco),/Game/PatchDLC/Dandelion/GameData/Loot/UniqueEnemyDrops/ItemPool_GoatEater.ItemPool_GoatEater,Quantity,0,,(BaseValueConstant=5)
+SparkCharacterLoadedEntry,(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,Quantity,0,,(BaseValueConstant=20)
 

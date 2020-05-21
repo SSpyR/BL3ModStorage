@@ -1,8 +1,6 @@
 from bl3hotfixmod import Mod  
 
-#Buff Double Barrel Damage
-#No Cooldown on Clone Swap
-#Buff Clone Damage
+#Boom Enhance buff?
 
 mod=Mod('god_clone.txt',
 'God Clone',
