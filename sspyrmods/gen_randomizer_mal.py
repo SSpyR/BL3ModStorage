@@ -95,11 +95,15 @@ for bal in smg_bal_name:
         if cat.index==2:
             for barrel in smg_barrel:
                 cat.add_part_name(barrel, 1)
+                cat.select_multiple=True
+                cat.num_min=1
+                cat.num_max=3
         if cat.index==mat_type-1:
             for material in smg_material:
                 cat.add_part_name(material, 1)
             break
     smg_bals.hotfix_full(mod)
+
 
 
 #Snipers
@@ -137,6 +141,9 @@ for bal in sniper_bal_name:
         if cat.index==2:
             for barrel in sniper_barrel:
                 cat.add_part_name(barrel, 1)
+                cat.select_multiple=True
+                cat.num_min=1
+                cat.num_max=3
         if cat.index==mat_type-1:
             for material in sniper_material:
                 cat.add_part_name(material, 1)
@@ -189,6 +196,9 @@ for bal in shotgun_bal_name:
         if cat.index==2:
             for barrel in shotgun_barrel:
                 cat.add_part_name(barrel, 1)
+                cat.select_multiple=True
+                cat.num_min=1
+                cat.num_max=3
         if cat.index==mat_type-1:
             for material in shotgun_material:
                 cat.add_part_name(material, 1)
@@ -241,6 +251,9 @@ for bal in pistol_bal_name:
         if cat.index==2:
             for barrel in pistol_barrel:
                 cat.add_part_name(barrel, 1)
+                cat.select_multiple=True
+                cat.num_min=1
+                cat.num_max=3
         if cat.index==mat_type-1:
             for material in pistol_material:
                 cat.add_part_name(material, 1)
