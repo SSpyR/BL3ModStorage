@@ -1,6 +1,7 @@
 from bl3hotfixmod import Mod, Balance
 from bl3data import BL3Data
 
+#First one so notes go here
 #Barrel is PartType 2 (index)
 #Material is last PartType (index length - 1?)
 #Will have to see if this pattern stays true (Barrel should)
@@ -26,6 +27,10 @@ data=BL3Data()
 
 #List the Balances
 smg_bal_name=[
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/BalanceState/Balance_SM_MAL_01_Common',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/BalanceState/Balance_SM_MAL_02_Uncommon',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/BalanceState/Balance_SM_MAL_03_Rare',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/BalanceState/Balance_SM_MAL_04_VeryRare',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/CloudKill/Balance/Balance_SM_MAL_CloudKill',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Cutsman/Balance/Balance_SM_MAL_Cutsman',
@@ -48,6 +53,9 @@ smg_bal_name=[
 
 #Now the Barrels
 smg_barrel=[
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_01/Part_SM_MAL_Barrel_01',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_02/Part_SM_MAL_Barrel_02',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_03/Part_SM_MAL_Barrel_03',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/CloudKill/Parts/Part_SM_MAL_Barrel_CloudKill',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Parts/Part_SM_MAL_Barrel_Crit',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Cutsman/Parts/Part_SM_MAL_Barrel_Cutsman',
@@ -68,6 +76,10 @@ smg_barrel=[
 
 #Now the Materials
 smg_material=[
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Material/Part_SM_MAL_Material_01_Common',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Material/Part_SM_MAL_Material_02_Uncommon',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Material/Part_SM_MAL_Material_03_Rare',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Material/Part_SM_MAL_Material_04_Epic',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/CloudKill/Parts/Part_SM_MAL_Material_CloudKill',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Parts/Part_SM_MAL_Material_Crit',
     '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Cutsman/Parts/Part_SM_MAL_Material_Cutsman',
@@ -110,6 +122,10 @@ for bal in smg_bal_name:
 
 #List the Balances
 sniper_bal_name=[
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Balance/Balance_MAL_SR_01_Common',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Balance/Balance_MAL_SR_02_UnCommon',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Balance/Balance_MAL_SR_03_Rare',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Balance/Balance_MAL_SR_04_VeryRare',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/ASMD/Balance/Balance_MAL_SR_ASMD',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Krakatoa/Balance/Balance_MAL_SR_Krakatoa',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Soleki/Balance/Balance_MAL_SR_Soleki',
@@ -118,6 +134,9 @@ sniper_bal_name=[
 
 #Now the Barrels
 sniper_barrel=[
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Barrel/Barrel_01/Part_MAL_SR_Barrel_01',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Barrel/Barrel_02/Part_MAL_SR_Barrel_02',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Barrel/Barrel_03/Part_MAL_SR_Barrel_03',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/ASMD/Parts/Part_MAL_SR_Barrel_ASMD',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Krakatoa/Parts/Part_MAL_SR_Barrel_Krakatoa',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Soleki/Parts/Part_MAL_SR_Barrel_Soleki',
@@ -127,6 +146,10 @@ sniper_barrel=[
 
 #Now the Materials
 sniper_material=[
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Material/Part_MAL_SR_Material_01_Common',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Material/Part_MAL_SR_Material_02_UnCommon',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Material/Part_MAL_SR_Material_03_Rare',
+    '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/Parts/Material/Part_MAL_SR_Material_04_VeryRare',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/ASMD/Parts/Part_MAL_SR_Material_ASMD',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Krakatoa/Parts/Part_MAL_SR_Material_Krakatoa',
     '/Game/Gear/Weapons/SniperRifles/Maliwan/Shared/_Design/_Unique/_Legendary/Soleki/Parts/Part_MAL_SR_Material_Soleki',
@@ -155,6 +178,10 @@ for bal in sniper_bal_name:
 
 #List the Balances
 shotgun_bal_name=[
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/BalanceState/Balance_SG_MAL_01_Common',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/BalanceState/Balance_SG_MAL_02_Uncommon',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/BalanceState/Balance_SG_MAL_03_Rare',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/BalanceState/Balance_SG_MAL_04_VeryRare',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/MouthPiece2/Balance/Balance_SG_MAL_Mouthpiece2',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Recursion/Balance/Balance_SG_MAL_Recursion',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Shriek/Balance/Balance_SG_MAL_Shriek',
@@ -167,6 +194,9 @@ shotgun_bal_name=[
 
 #Now the Barrels
 shotgun_barrel=[
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_01/Part_SG_MAL_Barrel_01',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_02/Part_SG_MAL_Barrel_02',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_03/Part_SG_MAL_Barrel_03',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/MouthPiece2/Parts/Part_SG_MAL_Barrel_Mouthpiece2',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Recursion/Parts/Part_SG_MAL_Barrel_Recursion',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Shriek/Parts/Part_SG_MAL_Barrel_Shriek',
@@ -179,6 +209,10 @@ shotgun_barrel=[
 
 #Now the Materials
 shotgun_material=[
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Material/Part_SG_MAL_Material_01_Common',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Material/Part_SG_MAL_Material_02_UnCommon',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Material/Part_SG_MAL_Material_03_Rare',
+    '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/Parts/Material/Part_SG_MAL_Material_04_VeryRare',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/MouthPiece2/Parts/Part_SG_MAL_Material_Mouthpiece2',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Recursion/Parts/Part_SG_MAL_Material_Recursion',
     '/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Shriek/Parts/Part_SG_MAL_Material_Shriek',
@@ -210,6 +244,10 @@ for bal in shotgun_bal_name:
 
 #List the Balances
 pistol_bal_name=[
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/BalanceState/Balance_PS_MAL_01_Common',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/BalanceState/Balance_PS_MAL_02_UnCommon',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/BalanceState/Balance_PS_MAL_03_Rare',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/BalanceState/Balance_PS_MAL_04_VeryRare',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Hellshock/Balance/Balance_PS_MAL_Hellshock',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/HyperHydrator/Balance/Balance_PS_MAL_HyperHydrator',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Plumber/Balance/Balance_PS_MAL_Plumber',
@@ -222,6 +260,9 @@ pistol_bal_name=[
 
 #Now the Barrels
 pistol_barrel=[
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_01/Part_PS_MAL_Barrel_01',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_02/Part_PS_MAL_Barrel_02',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_03/Part_PS_MAL_Barrel_03',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Hellshock/Parts/Part_PS_MAL_Barrel_HellShock',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/HyperHydrator/Parts/Part_PS_MAL_Barrel_HyperHydrator',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Plumber/Parts/Part_PS_MAL_Barrel_Plumber',
@@ -234,6 +275,10 @@ pistol_barrel=[
 
 #Now the Materials
 pistol_material=[
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Material/Part_PS_MAL_Material_01_Common',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Material/Part_PS_MAL_Material_02_UnCommon',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Material/Part_PS_MAL_Material_03_Rare',
+    '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/Parts/Material/Part_PS_MAL_Material_04_VeryRare',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Hellshock/Parts/Part_PS_MAL_Material_Hellshock',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/HyperHydrator/Parts/Part_PS_MAL_Material_HyperHydrator',
     '/Game/Gear/Weapons/Pistols/Maliwan/_Shared/_Design/_Unique/Plumber/Parts/Part_PS_MAL_Material_Plumber',
