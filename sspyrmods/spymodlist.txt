@@ -19,26 +19,36 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 #Loot Stuff
 C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\better_loot
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\fix_siren_com_blank_parts
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\early_bloomer
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\first_gun_full_loadout
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\fix_dlc2_shield_drops
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\expanded_legendary_pools
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
 
 #Misc
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\nvhm_gamestage_follows_level
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\maliwan_charge_time
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respawn
+#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respec
 
 ###
 ### Fun Stuff
 ###
 
 #God Mode Pets
-god_skag
-god_bear
-god_clone
+#god_skag
+#god_bear
+#god_clone
 
 #No Mayhem 2 Modifiers
 mayhem2_mods_no_weights
 
 #Randomizer Stuff
-#randomizer_runtime
-randomizer_mal
+randomizer_runtime
+#randomizer_mal
 #randomizer_ted
 #randomizer_vla
 #randomizer_dal
@@ -59,13 +69,13 @@ randomizer_mal
 #takedown_loot_changes
 
 #Shiv Things
-give_shiv_drop
+#give_shiv_drop
 
 #Mongol Fix
 #mongol_fix_and_buff
 
 #Trials Loot Stuff
-trials_loot_changes
+#trials_loot_changes
 
 #Green Monster Fix
 #green_monster_clickclick_fix
