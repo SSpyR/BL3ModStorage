@@ -434,12 +434,31 @@ for bal in wbal_name:
             cat.select_multiple=True
             cat.num_min=1
             cat.num_max=3
-        if cat.index==mat_type-1:
+        magcheck=cat.str_partlist()
+        if 'mag' in magcheck.lower():
             for bals2 in wbal_name:
                 wbalslist2=Balance.from_data(data, bals2)
                 for cats2 in wbalslist2.categories:
-                    if len(cats2)!=0:
+                    magchecks=cats2.str_partlist()
+                    if ('mag' in magchecks.lower()) & (len(cats2)!=0):
                         parts=cats2.str_partlist()
+                        partsplit=parts.split('=')
+                        check=len(partsplit)-1
+                        i=0
+                        while i < check:
+                            if '/Game' in partsplit[i]:
+                                parts_adj=partsplit[i].replace(',Weight', '')
+                                parts_adjsplit=parts_adj.split('.')
+                                part_path=parts_adjsplit[0]
+                                print(part_path)
+                                cat.add_part_name(part_path, 1)
+                            i=i+1
+        if cat.index==mat_type-1:
+            for bals3 in wbal_name:
+                wbalslist3=Balance.from_data(data, bals3)
+                for cats3 in wbalslist3.categories:
+                    if len(cats3)!=0:
+                        parts=cats3.str_partlist()
                         partsplit=parts.split('=')
                         parts_adj=partsplit[1]
                         parts_adj=parts_adj.replace(',Weight', '')
@@ -796,6 +815,203 @@ for bal in abal_name:
 
 
 #Class Mods
+
+#PartType5 is Skills?
+#Have to Enable it
+#PartType2 is Rarity
+#Try randomizing PartType1
+
+#List the Balances
+cbal_name=[
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_01_Common',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_02_Uncommon',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_03_Rare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_04_VeryRare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_05_Legendary',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_BountyHunter',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_CosmicStalker',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_DE4DEYE',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_FriendBot',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_RakkCommander',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/BeastMaster/InvBalD_ClassMod_Beastmaster_RedFang',
+    '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_Raid1',
+    '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_DLC1',
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/BSM/InvBalD_CM_Beastmaster_Hib',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_01_Common',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_02_Uncommon',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_03_Rare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_04_VeryRare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_05_Legendary',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Gunner/InvBalD_ClassMod_Gunner_BearTrooper',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Gunner/InvBalD_ClassMod_Gunner_BlastMaster',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Gunner/InvBalD_ClassMod_Gunner_BloodLetter',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Gunner/InvBalD_ClassMod_Gunner_MindSweeper',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Gunner/InvBalD_ClassMod_Gunner_Rocketeer',
+    '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_Raid1',
+    '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1',
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/GUN/InvBalD_CM_Gunner_Hib',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_01_Common',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_02_Uncommon',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_03_Rare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_04_VeryRare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_05_Legendary',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Operative/InvBalD_ClassMod_Operative_ColdWarrior',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Operative/InvBalD_ClassMod_Operative_Executor',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Operative/InvBalD_ClassMod_Operative_FireBrand',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Operative/InvBalD_ClassMod_Operative_Infiltrator',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Operative/InvBalD_ClassMod_Operative_Techspert',
+    '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/OPE/InvBalD_CM_Operative_Raid1',
+    '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/OPE/InvBalD_CM_Operative_DLC1',
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/OPE/InvBalD_CM_Operative_Hib',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_01_Common',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_02_Uncommon',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_03_Rare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_04_VeryRare',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_05_Legendary',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Breaker',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Dragon',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Elementalist',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Nimbus',
+    '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Phasezerker',
+    '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_Raid1',
+    '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_DLC1',
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/InvBalD_CM_Siren_Hib'
+]
+
+cmod_part=[
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_01_QuickCharge',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_02_Divergent',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_03_Bushmaster',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_04_Whistleblower',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_05_DARPAW',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_06_Overdriven',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_07_Thrillbotting',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_08_TurboCharged',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_09_Headcase',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/ClassMod_Part_Mod_Beastmaster_10_Botmaster',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_01/ClassMod_Part_Beastmaster_Unique_01_Friendbot',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_02/ClassMod_Part_Beastmaster_Unique_02_CosmicStalker',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_03/ClassMod_Part_Beastmaster_Unique_03_BountyHunter',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_04/ClassMod_Part_Beastmaster_Unique_04_DE4DEYE',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_05/ClassMod_Part_Beastmaster_Unique_05_RakkCommander',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_06/ClassMod_Part_Beastmaster_Unique_06_RedFang',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Beastmaster/_Unique/Beastmaster_Unique_07/ClassMod_Part_Beastmaster_Unique_07_BlueFang',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_01_Grenadier',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_02',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_03_Firewalker',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_04_LowLife',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_05_Enforcer',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_06_Ace',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_07_Scav',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_08_Infinity',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_09_ShockTrooper',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/ClassMod_Part_Mod_Gunner_10_BabyBoomer',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/_Unique/Unique_01/ClassMod_Part_Gunner_Unique_01_Rocketeer',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/_Unique/Unique_02/ClassMod_Part_Gunner_Unique_02_ColdBlooded',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/_Unique/Unique_03/ClassMod_Part_Gunner_Unique_03',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/_Unique/Unique_04/ClassMod_Part_Gunner_Unique_04',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Gunner/_Unique/Unique_05/ClassMod_Part_Gunner_Unique_05',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_01_Deceiver',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_02_Ringleader',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_03_Disruptor',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_04_Anarchist',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_05_RabbleRouser',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_06_Gadgeteer',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_07_Ruffian',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_08_Troublemaker',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_09_Radical',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/ClassMod_Part_Mod_Operative_10_Agent',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/_Unique/Unique_01/ClassMod_Part_Operative_Unique_01_Infiltrator',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/_Unique/Unique_02/ClassMod_Part_Operative_Unique_02_Executor',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/_Unique/Unique_03/ClassMod_Part_Operative_Unique_03_Expert',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/_Unique/Unique_04/ClassMod_Part_Operative_Unique_04_Firebrand',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/Operative/_Unique/Unique_05/ClassMod_Part_Operative_Unique_05_Operative',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_01_Tiger',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_02_Elementalist',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_03_Brawler',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_04_Monkey',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_05_Rabbit',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_06_Artisan',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_07_Master',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_08_Avenger',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_09_Dilenttante',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/ClassMod_Part_Mod_Siren_10_Pilgrim',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/_Unique/Unique_01/ClassMod_Part_Siren_Unique_01_Storm',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/_Unique/Unique_02/ClassMod_Part_Siren_Unique_02_Dragon',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/_Unique/Unique_03/ClassMod_Part_Siren_Unique_03_Bruiser',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/_Unique/Unique_04/ClassMod_Part_Siren_Unique_04_Phasezerker',
+    '/Game/Gear/ClassMods/_Design/PartSets/Part_ClassMod/SIren/_Unique/Unique_05/ClassMod_Part_Siren_Unique_05_Siren'
+]
+
+cbase_bal=[
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative',
+    '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren'
+]
+
+for bal in cbal_name:
+    cbals=Balance.from_data(data, bal)
+    for cat in cbals.categories:
+        '''if cat.index==1:
+            for bals in cbal_name:
+                cbalslist=Balance.from_data(data, bals)
+                for cats in cbalslist.categories:
+                    if (cats.index==2) & (len(cats)!=0):
+                        parts=cats.str_partlist()
+                        partsplit=parts.split('=')
+                        parts_adj=partsplit[1]
+                        parts_adj=parts_adj.replace(',Weight', '')
+                        parts_adjsplit=parts_adj.split('.')
+                        part_path=parts_adjsplit[0]
+                        print(part_path)
+                        cat.add_part_name(part_path, 1)
+            if cat.enabled is False:
+                cat.enabled=True'''
+        if cat.index==2:
+            for bals2 in cbal_name:
+                cbalslist2=Balance.from_data(data, bals2)
+                for cats2 in cbalslist2.categories:
+                    if (cats2.index==2) & (len(cats2)!=0):
+                        parts=cats2.str_partlist()
+                        partsplit=parts.split('=')
+                        parts_adj=partsplit[1]
+                        parts_adj=parts_adj.replace(',Weight', '')
+                        parts_adjsplit=parts_adj.split('.')
+                        part_path=parts_adjsplit[0]
+                        print(part_path)
+                        cat.add_part_name(part_path, 1)
+            if cat.enabled is False:
+                cat.enabled=True
+        if cat.index==5:
+            for bals3 in cbase_bal:
+                cbalslist3=Balance.from_data(data, bals)
+                for cats3 in cbalslist3.categories:
+                    if (cats3.index==5) & (len(cats3)!=0):
+                        parts=cats3.str_partlist()
+                        partsplit=parts.split('=')
+                        check=len(partsplit)-1
+                        i=0
+                        while i < check:
+                            if '/Game' in partsplit[i]:
+                                parts_adj=partsplit[i].replace(',Weight', '')
+                                parts_adjsplit=parts_adj.split('.')
+                                part_path=parts_adjsplit[0]
+                                print(part_path)
+                                cat.add_part_name(part_path, 1)
+                            i=i+1
+            cat.enabled=True
+            cat.num_min=7
+            cat.num_max=7
+            break
+    cbals.hotfix_full(mod)
+
+for asset in cmod_part:
+    mod.reg_hotfix(Mod.PATCH, '',
+    asset,
+    'GearBuilderDescription',
+    ''
+    )
 
 
 mod.close()

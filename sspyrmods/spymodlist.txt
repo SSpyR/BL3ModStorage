@@ -26,13 +26,13 @@ C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
 
 #Misc
-#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\nvhm_gamestage_follows_level
 #C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
-#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\maliwan_charge_time
-#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respawn
-#C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respec
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\maliwan_charge_time
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respawn
+C:\Users\lavoiet2\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respec
 
 ###
 ### Fun Stuff
@@ -57,6 +57,9 @@ randomizer_runtime
 #randomizer_cov
 #randomizer_hyp
 #randomizer_atl
+
+#Misc
+#skill_replacement_test
 
 ###
 ### Balance and Loot
