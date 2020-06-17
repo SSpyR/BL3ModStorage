@@ -1,7 +1,7 @@
 from bl3hotfixmod import Mod, Balance
 from bl3data import BL3Data
 
-#Do Special Mags Too?
+#UPDATE
 
 mod=Mod('randomizer_runtime.txt',
 'Runtime Randomizer',
@@ -756,6 +756,8 @@ for bal in gbal_name:
 
 
 #Artifacts
+
+#Try to Adjust to Make More Random Combinations?
 
 #List the Balances
 abal_name=[

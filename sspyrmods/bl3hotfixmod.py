@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# vim: set expandtab tabstop=4 shiftwidth=4:
+
 # Copyright 2019-2020 Christopher J. Kucera
 # <cj@apocalyptech.com>
 # <http://apocalyptech.com/contact.php>
@@ -276,6 +279,7 @@ class Mod(object):
         if not self.last_was_newline:
             self.newline()
         self.df.close()
+        print('Wrote mod to {}'.format(self.filename))
 
 class DataTableValue(object):
     """
@@ -404,9 +408,9 @@ class BVCF(BVC):
     def __init__(self, **kwargs):
         super().__init__(full=True, **kwargs)
 
-class Pool(object):
+class ItemPoolListEntry(object):
     """
-    Class to make dealing with pools a bit easier
+    Class to make dealing with ItemPoolList entries a bit easier
     """
 
     def __init__(self, pool_name, probability=1, num=1):
@@ -430,6 +434,68 @@ class Pool(object):
         if self.num and self.num.has_data():
             parts.append('NumberOfTimesToSelectFromThisPool={}'.format(self.num))
         return '({})'.format(','.join(parts))
+
+class ItemPoolEntry(object):
+    """
+    Some abstraction for items inside an ItemPool
+    """
+
+    def __init__(self, pool_name=None, balance_name=None, weight=None):
+        """
+        `weight` should be a BVC/BVCF object
+        """
+        self.pool_name = pool_name
+        self.balance_name = balance_name
+        self.weight = weight
+
+    def __str__(self):
+        """
+        Outputs a string which can be used in a hotfix to represent this entry
+        """
+        parts = []
+        if self.pool_name:
+            parts.append('ItemPoolData={}'.format(Mod.get_full_cond(self.pool_name, 'ItemPoolData')))
+        if self.balance_name:
+            parts.append('InventoryBalanceData={}'.format(Mod.get_full_cond(self.balance_name)))
+            parts.append('ResolvedInventoryBalanceData={}'.format(Mod.get_full_cond(self.balance_name, 'InventoryBalanceData')))
+        if self.weight:
+            parts.append('Weight={}'.format(self.weight))
+        return '({})'.format(','.join(parts))
+
+class ItemPool(object):
+    """
+    Some abstraction to easily build up ItemPools.
+    """
+
+    def __init__(self, pool_name):
+        self.pool_name = pool_name
+        self.balanceditems = []
+
+    def add_pool(self, pool_name, weight=None):
+        """
+        Adds the specified `pool_name` to our ItemPool, optionally with the specified
+        `weight`, which should be a BVC/BVCF object.  Weight will default to 1 if not
+        specified.
+        """
+        if not weight:
+            weight = BVC()
+        self.balanceditems.append(ItemPoolEntry(pool_name=pool_name, weight=weight))
+
+    def add_balance(self, balance_name, weight=None):
+        """
+        Adds the specified `balance_name` to our ItemPool, optionally with the specified
+        `weight`, which should be a BVC/BVCF object.  Weight will default to 1 if not
+        specified.
+        """
+        if not weight:
+            weight = BVC()
+        self.balanceditems.append(ItemPoolEntry(balance_name=balance_name, weight=weight))
+
+    def __str__(self):
+        """
+        Format our BalancedItems as a hotfix
+        """
+        return '({})'.format(','.join([str(i) for i in self.balanceditems]))
 
 class Part(object):
     """
@@ -537,6 +603,10 @@ class PartCategory(object):
         if not self.part_type_enum:
             raise Exception('PartSet representation requires part_type_enum')
 
+        # If we ever want to include the partlist again, we'd want to add in
+        # `self.str_partlist()` to the `Parts=()` section in here.  The attribute
+        # seems to be entirely ignored by the game engine, though, so we can
+        # safely omit it.
         return """(
             PartTypeEnum={part_type_enum},
             PartType={index},
@@ -547,7 +617,7 @@ class PartCategory(object):
                 Max={num_max}
             ),
             bEnabled={enabled},
-            Parts=({parts})
+            Parts=()
         )""".format(
                 part_type_enum=Mod.get_full_cond(self.part_type_enum),
                 index=self.index,
@@ -556,7 +626,6 @@ class PartCategory(object):
                 num_min=self.num_min,
                 num_max=self.num_max,
                 enabled=str(self.enabled),
-                parts=self.str_partlist(),
                 )
 
 class Balance(object):
@@ -686,6 +755,17 @@ class Balance(object):
         category.part_type_enum = self.part_type_enum
         self.categories.append(category)
 
+    def set_balance_to(self, new_balance_name, data):
+        """
+        Updates our balance name to be `new_balance_name`, and updates the PartSet name
+        appropriately using the BL3Data object `data` as well.  Used if you want to copy
+        an existing balance over to another one.  Probably not a lot of general-purpose
+        use, but what's a little API bloat, right?
+        """
+        self.bal_name = new_balance_name
+        obj = data.get_data(self.bal_name)[0]
+        self.partset_name = obj['PartSetData'][1]
+
     def hotfix_partset_full(self, mod, hf_type=Mod.PATCH, hf_package=''):
         """
         Generates hotfixes to completely set the PartSet portion.
@@ -694,6 +774,15 @@ class Balance(object):
                 self.partset_name,
                 'ActorPartLists',
                 '({})'.format(','.join([str(c) for c in self.categories])))
+
+    def hotfix_partset_anoint(self, mod, hf_type=Mod.PATCH, hf_package=''):
+        """
+        Generates hotfixes to completely set the PartSet portion.
+        """
+        mod.reg_hotfix(hf_type, hf_package,
+                self.partset_name,
+                'GenericParts.Parts',
+                '')
 
     def hotfix_balance_full(self, mod, hf_type=Mod.PATCH, hf_package=''):
         """
