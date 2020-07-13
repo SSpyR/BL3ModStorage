@@ -1,5 +1,7 @@
 from bl3hotfixmod import Mod
 
+#Adjust the M4 drops to M6 instead
+
 mod=Mod('guardiantd_healthloot_changes.txt',
 'Guardian Takedown Loot and Health Balancing',
 'SSpyR',

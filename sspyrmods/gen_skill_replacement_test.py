@@ -9,33 +9,36 @@ mod=Mod('skill_replacement_test.txt',
 lic=Mod.CC_BY_SA_40
 )
 
-#'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers',
-#'PassiveSkill_Siren_DoUntoOthers_C',
-
-#Still havent figured this out, ask #bl3-modding about it
-
-mod.comment('Swapping')
+mod.comment('Test')
 mod.reg_hotfix(Mod.PATCH, '',
-'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl:Tiers_OakPlayerAbilityTreeTierData_1.Items_OakPlayerAbilityTreeItemData_Ability',
-'AbilityClass',
-'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/MatchedSet/Passive_Gunner_MatchedSet'
-)
-mod.newline()
+            '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl',
+            'Tiers.Tiers[1].Object..Items.Items[0].Object..AbilityClass',
+            Mod.get_full_cond('/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/MatchedSet/Passive_Gunner_MatchedSet.Passive_Gunner_MatchedSet_C', 'BlueprintGeneratedClass'))
 
-mod.comment('Swapping')
 mod.reg_hotfix(Mod.PATCH, '',
-'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl:Tiers_OakPlayerAbilityTreeTierData_1.Items_OakPlayerAbilityTreeItemData_Ability',
-'AbilityClass',
-'Passive_Gunner_MatchedSet_C'
-)
-mod.newline()
+            '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl',
+            'Tiers.Tiers[1].Object..Items.Items[0].Object..ItemFrameName',
+            'matchingSet')
 
-mod.comment('Swapping')
 mod.reg_hotfix(Mod.PATCH, '',
-'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl:Tiers_OakPlayerAbilityTreeTierData_1.Items_OakPlayerAbilityTreeItemData_Ability',
-'MaxPoints',
-10
-)
-mod.newline()
+            '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl',
+            'Tiers.Tiers[1].Object..Items.Items[1].Object..AbilityClass',
+            Mod.get_full_cond('/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/MatchedSet/Passive_Gunner_MatchedSet.Passive_Gunner_MatchedSet_C', 'BlueprintGeneratedClass'))
+
+mod.reg_hotfix(Mod.PATCH, '',
+            '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl',
+            'Tiers.Tiers[1].Object..Items.Items[1].Object..ItemFrameName',
+            'matchingSet')
+
+mod.reg_hotfix(Mod.PATCH, '',
+            '/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/Inventory/AbilityTree_Branch_BottomlessMag',
+            'Tiers.Tiers[1].Object..Items.Items[1].Object..AbilityClass',
+            Mod.get_full_cond('/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/RootToRise/PassiveSkill_Siren_RootToRise.PassiveSkill_Siren_RootToRise_C', 'BlueprintGeneratedClass'))
+
+mod.reg_hotfix(Mod.PATCH, '',
+            '/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/Inventory/AbilityTree_Branch_BottomlessMag',
+            'Tiers.Tiers[1].Object..Items.Items[1].Object..ItemFrameName',
+            'rootsToRise')
+
 
 mod.close()

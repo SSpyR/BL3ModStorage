@@ -24,7 +24,7 @@ import re
 import json
 import glob
 import appdirs
-import MySQLdb
+#import MySQLdb
 import subprocess
 import configparser
 
@@ -137,8 +137,8 @@ class BL3Data(object):
         if not os.path.exists(self.config_file):
             config = configparser.ConfigParser()
             config['filesystem'] = {
-                    'data_dir': 'C:/Users/lavoiet2/Downloads/BL3/StandaloneHotfixInjection/HotfixModdingResources/BL3Data',
-                    'ueserialize_path': 'C:/Users/lavoiet2/Downloads/BL3/Datamining/parser/john-wick-parse.exe',
+                    'data_dir': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/FoundFiles/Game',
+                    'ueserialize_path': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/parser/john-wick-parse.exe',
                     }
             config['mysql'] = {
                     'host': 'CHANGEME',
