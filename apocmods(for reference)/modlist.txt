@@ -5,6 +5,16 @@
 # Guarantee rare spawns (and buff vehicle rare spawns)
 guaranteed_rare_spawns
 
+# Alternate NPC/Enemy Size Scaling
+#sizemod_npc_0.4_tiny
+#sizemod_npc_0.7_smol
+#sizemod_npc_2.0_big
+#sizemod_npc_3.0_huge
+#sizemod_npc_5.0_giant
+
+# Infighting!  Enemies attack each other, too.
+#infighting
+
 ###
 ### Cheat Type Mods
 ###
@@ -28,13 +38,17 @@ first_gun_full_loadout
 #first_gun_testing_gear
 
 # Vastly decreased enemy scaling in Mayhem 2.0 (conflicts with mayhem_level_cheats)
-#mayhem2_decreased_enemy_scaling
+#mayhem_decreased_enemy_scaling
 
-# Mayhem 2.0 Outright Cheating (conflicts with mayhem2_decreased_enemy_scaling)
+# Mayhem 2.0 Outright Cheating (conflicts with mayhem_decreased_enemy_scaling)
 mayhem_level_cheats
 
 # Various nerfs to some Mayhem 2.0 modifiers.  Nothing too drastic.
-mayhem2_modifier_nerfs
+mayhem_modifier_nerfs
+
+# No cost for respec or respawn
+free_respec
+free_respawn
 
 ###
 ### Gameplay Changes
@@ -66,16 +80,40 @@ dlc_loot_de-emphasizer
 vehicle_unlocks
 
 # Mayhem 2.0 - Remove drop scaling altogether
-mayhem2_no_drop_scaling
+mayhem_no_drop_scaling
 
-# Disable Mayhem 2.0 Modifier "Rogue Lite"
+# Disable a few Mayhem 2.0 Modifiers
 disable_rogue_lite
+disable_lootsplosion
+
+# Change the booster types dropped by the "Slayer" mayhem mod
+#mayhem_slayer_booster_change
 
 # Allow Trials missions as soon as you get to the maps which have them
 no_trials_dependencies
 
 # Make (nearly) all Torgue ARs full-auto
 torgue_ar_full_auto
+
+# Alternate Universal Scalings
+#alternate_scaling_bl1
+#alternate_scaling_bl2
+#alternate_scaling_tps
+
+# Photo Mode Unlock
+photo_mode_unlock
+
+# No Reload Notification
+no_reload_notification
+
+# Shiv Legendary Drop, by SSpyR
+/home/pez/git/b2patching/sspyr-bl3modstorage/sspyrmods/give_shiv_drop
+
+# Disable email loyalty rewards
+disable_email_loyalty_rewards
+
+# Unlock DLC3 Company Tech (Coresploders, Traitorweed, Telezappers)
+unlock_dlc3_tech
 
 ###
 ### Economy-related mods
@@ -105,6 +143,15 @@ maliwan_charge_time
 
 # Stronger Snipers
 stronger_snipers
+
+# Nerf OP Gear
+nerf_op_gear
+
+# Turn (nearly) all uniques into legendary-rarity
+uniques_are_legendary
+
+# Removes the Sellout's Tyreen voice module
+silent_sellout
 
 ###
 ### Partlocks / Part Changes
@@ -137,14 +184,21 @@ no_slam_artifacts
 # Only spawn Atlas grenads (using this on my Zane)
 #only_atlas_grenades
 
-# Fix P2P Networker's missing second element
-p2p_networker_element_fix
+# Fix P2P Networker's missing second element (doesn't make sense to use
+# with single_element_maliwan)
+#p2p_networker_element_fix
+
+# No Second Element Maliwan (doesn't make sense to use with p2p_networker_element_fix)
+single_element_maliwan
 
 # Enable Pendant of Terramorphous as a valid legendary artifact drop
 enable_pendant_of_terra
 
 # Fixes the blank parts that Siren COMs can sometimes roll
 fix_siren_com_blank_parts
+
+# Green Monster Click Click Points Fix, by SSpyR
+/home/pez/git/b2patching/sspyr-bl3modstorage/sspyrmods/green_monster_clickclick_fix
 
 ###
 ### Mission-specific Mods
@@ -219,7 +273,7 @@ customization_drops_none
 #guaranteed_ghosts
 
 # Fewer Cartel spawns
-fewer_cartel_operatives
+#fewer_cartel_operatives
 
 ###
 ### Main Menu
