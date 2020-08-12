@@ -39,6 +39,9 @@ C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apoc
 ### SSpyR Mods
 ###
 
+#BL3 Flux
+bl3_flux
+
 #God Mode Pets
 #god_skag
 #god_bear
@@ -72,7 +75,7 @@ C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apoc
 ###
 
 #No World Drop Legendaries
-no_world_drops
+#no_world_drops
 
 #Loot Test
 #loot_test
