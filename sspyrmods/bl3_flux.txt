@@ -680,3 +680,8 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardia
 # Adding DLC World Drops to Gun Gun
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 
+# FL4K Pets Can Melee Crit
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/DamageSources/DamageSource_BeastmasterPet_Melee.DamageSource_BeastmasterPet_Melee,bCanCauseCriticals,0,,true
+
+# Adding DLC Mission Rewards to Earls
+

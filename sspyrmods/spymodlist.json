@@ -1380,756 +1380,828 @@
       "value": "(1,1,0,BPChar_Wendigo),/Hibiscus/Enemies/Wendigo/Design/Character/BPChar_Wendigo.BPChar_Wendigo_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[1].PoolProbability,0,,(BaseValueConstant=50.00)"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-26",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/GPart_All_SkillEnd_AccuracyHandling.GPart_All_SkillEnd_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-26",
+      "value": "(1,1,0,BPChar_ZealotPilfer_Child_Rare),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat.ItemPool_Hibiscus_UnseenThreat,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-27",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CooldownRate/GPart_All_SkillEnd_CooldownRate.GPart_All_SkillEnd_CooldownRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-27",
+      "value": "(1,1,0,BPChar_ZealotPilfer_Child_Rare),/Hibiscus/Enemies/_Unique/Rare_ZealotPilfer/Character/BPChar_ZealotPilfer_Child_Rare.BPChar_ZealotPilfer_Child_Rare_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-28",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CritDamage/GPart_All_SkillEnd_CritDamage.GPart_All_SkillEnd_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-28",
+      "value": "(1,1,0,BPChar_Gmork_B_Wolf_Child),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat.ItemPool_Hibiscus_UnseenThreat,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-29",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_DamageReduction/GPart_All_SkillEnd_DamageReduction.GPart_All_SkillEnd_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-29",
+      "value": "(1,1,0,BPChar_Gmork_B_Wolf_Child),/Hibiscus/Enemies/_Unique/Hunt_Gmork/Character/BPChar_Gmork_B_Wolf_Child.BPChar_Gmork_B_Wolf_Child_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-30",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_EleChanceDamage/GPart_All_SkillEnd_EleChanceDamage.GPart_All_SkillEnd_EleChanceDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-30",
+      "value": "(1,1,0,BPChar_LunaticPossessed),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Lunacy.ItemPool_Hibiscus_Lunacy,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-31",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_FireRateReload/GPart_All_SkillEnd_FireRateReload.GPart_All_SkillEnd_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-31",
+      "value": "(1,1,0,BPChar_LunaticPossessed),/Hibiscus/Enemies/Lunatic/Possessed/_Design/Character/BPChar_LunaticPossessed.BPChar_LunaticPossessed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=30.00)"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-32",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_HealthRegen/GPart_All_SkillEnd_HealthRegen.GPart_All_SkillEnd_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-32",
+      "value": "(1,1,0,BPChar_Hib_Hunt_Kritchy),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Hunt_Mothman.ItemPool_Hibiscus_Hunt_Mothman,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-33",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_LifeSteal/GPart_All_SkillEnd_LifeSteal.GPart_All_SkillEnd_LifeSteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-33",
+      "value": "(1,1,0,BPChar_Hib_Hunt_Kritchy),/Hibiscus/Enemies/_Unique/Hunt_Kritchy/Character/BPChar_Hib_Hunt_Kritchy.BPChar_Hib_Hunt_Kritchy_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-34",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MeleeDamage/GPart_All_SkillEnd_MeleeDamage.GPart_All_SkillEnd_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-34",
+      "value": "(1,1,0,BPChar_Lost_Mush_Child),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Mutant.ItemPool_Hibiscus_Mutant,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen,ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
     },
     {
-      "key": "SparkPatchEntry-SpyMod1-35",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MoveSpeed/GPart_All_SkillEnd_MoveSpeed.GPart_All_SkillEnd_MoveSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "key": "SparkCharacterLoadedEntry-SpyMod1-35",
+      "value": "(1,1,0,BPChar_Lost_Mush_Child),//Hibiscus/Enemies/_Unique/Rare_MushroomGiant/Character/BPChar_Lost_Mush_Child.BPChar_Lost_Mush_Child_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=70.00)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-36",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Corrosive/GPart_All_SkillEnd_NextMagBonusDamageCorrosive.GPart_All_SkillEnd_NextMagBonusDamageCorrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/GPart_All_SkillEnd_AccuracyHandling.GPart_All_SkillEnd_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-37",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Cryo/GPart_All_SkillEnd_NextMagBonusDamageCryo.GPart_All_SkillEnd_NextMagBonusDamageCryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CooldownRate/GPart_All_SkillEnd_CooldownRate.GPart_All_SkillEnd_CooldownRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-38",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Fire/GPart_All_SkillEnd_NextMagBonusDamageFire.GPart_All_SkillEnd_NextMagBonusDamageFire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CritDamage/GPart_All_SkillEnd_CritDamage.GPart_All_SkillEnd_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-39",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Radiation/GPart_All_SkillEnd_NextMagBonusDamageRadiation.GPart_All_SkillEnd_NextMagBonusDamageRadiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_DamageReduction/GPart_All_SkillEnd_DamageReduction.GPart_All_SkillEnd_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-40",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Shock/GPart_All_SkillEnd_NextMagBonusDamageShock.GPart_All_SkillEnd_NextMagBonusDamageShock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_EleChanceDamage/GPart_All_SkillEnd_EleChanceDamage.GPart_All_SkillEnd_EleChanceDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-41",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_ProjectileSpeed/GPart_All_SkillEnd_ProjectileSpeed.GPart_All_SkillEnd_ProjectileSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_FireRateReload/GPart_All_SkillEnd_FireRateReload.GPart_All_SkillEnd_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-42",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_SplashDamage/GPart_All_SkillEnd_SplashDamage.GPart_All_SkillEnd_SplashDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_HealthRegen/GPart_All_SkillEnd_HealthRegen.GPart_All_SkillEnd_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-43",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_UniqueEnemyDamage/GPart_All_SkillEnd_UniqueEnemyDamage.GPart_All_SkillEnd_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_LifeSteal/GPart_All_SkillEnd_LifeSteal.GPart_All_SkillEnd_LifeSteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-44",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_WeaponDamage/GPart_All_SkillEnd_WeaponDamage.GPart_All_SkillEnd_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MeleeDamage/GPart_All_SkillEnd_MeleeDamage.GPart_All_SkillEnd_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-45",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillStart_AddGrenade/GPart_All_SkillEnd_AddGrenade.GPart_All_SkillEnd_AddGrenade,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MoveSpeed/GPart_All_SkillEnd_MoveSpeed.GPart_All_SkillEnd_MoveSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-46",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandLifeSteal/GPart_Beast_AttackCmd_Lifesteal.GPart_Beast_AttackCmd_Lifesteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Corrosive/GPart_All_SkillEnd_NextMagBonusDamageCorrosive.GPart_All_SkillEnd_NextMagBonusDamageCorrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-47",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandMovespeed/GPart_Beast_AttackCmd_Movespeed.GPart_Beast_AttackCmd_Movespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Cryo/GPart_All_SkillEnd_NextMagBonusDamageCryo.GPart_All_SkillEnd_NextMagBonusDamageCryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-48",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/Beast_Gamma_BonusRadiationDamage/GPart_BonusRadiationDamage.GPart_BonusRadiationDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Fire/GPart_All_SkillEnd_NextMagBonusDamageFire.GPart_All_SkillEnd_NextMagBonusDamageFire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-49",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkAttackCharge/GPart_Beast_RakkCharge.GPart_Beast_RakkCharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Radiation/GPart_All_SkillEnd_NextMagBonusDamageRadiation.GPart_All_SkillEnd_NextMagBonusDamageRadiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-50",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkSlag/GPart_Beast_RakkSlag.GPart_Beast_RakkSlag,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Shock/GPart_All_SkillEnd_NextMagBonusDamageShock.GPart_All_SkillEnd_NextMagBonusDamageShock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-51",
-      "value": "(1,1,0,),Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkUsed_CritDamage/GPart_Beast_RakkCrit.GPart_Beast_RakkCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_ProjectileSpeed/GPart_All_SkillEnd_ProjectileSpeed.GPart_All_SkillEnd_ProjectileSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-52",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthAccuracyHandling/GPart_Beast_Stealth_AccuracyHandling.GPart_Beast_Stealth_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_SplashDamage/GPart_All_SkillEnd_SplashDamage.GPart_All_SkillEnd_SplashDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-53",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthNova/GPart_Beast_ExitStealthNova.GPart_Beast_ExitStealthNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_UniqueEnemyDamage/GPart_All_SkillEnd_UniqueEnemyDamage.GPart_All_SkillEnd_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-54",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_AmmoRegen/GPart_Gunner_AutoBear_AmmoRegen.GPart_Gunner_AutoBear_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_WeaponDamage/GPart_All_SkillEnd_WeaponDamage.GPart_All_SkillEnd_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-55",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_FireDamage/GPart_Gunner_AutoBear_FireDamage.GPart_Gunner_AutoBear_FireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillStart_AddGrenade/GPart_All_SkillEnd_AddGrenade.GPart_All_SkillEnd_AddGrenade,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-56",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/EnterExit_Nova/GPart_Gunner_EnterExit_Nova.GPart_Gunner_EnterExit_Nova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandLifeSteal/GPart_Beast_AttackCmd_Lifesteal.GPart_Beast_AttackCmd_Lifesteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-57",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_KillsLowerCooldown/GPart_Gunner_KillsLowerCooldown.GPart_Gunner_KillsLowerCooldown,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandMovespeed/GPart_Beast_AttackCmd_Movespeed.GPart_Beast_AttackCmd_Movespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-58",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/GPart_Gunner_NextMagFireDamage.GPart_Gunner_NextMagFireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/Beast_Gamma_BonusRadiationDamage/GPart_BonusRadiationDamage.GPart_BonusRadiationDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-59",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFirerateCrit/GPart_Gunner_NextMagFirerateCrit.GPart_Gunner_NextMagFirerateCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkAttackCharge/GPart_Beast_RakkCharge.GPart_Beast_RakkCharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-60",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/GPart_Gunner_NextMagReloadHandling.GPart_Gunner_NextMagReloadHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkSlag/GPart_Beast_RakkSlag.GPart_Beast_RakkSlag,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-61",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NoAmmoConsumption/GPart_Gunner_NoAmmoConsumption.GPart_Gunner_NoAmmoConsumption,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkUsed_CritDamage/GPart_Beast_RakkCrit.GPart_Beast_RakkCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-62",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_ShieldMaxHealth/GPart_Gunner_ShieldHealthMax.GPart_Gunner_ShieldHealthMax,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthAccuracyHandling/GPart_Beast_Stealth_AccuracyHandling.GPart_Beast_Stealth_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-63",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_SplashDamageIncrease/GPart_Gunner_SplashDamageIncrease.GPart_Gunner_SplashDamageIncrease,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthNova/GPart_Beast_ExitStealthNova.GPart_Beast_ExitStealthNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-64",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/IBActive_ChanceGrenade/GPart_Gunner_IBGrenadeChance.GPart_Gunner_IBGrenadeChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_AmmoRegen/GPart_Gunner_AutoBear_AmmoRegen.GPart_Gunner_AutoBear_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-65",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActive_StatusEffectChance/GPart_Operative_BarrierActive_StatusEffectChance.GPart_Operative_BarrierActive_StatusEffectChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_FireDamage/GPart_Gunner_AutoBear_FireDamage.GPart_Gunner_AutoBear_FireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-66",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActiveAccuracyCrit/GPart_Operative_BarrierActive_AccuracyCrit.GPart_Operative_BarrierActive_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/EnterExit_Nova/GPart_Gunner_EnterExit_Nova.GPart_Gunner_EnterExit_Nova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-67",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierDeployShieldRecharge/GPart_Operative_BarrierDeploy_ShieldRecharge.GPart_Operative_BarrierDeploy_ShieldRecharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_KillsLowerCooldown/GPart_Gunner_KillsLowerCooldown.GPart_Gunner_KillsLowerCooldown,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-68",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveHealthRegen/GPart_Operative_CloneActive_HealthRegen.GPart_Operative_CloneActive_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/GPart_Gunner_NextMagFireDamage.GPart_Gunner_NextMagFireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-69",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveRegenAmmo/GPart_Operative_CloneActive_AmmoRegen.GPart_Operative_CloneActive_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFirerateCrit/GPart_Gunner_NextMagFirerateCrit.GPart_Gunner_NextMagFirerateCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-70",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapDamage/GPart_CloneSwap_WeaponDamage.GPart_CloneSwap_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/GPart_Gunner_NextMagReloadHandling.GPart_Gunner_NextMagReloadHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-71",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapInstaReload/GPart_Operative_CloneSwapInstaReload.GPart_Operative_CloneSwapInstaReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NoAmmoConsumption/GPart_Gunner_NoAmmoConsumption.GPart_Gunner_NoAmmoConsumption,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-72",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveBonusDamage/GPart_Operative_DroneActiveBonusDamage.GPart_Operative_DroneActiveBonusDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_ShieldMaxHealth/GPart_Gunner_ShieldHealthMax.GPart_Gunner_ShieldHealthMax,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-73",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveFireRateReload/GPart_Operative_DroneActive_FireRateReload.GPart_Operative_DroneActive_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_SplashDamageIncrease/GPart_Gunner_SplashDamageIncrease.GPart_Gunner_SplashDamageIncrease,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-74",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveMovespeed/GPart_Operative_DroneActiveMovespeed.GPart_Operative_DroneActiveMovespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/IBActive_ChanceGrenade/GPart_Gunner_IBGrenadeChance.GPart_Gunner_IBGrenadeChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-75",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_EleChance/GPart_Siren_Cast_ElementalChance.GPart_Siren_Cast_ElementalChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActive_StatusEffectChance/GPart_Operative_BarrierActive_StatusEffectChance.GPart_Operative_BarrierActive_StatusEffectChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-76",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_WeaponDamage/GPart_Siren_Cast_WeaponDamage.GPart_Siren_Cast_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActiveAccuracyCrit/GPart_Operative_BarrierActive_AccuracyCrit.GPart_Operative_BarrierActive_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-77",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_AccuracyCrit/GPart_Siren_Grasp_AccuracyCrit.GPart_Siren_Grasp_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierDeployShieldRecharge/GPart_Operative_BarrierDeploy_ShieldRecharge.GPart_Operative_BarrierDeploy_ShieldRecharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-78",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ChargeSpeed/GPart_Siren_Grasp_ChargeSpeed.GPart_Siren_Grasp_ChargeSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveHealthRegen/GPart_Operative_CloneActive_HealthRegen.GPart_Operative_CloneActive_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-79",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ConstantNova/GPart_Siren_Grasp_ConstantNova.GPart_Siren_Grasp_ConstantNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveRegenAmmo/GPart_Operative_CloneActive_AmmoRegen.GPart_Operative_CloneActive_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-80",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/SkillEnd_AttunedEleDamage/GPart_Siren_SkillEnd_AttunedSkillDamage.GPart_Siren_SkillEnd_AttunedSkillDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapDamage/GPart_CloneSwap_WeaponDamage.GPart_CloneSwap_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-81",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_DamageReduction/GPart_Siren_Slam_DamageReduction.GPart_Siren_Slam_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapInstaReload/GPart_Operative_CloneSwapInstaReload.GPart_Operative_CloneSwapInstaReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-82",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_MeleeDamage/GPart_Siren_Slam_MeleeDamage.GPart_Siren_Slam_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveBonusDamage/GPart_Operative_DroneActiveBonusDamage.GPart_Operative_DroneActiveBonusDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-83",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_ReturnDamage/GPart_Siren_Slam_ReturnDamage.GPart_Siren_Slam_ReturnDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveFireRateReload/GPart_Operative_DroneActive_FireRateReload.GPart_Operative_DroneActive_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-84",
-      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_WeaponDamage/GPart_Siren_Slam_WeaponDamage.GPart_Siren_Slam_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveMovespeed/GPart_Operative_DroneActiveMovespeed.GPart_Operative_DroneActiveMovespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-85",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ConsecutiveHits_DmgStack/GPart_EG_Generic_ConsecutiveHitsDmgStack.GPart_EG_Generic_ConsecutiveHitsDmgStack,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_EleChance/GPart_Siren_Cast_ElementalChance.GPart_Siren_Cast_ElementalChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-86",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/GrenadeThrow_GlobalDamage/GPart_EG_GrenadeThrow_GlobalDamage.GPart_EG_GrenadeThrow_GlobalDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_WeaponDamage/GPart_Siren_Cast_WeaponDamage.GPart_Siren_Cast_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-87",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/KillStack_ReloadDamage/GPart_EG_Generic_KillStackReloadDamage.GPart_EG_Generic_KillStackReloadDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_AccuracyCrit/GPart_Siren_Grasp_AccuracyCrit.GPart_Siren_Grasp_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-88",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/LowHealth_Executor/GPart_EG_Generic_LowHealthExecutor.GPart_EG_Generic_LowHealthExecutor,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ChargeSpeed/GPart_Siren_Grasp_ChargeSpeed.GPart_Siren_Grasp_ChargeSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-89",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ModeSwitch_WeaponDamage/GPart_EG_ModeSwitch_WeaponDamage.GPart_EG_ModeSwitch_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ConstantNova/GPart_Siren_Grasp_ConstantNova.GPart_Siren_Grasp_ConstantNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-90",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Corrosive/GPart_EG_SkillEndBonusEleDamage_Corrosive.GPart_EG_SkillEndBonusEleDamage_Corrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/SkillEnd_AttunedEleDamage/GPart_Siren_SkillEnd_AttunedSkillDamage.GPart_Siren_SkillEnd_AttunedSkillDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-91",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Cryo/GPart_EG_SkillEndBonusEleDamage_Cryo.GPart_EG_SkillEndBonusEleDamage_Cryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_DamageReduction/GPart_Siren_Slam_DamageReduction.GPart_Siren_Slam_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-92",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Fire/GPart_EG_SkillEndBonusEleDamage_Fire.GPart_EG_SkillEndBonusEleDamage_Fire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_MeleeDamage/GPart_Siren_Slam_MeleeDamage.GPart_Siren_Slam_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-93",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Radiation/GPart_EG_SkillEndBonusEleDamage_Radiation.GPart_EG_SkillEndBonusEleDamage_Radiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_ReturnDamage/GPart_Siren_Slam_ReturnDamage.GPart_Siren_Slam_ReturnDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-94",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Shock/GPart_EG_SkillEndBonusEleDamage_Shock.GPart_EG_SkillEndBonusEleDamage_Shock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_WeaponDamage/GPart_Siren_Slam_WeaponDamage.GPart_Siren_Slam_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-95",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/AccuracyAndHandling/GPart_EG_WhileAirborn_AccuracyHandling.GPart_EG_WhileAirborn_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ConsecutiveHits_DmgStack/GPart_EG_Generic_ConsecutiveHitsDmgStack.GPart_EG_Generic_ConsecutiveHitsDmgStack,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-96",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/CritDamage/GPart_EG_WhileAirborn_CritDamage.GPart_EG_WhileAirborn_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/GrenadeThrow_GlobalDamage/GPart_EG_GrenadeThrow_GlobalDamage.GPart_EG_GrenadeThrow_GlobalDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-97",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/Damage/GPart_EG_WhileAirborn_Damage.GPart_EG_WhileAirborn_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/KillStack_ReloadDamage/GPart_EG_Generic_KillStackReloadDamage.GPart_EG_Generic_KillStackReloadDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-98",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/FireRate/GPart_EG_WhileAirborn_FireRate.GPart_EG_WhileAirborn_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/LowHealth_Executor/GPart_EG_Generic_LowHealthExecutor.GPart_EG_Generic_LowHealthExecutor,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-99",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/AccuracyAndHandling/GPart_EG_WhileSliding_AccuracyHandling.GPart_EG_WhileSliding_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ModeSwitch_WeaponDamage/GPart_EG_ModeSwitch_WeaponDamage.GPart_EG_ModeSwitch_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-100",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/Damage/GPart_EG_WhileSliding_Damage.GPart_EG_WhileSliding_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Corrosive/GPart_EG_SkillEndBonusEleDamage_Corrosive.GPart_EG_SkillEndBonusEleDamage_Corrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-101",
-      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/FireRate/GPart_EG_WhileSliding_FireRate.GPart_EG_WhileSliding_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Cryo/GPart_EG_SkillEndBonusEleDamage_Cryo.GPart_EG_SkillEndBonusEleDamage_Cryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-102",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_CritStatusEffects/GPart_Passive_All_CritStatusEffect.GPart_Passive_All_CritStatusEffect,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Fire/GPart_EG_SkillEndBonusEleDamage_Fire.GPart_EG_SkillEndBonusEleDamage_Fire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-103",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_RadDamage/GPart_All_unhealthyraddamage.GPart_All_unhealthyraddamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Radiation/GPart_EG_SkillEndBonusEleDamage_Radiation.GPart_EG_SkillEndBonusEleDamage_Radiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-104",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_HighHealth_Breaker/GPart_All_HighHealthBreaker.GPart_All_HighHealthBreaker,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Shock/GPart_EG_SkillEndBonusEleDamage_Shock.GPart_EG_SkillEndBonusEleDamage_Shock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-105",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_ShieldBreakAmp/GPart_All_ShieldBreakAmp.GPart_All_ShieldBreakAmp,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/AccuracyAndHandling/GPart_EG_WhileAirborn_AccuracyHandling.GPart_EG_WhileAirborn_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-106",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_SlideRegenShields/GPart_All_SlideRegenShields.GPart_All_SlideRegenShields,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/CritDamage/GPart_EG_WhileAirborn_CritDamage.GPart_EG_WhileAirborn_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-107",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_CyberSpike/GPart_EG_Gen_SkillEnd_CyberSpike.GPart_EG_Gen_SkillEnd_CyberSpike,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/Damage/GPart_EG_WhileAirborn_Damage.GPart_EG_WhileAirborn_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-108",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_DamageMitigation/GPart_All_DamageMitigation.GPart_All_DamageMitigation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/FireRate/GPart_EG_WhileAirborn_FireRate.GPart_EG_WhileAirborn_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-109",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_GrenadeDamage/GPart_All_GrenadeDamage.GPart_All_GrenadeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/AccuracyAndHandling/GPart_EG_WhileSliding_AccuracyHandling.GPart_EG_WhileSliding_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-110",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_PulseNova/GPart_EG_Gen_SkillActive_PulseFireNova.GPart_EG_Gen_SkillActive_PulseFireNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/Damage/GPart_EG_WhileSliding_Damage.GPart_EG_WhileSliding_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-111",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_ShockFeedback/GPart_All_ShockFeedback.GPart_All_ShockFeedback,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/FireRate/GPart_EG_WhileSliding_FireRate.GPart_EG_WhileSliding_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-112",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_UniqueEnemyDamage/GPart_All_UniqueEnemyDamage.GPart_All_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_CritStatusEffects/GPart_Passive_All_CritStatusEffect.GPart_Passive_All_CritStatusEffect,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-113",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_WeaponDamage/GPart_All_WeaponDamage.GPart_All_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_RadDamage/GPart_All_unhealthyraddamage.GPart_All_unhealthyraddamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-114",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillEnd_HealingPool/GPart_All_HealingPool.GPart_All_HealingPool,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_HighHealth_Breaker/GPart_All_HighHealthBreaker.GPart_All_HighHealthBreaker,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-115",
-      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillStart_ShieldRecharge/GPart_All_SkillStart_OverchargeShield.GPart_All_SkillStart_OverchargeShield,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_ShieldBreakAmp/GPart_All_ShieldBreakAmp.GPart_All_ShieldBreakAmp,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-116",
-      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/PartyTime/Ability_Mayhem2_PartyTime.Ability_Mayhem2_PartyTime_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/AimForTheSky/Ability_Mayhem2_AimForTheSky.Ability_Mayhem2_AimForTheSky_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RoidRage/Ability_Mayhem2_RoidRage.Ability_Mayhem2_RoidRage_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/SoulStealer/Ability_Mayhem2_SoulStealer.Ability_Mayhem2_SoulStealer_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Shared/Bighetti/Ability_Mayhem2_Bighetti.Ability_Mayhem2_Bighetti_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FinishThem/Ability_Mayhem2_FinishThem.Ability_Mayhem2_FinishThem_C,Weight=(BaseValueConstant=0)))"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_SlideRegenShields/GPart_All_SlideRegenShields.GPart_All_SlideRegenShields,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-117",
-      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/FloorIsLava/Ability_Mayhem2_FLoorIsLava.Ability_Mayhem2_FloorIsLava_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FrozenPulse/Ability_Mayhem2_FrozenPulse.Ability_Mayhem2_FrozenPulse_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/Rally/Ability_Mayhem2_Rally.Ability_Mayhem2_Rally_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/OlSwitcheroo/Ability_Mayhem2_OlSwitcheroo.Ability_Mayhem2_OlSwitcheroo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Corrosive.Ability_Mayhem2_ElementalInfusion_Corrosive_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Cryo.Ability_Mayhem2_ElementalInfusion_Cryo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Fire.Ability_Mayhem2_ElementalInfusion_Fire_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Radiation.Ability_Mayhem2_ElementalInfusion_Radiation_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Shock.Ability_Mayhem2_ElementalInfusion_Shock_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/HealNo/Ability_Mayhem2_HealNo.Ability_Mayhem2_HealNo_C,Weight=(BaseValueConstant=0)))"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_CyberSpike/GPart_EG_Gen_SkillEnd_CyberSpike.GPart_EG_Gen_SkillEnd_CyberSpike,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-118",
-      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ChainGang/Ability_Mayhem2_ChainGang.Ability_Mayhem2_ChainGang_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ArcaneEnchanter/Ability_Mayhem2_ArcaneEnchanter.Ability_Mayhem2_ArcaneEnchanter_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DroneBuddy/Ability_Mayhem2_DroneBuddy.Ability_Mayhem2_DroneBuddy_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/EleBreaker/Ability_Mayhem2_Ele_Breaker.Ability_Mayhem2_Ele_Breaker_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/StayBack/Ability_Mayhem2_StayBack.Ability_Mayhem2_StayBack_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/BegoneDot/Ability_Mayhem2_BegoneDot.Ability_Mayhem2_BegoneDot_C,Weight=(BaseValueConstant=0)))"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_DamageMitigation/GPart_All_DamageMitigation.GPart_All_DamageMitigation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-119",
-      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DeathFromBeyond/Ability_Mayhem2_DeathFromBeyond.Ability_Mayhem2_DeathFromBeyond_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RogueLite/Ability_Mayhem2_RogueLite.Ability_Mayhem2_RogueLite_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/CriticalFailure/Ability_Mayhem2_CritFail.Ability_Mayhem2_CritFail_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/Sharpshot/Ability_Mayhem2_Sharpshot.Ability_Mayhem2_Sharpshot_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/PriorityTarget/Ability_Mayhem2_PriorityTarget.Ability_Mayhem2_PriorityTarget_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_All.Ability_Mayhem2_ElementalInfusion_All_C,Weight=(BaseValueConstant=0)))"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_GrenadeDamage/GPart_All_GrenadeDamage.GPart_All_GrenadeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-120",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,1.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_PulseNova/GPart_EG_Gen_SkillActive_PulseFireNova.GPart_EG_Gen_SkillActive_PulseFireNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-121",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,2.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_ShockFeedback/GPart_All_ShockFeedback.GPart_All_ShockFeedback,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-122",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,3.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_UniqueEnemyDamage/GPart_All_UniqueEnemyDamage.GPart_All_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-123",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,4.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_WeaponDamage/GPart_All_WeaponDamage.GPart_All_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-124",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,7.5"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillEnd_HealingPool/GPart_All_HealingPool.GPart_All_HealingPool,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-125",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,15.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillStart_ShieldRecharge/GPart_All_SkillStart_OverchargeShield.GPart_All_SkillStart_OverchargeShield,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\"),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-126",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,22.5"
+      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/PartyTime/Ability_Mayhem2_PartyTime.Ability_Mayhem2_PartyTime_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/AimForTheSky/Ability_Mayhem2_AimForTheSky.Ability_Mayhem2_AimForTheSky_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RoidRage/Ability_Mayhem2_RoidRage.Ability_Mayhem2_RoidRage_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/SoulStealer/Ability_Mayhem2_SoulStealer.Ability_Mayhem2_SoulStealer_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Shared/Bighetti/Ability_Mayhem2_Bighetti.Ability_Mayhem2_Bighetti_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FinishThem/Ability_Mayhem2_FinishThem.Ability_Mayhem2_FinishThem_C,Weight=(BaseValueConstant=0)))"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-127",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,30.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/FloorIsLava/Ability_Mayhem2_FLoorIsLava.Ability_Mayhem2_FloorIsLava_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FrozenPulse/Ability_Mayhem2_FrozenPulse.Ability_Mayhem2_FrozenPulse_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/Rally/Ability_Mayhem2_Rally.Ability_Mayhem2_Rally_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/OlSwitcheroo/Ability_Mayhem2_OlSwitcheroo.Ability_Mayhem2_OlSwitcheroo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Corrosive.Ability_Mayhem2_ElementalInfusion_Corrosive_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Cryo.Ability_Mayhem2_ElementalInfusion_Cryo_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Fire.Ability_Mayhem2_ElementalInfusion_Fire_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Radiation.Ability_Mayhem2_ElementalInfusion_Radiation_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_Shock.Ability_Mayhem2_ElementalInfusion_Shock_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/HealNo/Ability_Mayhem2_HealNo.Ability_Mayhem2_HealNo_C,Weight=(BaseValueConstant=0)))"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-128",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,40.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ChainGang/Ability_Mayhem2_ChainGang.Ability_Mayhem2_ChainGang_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ArcaneEnchanter/Ability_Mayhem2_ArcaneEnchanter.Ability_Mayhem2_ArcaneEnchanter_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DroneBuddy/Ability_Mayhem2_DroneBuddy.Ability_Mayhem2_DroneBuddy_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/EleBreaker/Ability_Mayhem2_Ele_Breaker.Ability_Mayhem2_Ele_Breaker_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/StayBack/Ability_Mayhem2_StayBack.Ability_Mayhem2_StayBack_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/BegoneDot/Ability_Mayhem2_BegoneDot.Ability_Mayhem2_BegoneDot_C,Weight=(BaseValueConstant=0)))"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-129",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,50.0"
+      "value": "(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DeathFromBeyond/Ability_Mayhem2_DeathFromBeyond.Ability_Mayhem2_DeathFromBeyond_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RogueLite/Ability_Mayhem2_RogueLite.Ability_Mayhem2_RogueLite_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/CriticalFailure/Ability_Mayhem2_CritFail.Ability_Mayhem2_CritFail_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/Sharpshot/Ability_Mayhem2_Sharpshot.Ability_Mayhem2_Sharpshot_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/PriorityTarget/Ability_Mayhem2_PriorityTarget.Ability_Mayhem2_PriorityTarget_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_All.Ability_Mayhem2_ElementalInfusion_All_C,Weight=(BaseValueConstant=0)))"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-130",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,1.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,1.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-131",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,2.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,2.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-132",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,3.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,3.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-133",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,4.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,4.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-134",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,7.5"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,7.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-135",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,15.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,15.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-136",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,22.5"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,22.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-137",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,30.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,30.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-138",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,40.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,40.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-139",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,50.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,50.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-140",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,1.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,1.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-141",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,2.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,2.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-142",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,3.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,3.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-143",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,4.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,4.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-144",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,7.5"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,7.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-145",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,15.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,15.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-146",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,22.5"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,22.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-147",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,30.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,30.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-148",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,40.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,40.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-149",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,50.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,50.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-150",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,2.4"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,1.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-151",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,2.8"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,2.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-152",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,3.2"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,3.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-153",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,3.6"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,4.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-154",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,5.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,7.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-155",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,8.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,15.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-156",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,11.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,22.5"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-157",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,14.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,30.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-158",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,18.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,40.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-159",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,32.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,50.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-160",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,3.2"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,2.4"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-161",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,4.4"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,2.8"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-162",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,5.6"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,3.2"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-163",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,6.8"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,3.6"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-164",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,11.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,5.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-165",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,20.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,8.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-166",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,29.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,11.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-167",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,38.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,14.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-168",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,50.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,18.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-169",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,61.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,32.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-170",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,4.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,3.2"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-171",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,6.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,4.4"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-172",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,8.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,5.6"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-173",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,10.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,6.8"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-174",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,17.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,11.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-175",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,32.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,20.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-176",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,47.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,29.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-177",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,62.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,38.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-178",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,82.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,50.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-179",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,102.0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,61.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-180",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,4.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-181",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,6.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-182",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,8.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-183",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,10.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-184",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,17.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-185",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,32.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-186",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,47.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-187",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,62.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-188",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,82.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-189",
-      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF,0,,102.0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-190",
-      "value": "(1,1,0,),/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C,bCanCauseCriticals,0,,true"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-191",
-      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[0],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-192",
-      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[1],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-193",
-      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[2],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-194",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/Status_FullCan_LowHPDamage_P.Status_FullCan_LowHPDamage_P,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-195",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Status_Gunner_Tenacious_WeaponDamage_DA.Status_Gunner_Tenacious_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-196",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/StatusEffect_Gunner_ClickClick_WeaponDamage_DA.StatusEffect_Gunner_ClickClick_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-197",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/StatusEffect_Operative_Donnybrook.StatusEffect_Operative_Donnybrook,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-198",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/StatusEffect_Operative_ConfidentCompetence.StatusEffect_Operative_ConfidentCompetence,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-199",
-      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/StatusEffect_Siren_Samsara.StatusEffect_Siren_Samsara,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-200",
-      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA.StatusEffect_Siren_BareKnuckle_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C,bCanCauseCriticals,0,,true"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-201",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[0],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-202",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[1],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-203",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[2],0,,DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-204",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/Status_FullCan_LowHPDamage_P.Status_FullCan_LowHPDamage_P,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-205",
-      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Status_Gunner_Tenacious_WeaponDamage_DA.Status_Gunner_Tenacious_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-206",
-      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/StatusEffect_Gunner_ClickClick_WeaponDamage_DA.StatusEffect_Gunner_ClickClick_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-207",
-      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/StatusEffect_Operative_Donnybrook.StatusEffect_Operative_Donnybrook,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-208",
-      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.5"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/StatusEffect_Operative_ConfidentCompetence.StatusEffect_Operative_ConfidentCompetence,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-209",
-      "value": "(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,95"
+      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/StatusEffect_Siren_Samsara.StatusEffect_Siren_Samsara,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-210",
-      "value": "(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/PartSet_CM_Gunner_DLC1.PartSet_CM_Gunner_DLC1,ActorPartLists,0,,((PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=0,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=1,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=2,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=3,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=2,Max=2),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=4,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=5,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=5,Max=5),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=6,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()))"
+      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA.StatusEffect_Siren_BareKnuckle_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-211",
-      "value": "(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1.InvBalD_CM_Gunner_DLC1,RuntimePartList.PartTypeTOC,0,,((StartIndex=0,NumParts=1),(StartIndex=1,NumParts=1),(StartIndex=2,NumParts=1),(StartIndex=3,NumParts=69),(StartIndex=72,NumParts=68),(StartIndex=140,NumParts=13),(StartIndex=153,NumParts=0))"
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
     },
     {
       "key": "SparkPatchEntry-SpyMod1-212",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-213",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-214",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-215",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-216",
+      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-217",
+      "value": "(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-218",
+      "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Samsara_GunDamage,Value,0,,(BaseValueConstant=0.0498)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-219",
+      "value": "(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Wrath_DamageBonus,Value,0,,(BaseValueConstant=0.1665)"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-220",
+      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.5"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-221",
+      "value": "(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,95"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-222",
+      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,VeryRare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.22"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-223",
+      "value": "(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,Rare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.15"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-224",
+      "value": "(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/PartSet_CM_Gunner_DLC1.PartSet_CM_Gunner_DLC1,ActorPartLists,0,,((PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=0,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=1,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=2,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=3,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=2,Max=2),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=4,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=5,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=5,Max=5),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=6,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-225",
+      "value": "(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1.InvBalD_CM_Gunner_DLC1,RuntimePartList.PartTypeTOC,0,,((StartIndex=0,NumParts=1),(StartIndex=1,NumParts=1),(StartIndex=2,NumParts=1),(StartIndex=3,NumParts=69),(StartIndex=72,NumParts=68),(StartIndex=140,NumParts=13),(StartIndex=153,NumParts=0))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-226",
       "value": "(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1.InvBalD_CM_Gunner_DLC1,RuntimePartList.AllParts,0,,((PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Character/ClassMod_Part_Character_Gunner.ClassMod_Part_Character_Gunner,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Part_CM_Gunner_DLC1.Part_CM_Gunner_DLC1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Rarity/ClassMod_Part_Gunner_Rarity_05_Legendary.ClassMod_Part_Gunner_Rarity_05_Legendary,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_WeaponDamage.ClassMod_Part_Stat_Primary_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_FireRate.ClassMod_Part_Stat_Primary_FireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_CritDamage.ClassMod_Part_Stat_Primary_CritDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_Accuracy.ClassMod_Part_Stat_Primary_Accuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_ChargeTime.ClassMod_Part_Stat_Primary_ChargeTime,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_Handling.ClassMod_Part_Stat_Primary_Handling,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_MagazineSize.ClassMod_Part_Stat_Primary_MagazineSize,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_ReloadSpeed.ClassMod_Part_Stat_Primary_ReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeDamage.ClassMod_Part_Stat_Primary_GrenadeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeRadius.ClassMod_Part_Stat_Primary_GrenadeRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeAmmo.ClassMod_Part_Stat_Primary_GrenadeAmmo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_AreaDamage.ClassMod_Part_Stat_Primary_AreaDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_AreaDamageRadius.ClassMod_Part_Stat_Primary_AreaDamageRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ActionSkillCooldownRate.ClassMod_Part_Stat_Primary_ActionSkillCooldownRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_MeleeDamage.ClassMod_Part_Stat_Primary_MeleeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_HealthMax.ClassMod_Part_Stat_Primary_HealthMax,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_HealthRegen.ClassMod_Part_Stat_Primary_HealthRegen,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldCapacity.ClassMod_Part_Stat_Primary_ShieldCapacity,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldRegenDelay.ClassMod_Part_Stat_Primary_ShieldRegenDelay,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldRegenRate.ClassMod_Part_Stat_Primary_ShieldRegenRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_AssaultRifleDamage.ClassMod_Part_Stat_Primary_AssaultRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_SMGDamage.ClassMod_Part_Stat_Primary_SMGDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_ShotgunDamage.ClassMod_Part_Stat_Primary_ShotgunDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_PistolDamage.ClassMod_Part_Stat_Primary_PistolDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_SniperRifleDamage.ClassMod_Part_Stat_Primary_SniperRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_HeavyDamage.ClassMod_Part_Stat_Primary_HeavyDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Normal.ClassMod_Part_Stat_Primary_Elemental_Resistance_Normal,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Cryo.ClassMod_Part_Stat_Primary_Elemental_Resistance_Cryo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Fire.ClassMod_Part_Stat_Primary_Elemental_Resistance_Fire,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Corrosive.ClassMod_Part_Stat_Primary_Elemental_Resistance_Corrosive,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Radiation.ClassMod_Part_Stat_Primary_Elemental_Resistance_Radiation,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Shock.ClassMod_Part_Stat_Primary_Elemental_Resistance_Shock,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponDamage.ClassMod_Part_Stat_Primary_Vladof_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponFireRate.ClassMod_Part_Stat_Primary_Vladof_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Vladof_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponAccuracy.ClassMod_Part_Stat_Primary_Vladof_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponDamage.ClassMod_Part_Stat_Primary_Torgue_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Torgue_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponAccuracy.ClassMod_Part_Stat_Primary_Torgue_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponProjectileSpeed.ClassMod_Part_Stat_Primary_Torgue_WeaponProjectileSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Tediore_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponAccuracy.ClassMod_Part_Stat_Primary_Tediore_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponDamage.ClassMod_Part_Stat_Primary_Tediore_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponFireRate.ClassMod_Part_Stat_Primary_Tediore_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponDamage.ClassMod_Part_Stat_Primary_Maliwan_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponFireRate.ClassMod_Part_Stat_Primary_Maliwan_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Maliwan_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_Jakobs_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponDamage.ClassMod_Part_Stat_Primary_Jakobs_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Jakobs_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponAccuracy.ClassMod_Part_Stat_Primary_Jakobs_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponFireRate.ClassMod_Part_Stat_Primary_CoV_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponDamage.ClassMod_Part_Stat_Primary_CoV_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponAccuracy.ClassMod_Part_Stat_Primary_CoV_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_Hyperion_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponDamage.ClassMod_Part_Stat_Primary_Hyperion_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponFireRate.ClassMod_Part_Stat_Primary_Hyperion_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Hyperion_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_DAHL_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponAccuracy.ClassMod_Part_Stat_Primary_DAHL_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponDamage.ClassMod_Part_Stat_Primary_DAHL_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_DAHL_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponFireRate.ClassMod_Part_Stat_Primary_DAHL_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponFireRate.ClassMod_Part_Stat_Primary_ATLAS_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_ATLAS_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponDamage.ClassMod_Part_Stat_Primary_ATLAS_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_ATLAS_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ActionSkillCooldownRate.ClassMod_Part_Stat_Secondary_ActionSkillCooldownRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_HealthMax.ClassMod_Part_Stat_Secondary_HealthMax,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_HealthRegen.ClassMod_Part_Stat_Secondary_HealthRegen,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_MeleeDamage.ClassMod_Part_Stat_Secondary_MeleeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldCapacity.ClassMod_Part_Stat_Secondary_ShieldCapacity,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldRegenDelay.ClassMod_Part_Stat_Secondary_ShieldRegenDelay,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldRegenRate.ClassMod_Part_Stat_Secondary_ShieldRegenRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_AreaDamage.ClassMod_Part_Stat_Secondary_AreaDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_AreaDamageRadius.ClassMod_Part_Stat_Secondary_AreaDamageRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeDamage.ClassMod_Part_Stat_Secondary_GrenadeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeRadius.ClassMod_Part_Stat_Secondary_GrenadeRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeAmmo.ClassMod_Part_Stat_Secondary_GrenadeAmmo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_Accuracy.ClassMod_Part_Stat_Secondary_Accuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_ChargeTime.ClassMod_Part_Stat_Secondary_ChargeTime,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_CritDamage.ClassMod_Part_Stat_Secondary_CritDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_FireRate.ClassMod_Part_Stat_Secondary_FireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_Handling.ClassMod_Part_Stat_Secondary_Handling,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_MagazineSize.ClassMod_Part_Stat_Secondary_MagazineSize,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_ReloadSpeed.ClassMod_Part_Stat_Secondary_ReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_WeaponDamage.ClassMod_Part_Stat_Secondary_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_AssaultRifleDamage.ClassMod_Part_Stat_Secondary_AssaultRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_HeavyDamage.ClassMod_Part_Stat_Secondary_HeavyDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_PistolDamage.ClassMod_Part_Stat_Secondary_PistolDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_ShotgunDamage.ClassMod_Part_Stat_Secondary_ShotgunDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_SMGDamage.ClassMod_Part_Stat_Secondary_SMGDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_SniperRifleDamage.ClassMod_Part_Stat_Secondary_SniperRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Torgue_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponProjectileSpeed.ClassMod_Part_Stat_Secondary_Torgue_WeaponProjectileSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Torgue_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponDamage.ClassMod_Part_Stat_Secondary_Torgue_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Vladof_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Vladof_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponDamage.ClassMod_Part_Stat_Secondary_Vladof_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponFireRate.ClassMod_Part_Stat_Secondary_Vladof_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponAccuracy.ClassMod_Part_Stat_Secondary_DAHL_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponDamage.ClassMod_Part_Stat_Secondary_DAHL_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponFireRate.ClassMod_Part_Stat_Secondary_DAHL_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_DAHL_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_DAHL_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponFireRate.ClassMod_Part_Stat_Secondary_Maliwan_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponDamage.ClassMod_Part_Stat_Secondary_Maliwan_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Maliwan_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_Hyperion_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponDamage.ClassMod_Part_Stat_Secondary_Hyperion_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Hyperion_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponFireRate.ClassMod_Part_Stat_Secondary_Hyperion_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_Jakobs_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponDamage.ClassMod_Part_Stat_Secondary_Jakobs_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Jakobs_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Jakobs_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Tediore_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponDamage.ClassMod_Part_Stat_Secondary_Tediore_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Tediore_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponFireRate.ClassMod_Part_Stat_Secondary_Tediore_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponAccuracy.ClassMod_Part_Stat_Secondary_CoV_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponDamage.ClassMod_Part_Stat_Secondary_CoV_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponFireRate.ClassMod_Part_Stat_Secondary_CoV_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_ATLAS_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponDamage.ClassMod_Part_Stat_Secondary_ATLAS_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponFireRate.ClassMod_Part_Stat_Secondary_ATLAS_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_ATLAS_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Corrosive.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Corrosive,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Cryo.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Cryo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Fire.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Fire,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Normal.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Normal,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Radiation.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Radiation,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Shock.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Shock,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1)))"
     },
     {
-      "key": "SparkCharacterLoadedEntry-SpyMod1-213",
+      "key": "SparkCharacterLoadedEntry-SpyMod1-227",
       "value": "(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech\"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian\"',PoolProbability=(BaseValueConstant=0.100000)))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod1-228",
+      "value": "(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards\"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary\"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary\"',Weight=(BaseValueConstant=1,BaseValueScale=1)))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod2-1",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPBeastmasterComponent.BPBeastmasterComponent_C,CharacterSlots,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod2-2",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPBeastmasterComponent.BPBeastmasterComponent_C,PetSlotData,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet))"
+    },
+    {
+      "key": "SparkPatchEntry-SpyMod2-3",
+      "value": "(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/ActionSkill/ActionSkill_RakkAttack.ActionSkill_RakkAttack,SupportedAugmentSlots,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod1.AugmentSlot_Skill1_Mod1),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod2.AugmentSlot_Skill1_Mod2),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod1.AugmentSlot_Skill1_Mod1))"
     }
   ]
 }

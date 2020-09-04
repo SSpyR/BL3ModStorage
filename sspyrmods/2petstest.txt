@@ -11,4 +11,11 @@
 ###
 
 # Test
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPBeastmasterComponent.BPBeastmasterComponent_C,CharacterSlots,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet))
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPBeastmasterComponent.BPBeastmasterComponent_C,CharacterSlots,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet))
+
+# Test
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPBeastmasterComponent.BPBeastmasterComponent_C,PetSlotData,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/PlayerSlot_Pet.PlayerSlot_Pet))
+
+# Test
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/ActionSkill/ActionSkill_RakkAttack.ActionSkill_RakkAttack,SupportedAugmentSlots,0,,((/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod1.AugmentSlot_Skill1_Mod1),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod2.AugmentSlot_Skill1_Mod2),(/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill1_RakkAttack/Slots/AugmentSlot_Skill1_Mod1.AugmentSlot_Skill1_Mod1))
+

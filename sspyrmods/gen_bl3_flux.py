@@ -1,4 +1,4 @@
-from bl3hotfixmod import Mod, Balance
+from bl3hotfixmod import Mod, Balance, ItemPool, BVC
 from bl3data import BL3Data
 
 # I think its time for the big big mod
@@ -1111,4 +1111,35 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 """
 )
+mod.newline()
+
+
+# Allowing FL4K Pets to Melee Crit
+mod.comment('FL4K Pets Can Melee Crit')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/DamageSources/DamageSource_BeastmasterPet_Melee.DamageSource_BeastmasterPet_Melee',
+'bCanCauseCriticals',
+'true'
+)
+mod.newline()
+
+
+# Adding DLC Mission Rewards to Earls Shop
+# Automating This, Just Input Balances and Mission Complete Attributes and We Good
+balances=[
+    ''
+]
+
+missionatr=[
+    ''
+]
+
+itempool='/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards'
+newpool=ItemPool(itempool)
+
+for bal, atr in zip(balances, missionatr):
+    mod.comment('Adding DLC Mission Rewards to Earls')
+    newpool.add_balance(bal, BVC(bvc=1,bva=atr,bvs=1))
+
+newpool.__str__()
 mod.newline()
