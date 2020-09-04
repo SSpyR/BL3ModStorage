@@ -38,277 +38,355 @@ SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/ItemPool_SniperAndHe
 # Adjusting to Remove Legendaries from World Drops
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/ItemPool_ARandSMG_All.ItemPool_ARandSMG_All,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
 
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Shields_All_Hibiscus.ItemPool_Shields_All_Hibiscus,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_GrenadeMods_All_Geranium.ItemPool_GrenadeMods_All_Geranium,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion.ItemPool_Guns_All_Dandelion,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion.ItemPool_Guns_All_Dandelion,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion_Boss.ItemPool_Guns_All_Dandelion_Boss,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion_Boss.ItemPool_Guns_All_Dandelion_Boss,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Guns_All_Hibiscus.ItemPool_Guns_All_Hibiscus,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Guns_All_Hibiscus.ItemPool_Guns_All_Hibiscus,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_GrenadeMods_All_Hibiscus.ItemPool_GrenadeMods_All_Hibiscus,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_GrenadeMods_All_Hibiscus.ItemPool_GrenadeMods_All_Hibiscus,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Guns_All_Geranium.ItemPool_Guns_All_Geranium,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Guns_All_Geranium.ItemPool_Guns_All_Geranium,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium.ItemPool_Shields_All_Geranium,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium.ItemPool_Shields_All_Geranium,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
 # Adding Firestorm Back to Traunt
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Heavy_Traunt),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_CaptTraunt.ItemPool_CaptTraunt,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 
-# Removing from Pool
+# Giving Wendigo Seeryul Killur
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Wendigo),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_SparkyBoom.ItemPool_Hibiscus_SparkyBoom,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/SparkyBoom/Balance/Balance_AR_COV_SparkyBoom.Balance_AR_COV_SparkyBoom,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/SparkyBoom/Balance/Balance_AR_COV_SparkyBoom.Balance_AR_COV_SparkyBoom"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Homicidal/Balance/Balance_AR_COV_Homicidal.Balance_AR_COV_Homicidal,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Homicidal/Balance/Balance_AR_COV_Homicidal.Balance_AR_COV_Homicidal"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Wendigos Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Wendigo),/Hibiscus/Enemies/Wendigo/Design/Character/BPChar_Wendigo.BPChar_Wendigo_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[1].PoolProbability,0,,(BaseValueConstant=50.00)
+
+# Giving Amach Old God
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ZealotPilfer_Child_Rare),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat.ItemPool_Hibiscus_UnseenThreat,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Amachs Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ZealotPilfer_Child_Rare),/Hibiscus/Enemies/_Unique/Rare_ZealotPilfer/Character/BPChar_ZealotPilfer_Child_Rare.BPChar_ZealotPilfer_Child_Rare_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)
+
+# Giving Gmork Insider
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Gmork_B_Wolf_Child),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat.ItemPool_Hibiscus_UnseenThreat,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Gmorks Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Gmork_B_Wolf_Child),/Hibiscus/Enemies/_Unique/Hunt_Gmork/Character/BPChar_Gmork_B_Wolf_Child.BPChar_Gmork_B_Wolf_Child_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)
+
+# Giving Empowered Grawn Torch
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LunaticPossessed),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Lunacy.ItemPool_Hibiscus_Lunacy,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Empowered Grawns Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LunaticPossessed),/Hibiscus/Enemies/Lunatic/Possessed/_Design/Character/BPChar_LunaticPossessed.BPChar_LunaticPossessed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=30.00)
+
+# Giving Kritchy Oldridian
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hunt_Kritchy),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Hunt_Mothman.ItemPool_Hibiscus_Hunt_Mothman,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Kritchys Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hunt_Kritchy),/Hibiscus/Enemies/_Unique/Hunt_Kritchy/Character/BPChar_Hib_Hunt_Kritchy.BPChar_Hib_Hunt_Kritchy_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=50.00)
+
+# Giving Fungal Gorger Flama Diddle
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Lost_Mush_Child),/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Mutant.ItemPool_Hibiscus_Mutant,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Upping Fungal Gorgers Dedicated Pool Rate to Compensate
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Lost_Mush_Child),//Hibiscus/Enemies/_Unique/Rare_MushroomGiant/Character/BPChar_Lost_Mush_Child.BPChar_Lost_Mush_Child_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability,0,,(BaseValueConstant=70.00)
+
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/GPart_All_SkillEnd_AccuracyHandling.GPart_All_SkillEnd_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CooldownRate/GPart_All_SkillEnd_CooldownRate.GPart_All_SkillEnd_CooldownRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CritDamage/GPart_All_SkillEnd_CritDamage.GPart_All_SkillEnd_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_DamageReduction/GPart_All_SkillEnd_DamageReduction.GPart_All_SkillEnd_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_EleChanceDamage/GPart_All_SkillEnd_EleChanceDamage.GPart_All_SkillEnd_EleChanceDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_FireRateReload/GPart_All_SkillEnd_FireRateReload.GPart_All_SkillEnd_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_HealthRegen/GPart_All_SkillEnd_HealthRegen.GPart_All_SkillEnd_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_LifeSteal/GPart_All_SkillEnd_LifeSteal.GPart_All_SkillEnd_LifeSteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MeleeDamage/GPart_All_SkillEnd_MeleeDamage.GPart_All_SkillEnd_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MoveSpeed/GPart_All_SkillEnd_MoveSpeed.GPart_All_SkillEnd_MoveSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Corrosive/GPart_All_SkillEnd_NextMagBonusDamageCorrosive.GPart_All_SkillEnd_NextMagBonusDamageCorrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Cryo/GPart_All_SkillEnd_NextMagBonusDamageCryo.GPart_All_SkillEnd_NextMagBonusDamageCryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Fire/GPart_All_SkillEnd_NextMagBonusDamageFire.GPart_All_SkillEnd_NextMagBonusDamageFire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Radiation/GPart_All_SkillEnd_NextMagBonusDamageRadiation.GPart_All_SkillEnd_NextMagBonusDamageRadiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Shock/GPart_All_SkillEnd_NextMagBonusDamageShock.GPart_All_SkillEnd_NextMagBonusDamageShock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_ProjectileSpeed/GPart_All_SkillEnd_ProjectileSpeed.GPart_All_SkillEnd_ProjectileSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_SplashDamage/GPart_All_SkillEnd_SplashDamage.GPart_All_SkillEnd_SplashDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_UniqueEnemyDamage/GPart_All_SkillEnd_UniqueEnemyDamage.GPart_All_SkillEnd_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_WeaponDamage/GPart_All_SkillEnd_WeaponDamage.GPart_All_SkillEnd_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillStart_AddGrenade/GPart_All_SkillEnd_AddGrenade.GPart_All_SkillEnd_AddGrenade,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandLifeSteal/GPart_Beast_AttackCmd_Lifesteal.GPart_Beast_AttackCmd_Lifesteal,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandMovespeed/GPart_Beast_AttackCmd_Movespeed.GPart_Beast_AttackCmd_Movespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/Beast_Gamma_BonusRadiationDamage/GPart_BonusRadiationDamage.GPart_BonusRadiationDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkAttackCharge/GPart_Beast_RakkCharge.GPart_Beast_RakkCharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkSlag/GPart_Beast_RakkSlag.GPart_Beast_RakkSlag,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkUsed_CritDamage/GPart_Beast_RakkCrit.GPart_Beast_RakkCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthAccuracyHandling/GPart_Beast_Stealth_AccuracyHandling.GPart_Beast_Stealth_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthNova/GPart_Beast_ExitStealthNova.GPart_Beast_ExitStealthNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_AmmoRegen/GPart_Gunner_AutoBear_AmmoRegen.GPart_Gunner_AutoBear_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_FireDamage/GPart_Gunner_AutoBear_FireDamage.GPart_Gunner_AutoBear_FireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/EnterExit_Nova/GPart_Gunner_EnterExit_Nova.GPart_Gunner_EnterExit_Nova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_KillsLowerCooldown/GPart_Gunner_KillsLowerCooldown.GPart_Gunner_KillsLowerCooldown,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/GPart_Gunner_NextMagFireDamage.GPart_Gunner_NextMagFireDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFirerateCrit/GPart_Gunner_NextMagFirerateCrit.GPart_Gunner_NextMagFirerateCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/GPart_Gunner_NextMagReloadHandling.GPart_Gunner_NextMagReloadHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NoAmmoConsumption/GPart_Gunner_NoAmmoConsumption.GPart_Gunner_NoAmmoConsumption,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_ShieldMaxHealth/GPart_Gunner_ShieldHealthMax.GPart_Gunner_ShieldHealthMax,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_SplashDamageIncrease/GPart_Gunner_SplashDamageIncrease.GPart_Gunner_SplashDamageIncrease,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/IBActive_ChanceGrenade/GPart_Gunner_IBGrenadeChance.GPart_Gunner_IBGrenadeChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActive_StatusEffectChance/GPart_Operative_BarrierActive_StatusEffectChance.GPart_Operative_BarrierActive_StatusEffectChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActiveAccuracyCrit/GPart_Operative_BarrierActive_AccuracyCrit.GPart_Operative_BarrierActive_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierDeployShieldRecharge/GPart_Operative_BarrierDeploy_ShieldRecharge.GPart_Operative_BarrierDeploy_ShieldRecharge,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveHealthRegen/GPart_Operative_CloneActive_HealthRegen.GPart_Operative_CloneActive_HealthRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveRegenAmmo/GPart_Operative_CloneActive_AmmoRegen.GPart_Operative_CloneActive_AmmoRegen,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapDamage/GPart_CloneSwap_WeaponDamage.GPart_CloneSwap_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapInstaReload/GPart_Operative_CloneSwapInstaReload.GPart_Operative_CloneSwapInstaReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveBonusDamage/GPart_Operative_DroneActiveBonusDamage.GPart_Operative_DroneActiveBonusDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveFireRateReload/GPart_Operative_DroneActive_FireRateReload.GPart_Operative_DroneActive_FireRateReload,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveMovespeed/GPart_Operative_DroneActiveMovespeed.GPart_Operative_DroneActiveMovespeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_EleChance/GPart_Siren_Cast_ElementalChance.GPart_Siren_Cast_ElementalChance,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_WeaponDamage/GPart_Siren_Cast_WeaponDamage.GPart_Siren_Cast_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_AccuracyCrit/GPart_Siren_Grasp_AccuracyCrit.GPart_Siren_Grasp_AccuracyCrit,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ChargeSpeed/GPart_Siren_Grasp_ChargeSpeed.GPart_Siren_Grasp_ChargeSpeed,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_ConstantNova/GPart_Siren_Grasp_ConstantNova.GPart_Siren_Grasp_ConstantNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/SkillEnd_AttunedEleDamage/GPart_Siren_SkillEnd_AttunedSkillDamage.GPart_Siren_SkillEnd_AttunedSkillDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_DamageReduction/GPart_Siren_Slam_DamageReduction.GPart_Siren_Slam_DamageReduction,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_MeleeDamage/GPart_Siren_Slam_MeleeDamage.GPart_Siren_Slam_MeleeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_ReturnDamage/GPart_Siren_Slam_ReturnDamage.GPart_Siren_Slam_ReturnDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_WeaponDamage/GPart_Siren_Slam_WeaponDamage.GPart_Siren_Slam_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ConsecutiveHits_DmgStack/GPart_EG_Generic_ConsecutiveHitsDmgStack.GPart_EG_Generic_ConsecutiveHitsDmgStack,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/GrenadeThrow_GlobalDamage/GPart_EG_GrenadeThrow_GlobalDamage.GPart_EG_GrenadeThrow_GlobalDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/KillStack_ReloadDamage/GPart_EG_Generic_KillStackReloadDamage.GPart_EG_Generic_KillStackReloadDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/LowHealth_Executor/GPart_EG_Generic_LowHealthExecutor.GPart_EG_Generic_LowHealthExecutor,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ModeSwitch_WeaponDamage/GPart_EG_ModeSwitch_WeaponDamage.GPart_EG_ModeSwitch_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Corrosive/GPart_EG_SkillEndBonusEleDamage_Corrosive.GPart_EG_SkillEndBonusEleDamage_Corrosive,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Cryo/GPart_EG_SkillEndBonusEleDamage_Cryo.GPart_EG_SkillEndBonusEleDamage_Cryo,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Fire/GPart_EG_SkillEndBonusEleDamage_Fire.GPart_EG_SkillEndBonusEleDamage_Fire,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Radiation/GPart_EG_SkillEndBonusEleDamage_Radiation.GPart_EG_SkillEndBonusEleDamage_Radiation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/SkillEnd_BonusEleDamage_Shock/GPart_EG_SkillEndBonusEleDamage_Shock.GPart_EG_SkillEndBonusEleDamage_Shock,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/AccuracyAndHandling/GPart_EG_WhileAirborn_AccuracyHandling.GPart_EG_WhileAirborn_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/CritDamage/GPart_EG_WhileAirborn_CritDamage.GPart_EG_WhileAirborn_CritDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/Damage/GPart_EG_WhileAirborn_Damage.GPart_EG_WhileAirborn_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/FireRate/GPart_EG_WhileAirborn_FireRate.GPart_EG_WhileAirborn_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/AccuracyAndHandling/GPart_EG_WhileSliding_AccuracyHandling.GPart_EG_WhileSliding_AccuracyHandling,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/Damage/GPart_EG_WhileSliding_Damage.GPart_EG_WhileSliding_Damage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/FireRate/GPart_EG_WhileSliding_FireRate.GPart_EG_WhileSliding_FireRate,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_CritStatusEffects/GPart_Passive_All_CritStatusEffect.GPart_Passive_All_CritStatusEffect,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_All_RadDamage/GPart_All_unhealthyraddamage.GPart_All_unhealthyraddamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_HighHealth_Breaker/GPart_All_HighHealthBreaker.GPart_All_HighHealthBreaker,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_ShieldBreakAmp/GPart_All_ShieldBreakAmp.GPart_All_ShieldBreakAmp,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_SlideRegenShields/GPart_All_SlideRegenShields.GPart_All_SlideRegenShields,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_CyberSpike/GPart_EG_Gen_SkillEnd_CyberSpike.GPart_EG_Gen_SkillEnd_CyberSpike,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_DamageMitigation/GPart_All_DamageMitigation.GPart_All_DamageMitigation,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_GrenadeDamage/GPart_All_GrenadeDamage.GPart_All_GrenadeDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_PulseNova/GPart_EG_Gen_SkillActive_PulseFireNova.GPart_EG_Gen_SkillActive_PulseFireNova,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_ShockFeedback/GPart_All_ShockFeedback.GPart_All_ShockFeedback,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_UniqueEnemyDamage/GPart_All_UniqueEnemyDamage.GPart_All_UniqueEnemyDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_WeaponDamage/GPart_All_WeaponDamage.GPart_All_WeaponDamage,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillEnd_HealingPool/GPart_All_HealingPool.GPart_All_HealingPool,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Removing from Pool
+# Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillStart_ShieldRecharge/GPart_All_SkillStart_OverchargeShield.GPart_All_SkillStart_OverchargeShield,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
 # Setting Easy Modifiers Weights to 0
@@ -573,6 +651,32 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Pas
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-# Increasing SubStat Rolls
-SparkPatchEntry,(1,1,0,),/Game/Gear/ClassMods/_Design/PartSets/PartSet_ClassMod.PartSet_ClassMod,ActorPartLists.ActorPartLists[3].MultiplePartSelectionRange,0,,(Min=3,Max=3)
+# Buffing Samsara Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Samsara_GunDamage,Value,0,,(BaseValueConstant=0.0498)
+
+# Buffing Wrath Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Wrath_DamageBonus,Value,0,,(BaseValueConstant=0.1665)
+
+# Buffing Sniper Crit Bonus
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.5
+
+# Buffing Grenades
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,95
+
+# Buffing Purples
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,VeryRare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.22
+
+# Buffing Blues
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,Rare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.15
+
+# Fixing Green Monster Click Click Points
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/PartSet_CM_Gunner_DLC1.PartSet_CM_Gunner_DLC1,ActorPartLists,0,,((PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=0,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=1,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=2,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=3,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=2,Max=2),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=4,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=5,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=5,Max=5),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/ClassMods/_Design/_Data/EPartList_ClassMod.EPartList_ClassMod,PartType=6,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=False,Parts=()))
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1.InvBalD_CM_Gunner_DLC1,RuntimePartList.PartTypeTOC,0,,((StartIndex=0,NumParts=1),(StartIndex=1,NumParts=1),(StartIndex=2,NumParts=1),(StartIndex=3,NumParts=69),(StartIndex=72,NumParts=68),(StartIndex=140,NumParts=13),(StartIndex=153,NumParts=0))
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1.InvBalD_CM_Gunner_DLC1,RuntimePartList.AllParts,0,,((PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Character/ClassMod_Part_Character_Gunner.ClassMod_Part_Character_Gunner,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Part_CM_Gunner_DLC1.Part_CM_Gunner_DLC1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Rarity/ClassMod_Part_Gunner_Rarity_05_Legendary.ClassMod_Part_Gunner_Rarity_05_Legendary,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_WeaponDamage.ClassMod_Part_Stat_Primary_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_FireRate.ClassMod_Part_Stat_Primary_FireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_CritDamage.ClassMod_Part_Stat_Primary_CritDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_Accuracy.ClassMod_Part_Stat_Primary_Accuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_ChargeTime.ClassMod_Part_Stat_Primary_ChargeTime,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_Handling.ClassMod_Part_Stat_Primary_Handling,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_MagazineSize.ClassMod_Part_Stat_Primary_MagazineSize,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Weapon/ClassMod_Part_Stat_Primary_ReloadSpeed.ClassMod_Part_Stat_Primary_ReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeDamage.ClassMod_Part_Stat_Primary_GrenadeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeRadius.ClassMod_Part_Stat_Primary_GrenadeRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_GrenadeAmmo.ClassMod_Part_Stat_Primary_GrenadeAmmo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_AreaDamage.ClassMod_Part_Stat_Primary_AreaDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/AOE/ClassMod_Part_Stat_Primary_AreaDamageRadius.ClassMod_Part_Stat_Primary_AreaDamageRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ActionSkillCooldownRate.ClassMod_Part_Stat_Primary_ActionSkillCooldownRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_MeleeDamage.ClassMod_Part_Stat_Primary_MeleeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_HealthMax.ClassMod_Part_Stat_Primary_HealthMax,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_HealthRegen.ClassMod_Part_Stat_Primary_HealthRegen,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldCapacity.ClassMod_Part_Stat_Primary_ShieldCapacity,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldRegenDelay.ClassMod_Part_Stat_Primary_ShieldRegenDelay,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/ClassMod_Part_Stat_Primary_ShieldRegenRate.ClassMod_Part_Stat_Primary_ShieldRegenRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_AssaultRifleDamage.ClassMod_Part_Stat_Primary_AssaultRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_SMGDamage.ClassMod_Part_Stat_Primary_SMGDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_ShotgunDamage.ClassMod_Part_Stat_Primary_ShotgunDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_PistolDamage.ClassMod_Part_Stat_Primary_PistolDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_SniperRifleDamage.ClassMod_Part_Stat_Primary_SniperRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/WeaponType/ClassMod_Part_Stat_Primary_HeavyDamage.ClassMod_Part_Stat_Primary_HeavyDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Normal.ClassMod_Part_Stat_Primary_Elemental_Resistance_Normal,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Cryo.ClassMod_Part_Stat_Primary_Elemental_Resistance_Cryo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Fire.ClassMod_Part_Stat_Primary_Elemental_Resistance_Fire,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Corrosive.ClassMod_Part_Stat_Primary_Elemental_Resistance_Corrosive,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Radiation.ClassMod_Part_Stat_Primary_Elemental_Resistance_Radiation,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Elemental/Resistance/ClassMod_Part_Stat_Primary_Elemental_Resistance_Shock.ClassMod_Part_Stat_Primary_Elemental_Resistance_Shock,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponDamage.ClassMod_Part_Stat_Primary_Vladof_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponFireRate.ClassMod_Part_Stat_Primary_Vladof_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Vladof_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Vladof_WeaponAccuracy.ClassMod_Part_Stat_Primary_Vladof_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponDamage.ClassMod_Part_Stat_Primary_Torgue_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Torgue_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponAccuracy.ClassMod_Part_Stat_Primary_Torgue_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Torgue_WeaponProjectileSpeed.ClassMod_Part_Stat_Primary_Torgue_WeaponProjectileSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Tediore_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponAccuracy.ClassMod_Part_Stat_Primary_Tediore_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponDamage.ClassMod_Part_Stat_Primary_Tediore_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Tediore_WeaponFireRate.ClassMod_Part_Stat_Primary_Tediore_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponDamage.ClassMod_Part_Stat_Primary_Maliwan_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponFireRate.ClassMod_Part_Stat_Primary_Maliwan_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Maliwan_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_Jakobs_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponDamage.ClassMod_Part_Stat_Primary_Jakobs_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Jakobs_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Jakobs_WeaponAccuracy.ClassMod_Part_Stat_Primary_Jakobs_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponFireRate.ClassMod_Part_Stat_Primary_CoV_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponDamage.ClassMod_Part_Stat_Primary_CoV_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_CoV_WeaponAccuracy.ClassMod_Part_Stat_Primary_CoV_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_Hyperion_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponDamage.ClassMod_Part_Stat_Primary_Hyperion_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponFireRate.ClassMod_Part_Stat_Primary_Hyperion_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Hyperion_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_Hyperion_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Primary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_DAHL_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponAccuracy.ClassMod_Part_Stat_Primary_DAHL_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponDamage.ClassMod_Part_Stat_Primary_DAHL_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_DAHL_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_DAHL_WeaponFireRate.ClassMod_Part_Stat_Primary_DAHL_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponFireRate.ClassMod_Part_Stat_Primary_ATLAS_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponReloadSpeed.ClassMod_Part_Stat_Primary_ATLAS_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponDamage.ClassMod_Part_Stat_Primary_ATLAS_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Primary_Stat/Manufacturer/ClassMod_Part_Stat_Primary_ATLAS_WeaponCriticalDamage.ClassMod_Part_Stat_Primary_ATLAS_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ActionSkillCooldownRate.ClassMod_Part_Stat_Secondary_ActionSkillCooldownRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_HealthMax.ClassMod_Part_Stat_Secondary_HealthMax,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_HealthRegen.ClassMod_Part_Stat_Secondary_HealthRegen,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_MeleeDamage.ClassMod_Part_Stat_Secondary_MeleeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldCapacity.ClassMod_Part_Stat_Secondary_ShieldCapacity,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldRegenDelay.ClassMod_Part_Stat_Secondary_ShieldRegenDelay,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/ClassMod_Part_Stat_Secondary_ShieldRegenRate.ClassMod_Part_Stat_Secondary_ShieldRegenRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_AreaDamage.ClassMod_Part_Stat_Secondary_AreaDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_AreaDamageRadius.ClassMod_Part_Stat_Secondary_AreaDamageRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeDamage.ClassMod_Part_Stat_Secondary_GrenadeDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeRadius.ClassMod_Part_Stat_Secondary_GrenadeRadius,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/AOE/ClassMod_Part_Stat_Secondary_GrenadeAmmo.ClassMod_Part_Stat_Secondary_GrenadeAmmo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_Accuracy.ClassMod_Part_Stat_Secondary_Accuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_ChargeTime.ClassMod_Part_Stat_Secondary_ChargeTime,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_CritDamage.ClassMod_Part_Stat_Secondary_CritDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_FireRate.ClassMod_Part_Stat_Secondary_FireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_Handling.ClassMod_Part_Stat_Secondary_Handling,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_MagazineSize.ClassMod_Part_Stat_Secondary_MagazineSize,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_ReloadSpeed.ClassMod_Part_Stat_Secondary_ReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Weapon/ClassMod_Part_Stat_Secondary_WeaponDamage.ClassMod_Part_Stat_Secondary_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_AssaultRifleDamage.ClassMod_Part_Stat_Secondary_AssaultRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_HeavyDamage.ClassMod_Part_Stat_Secondary_HeavyDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_PistolDamage.ClassMod_Part_Stat_Secondary_PistolDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_ShotgunDamage.ClassMod_Part_Stat_Secondary_ShotgunDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_SMGDamage.ClassMod_Part_Stat_Secondary_SMGDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/WeaponType/ClassMod_Part_Stat_Secondary_SniperRifleDamage.ClassMod_Part_Stat_Secondary_SniperRifleDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Torgue_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponProjectileSpeed.ClassMod_Part_Stat_Secondary_Torgue_WeaponProjectileSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Torgue_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Torgue_WeaponDamage.ClassMod_Part_Stat_Secondary_Torgue_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Vladof_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Vladof_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponDamage.ClassMod_Part_Stat_Secondary_Vladof_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Vladof_WeaponFireRate.ClassMod_Part_Stat_Secondary_Vladof_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponAccuracy.ClassMod_Part_Stat_Secondary_DAHL_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponDamage.ClassMod_Part_Stat_Secondary_DAHL_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponFireRate.ClassMod_Part_Stat_Secondary_DAHL_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_DAHL_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_DAHL_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_DAHL_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Maliwan_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponFireRate.ClassMod_Part_Stat_Secondary_Maliwan_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponDamage.ClassMod_Part_Stat_Secondary_Maliwan_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Maliwan_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Maliwan_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_Hyperion_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponDamage.ClassMod_Part_Stat_Secondary_Hyperion_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Hyperion_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Hyperion_WeaponFireRate.ClassMod_Part_Stat_Secondary_Hyperion_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_Jakobs_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponDamage.ClassMod_Part_Stat_Secondary_Jakobs_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Jakobs_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Jakobs_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Jakobs_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_Tediore_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponDamage.ClassMod_Part_Stat_Secondary_Tediore_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponAccuracy.ClassMod_Part_Stat_Secondary_Tediore_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_Tediore_WeaponFireRate.ClassMod_Part_Stat_Secondary_Tediore_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponAccuracy.ClassMod_Part_Stat_Secondary_CoV_WeaponAccuracy,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponDamage.ClassMod_Part_Stat_Secondary_CoV_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_CoV_WeaponFireRate.ClassMod_Part_Stat_Secondary_CoV_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponCriticalDamage.ClassMod_Part_Stat_Secondary_ATLAS_WeaponCriticalDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponDamage.ClassMod_Part_Stat_Secondary_ATLAS_WeaponDamage,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponFireRate.ClassMod_Part_Stat_Secondary_ATLAS_WeaponFireRate,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Manufacturer/ClassMod_Part_Stat_Secondary_ATLAS_WeaponReloadSpeed.ClassMod_Part_Stat_Secondary_ATLAS_WeaponReloadSpeed,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Corrosive.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Corrosive,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Cryo.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Cryo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Fire.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Fire,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Normal.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Normal,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Radiation.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Radiation,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/ClassMods/_Design/PartSets/Part_Stats/Part_Secondary_Stat/Parts/Elemental/Resistance/ClassMod_Part_Stat_Secondary_Elemental_Resistance_Shock.ClassMod_Part_Stat_Secondary_Elemental_Resistance_Shock,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1.ClassMod_Part_Skill_Gunner_ScorchingRPM_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_IronBank_dlc1.ClassMod_Part_Skill_Gunner_IronBank_dlc1,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1)),(PartData=/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1.ClassMod_Part_Skill_Gunner_ClickClikc_DLC1,Weight=(BaseValueConstant=1)))
+
+# Adding the Pools to Gem Goblin
+SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=0.100000)))
+
+# Adding DLC World Drops to Gun Gun
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 

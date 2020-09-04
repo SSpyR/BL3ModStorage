@@ -1,15 +1,10 @@
 from bl3hotfixmod import Mod, Balance
+from bl3data import BL3Data
 
 # I think its time for the big big mod
 
-# No World Drop Legendaries (Done for Base Game)
-# Adjust Some Drop Rates and Pools
-# COMs Roll More Sub-Stats
-# Adjust Mayhem Scaling on Stuff (Done, can maybe do more)
 # Nerf Stinger Base (Maybe Done?)
-# Grenade Buffs
-# Nerf Ties
-# Buff Non-Uniques
+# Make DLC Missions Rewards Added to GunGun and Vet Machine
 
 
 mod=Mod('bl3_flux.txt',
@@ -25,7 +20,7 @@ mod=Mod('bl3_flux.txt',
 lic=Mod.CC_BY_SA_40,
 )
 
-# No World Drop Legendaries (Only Base Game rn, do DLCs soon)
+# No World Drop Legendaries 
 pools=[
     '/Game/GameData/Loot/ItemPools/GrenadeMods/ItemPool_GrenadeMods_All',
     '/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_All',
@@ -34,7 +29,9 @@ pools=[
     '/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_All',
     '/Game/GameData/Loot/ItemPools/Guns/ItemPool_Pistols_All',
     '/Game/GameData/Loot/ItemPools/Guns/ItemPool_SniperAndHeavy_All',
-    '/Game/GameData/Loot/ItemPools/Guns/ItemPool_ARandSMG_All'
+    '/Game/GameData/Loot/ItemPools/Guns/ItemPool_ARandSMG_All',
+    '/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Shields_All_Hibiscus',
+    '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_GrenadeMods_All_Geranium'
 ]
 
 for pool in pools:
@@ -42,6 +39,31 @@ for pool in pools:
     mod.reg_hotfix(Mod.PATCH, '',
     pool,
     'BalancedItems.BalancedItems[4].Weight',
+    '(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)'
+    )
+    mod.newline()
+
+dlcpools=[
+    '/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion',
+    '/Game/PatchDLC/Dandelion/GameData/Loot/ItemPool_Guns_All_Dandelion_Boss',
+    '/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Guns_All_Hibiscus',
+    '/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_GrenadeMods_All_Hibiscus', 
+    '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Guns_All_Geranium',
+    '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium'
+]
+
+for dlcpool in dlcpools:
+    mod.comment('Adjusting to Remove Legendaries from World Drops')
+    mod.reg_hotfix(Mod.PATCH, '',
+    dlcpool,
+    'BalancedItems.BalancedItems[4].Weight',
+    '(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)'
+    )
+    mod.newline()
+    mod.comment('Adjusting to Remove Legendaries from World Drops')
+    mod.reg_hotfix(Mod.PATCH, '',
+    dlcpool,
+    'BalancedItems.BalancedItems[5].Weight',
     '(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)'
     )
     mod.newline()
@@ -64,6 +86,180 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_Heavy_Traunt',
     )
 )
 """
+)
+mod.newline()
+
+mod.comment('Giving Wendigo Seeryul Killur')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Wendigo',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_SparkyBoom',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/SparkyBoom/Balance/Balance_AR_COV_SparkyBoom.Balance_AR_COV_SparkyBoom,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/SparkyBoom/Balance/Balance_AR_COV_SparkyBoom.Balance_AR_COV_SparkyBoom\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Homicidal/Balance/Balance_AR_COV_Homicidal.Balance_AR_COV_Homicidal,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Homicidal/Balance/Balance_AR_COV_Homicidal.Balance_AR_COV_Homicidal\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Wendigos Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Wendigo',
+'/Hibiscus/Enemies/Wendigo/Design/Character/BPChar_Wendigo.BPChar_Wendigo_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[1].PoolProbability',
+'(BaseValueConstant=50.00)'
+)
+mod.newline()
+
+mod.comment('Giving Amach Old God')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_ZealotPilfer_Child_Rare',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/UnseenThreat/Balance/Balance_SR_JAK_UnseenThreat.Balance_SR_JAK_UnseenThreat\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/OldGod/Balance/InvBalD_Shield_OldGod.InvBalD_Shield_OldGod\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Amachs Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_ZealotPilfer_Child_Rare',
+'/Hibiscus/Enemies/_Unique/Rare_ZealotPilfer/Character/BPChar_ZealotPilfer_Child_Rare.BPChar_ZealotPilfer_Child_Rare_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability',
+'(BaseValueConstant=50.00)'
+)
+mod.newline()
+
+mod.comment('Giving Gmork Insider')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Gmork_B_Wolf_Child',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_UnseenThreat',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheNothing/Balance/Balance_SG_MAL_TheNothing.Balance_SG_MAL_TheNothing\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Insider/Balance/Balance_SG_MAL_ETech_Insider.Balance_SG_MAL_ETech_Insider\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Gmorks Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Gmork_B_Wolf_Child',
+'/Hibiscus/Enemies/_Unique/Hunt_Gmork/Character/BPChar_Gmork_B_Wolf_Child.BPChar_Gmork_B_Wolf_Child_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability',
+'(BaseValueConstant=50.00)'
+)
+mod.newline()
+
+mod.comment('Giving Empowered Grawn Torch')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_LunaticPossessed',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Lunacy',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Artifacts/_Design/_Unique/Lunacy/Balance/InvBalD_Artifact_Lunacy.InvBalD_Artifact_Lunacy\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Shields/_Unique/Torch/Balance/InvBalD_Shield_Legendary_Torch.InvBalD_Shield_Legendary_Torch\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Empowered Grawns Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_LunaticPossessed',
+'/Hibiscus/Enemies/Lunatic/Possessed/_Design/Character/BPChar_LunaticPossessed.BPChar_LunaticPossessed_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability',
+'(BaseValueConstant=30.00)'
+)
+mod.newline()
+
+mod.comment('Giving Kritchy Oldridian')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Hib_Hunt_Kritchy',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Hunt_Mothman',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Clairvoyance/Balance/Balance_AR_JAK_Clairvoyance.Balance_AR_JAK_Clairvoyance\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Oldridian/Balance/Balance_SM_HYP_Oldridian.Balance_SM_HYP_Oldridian\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Kritchys Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Hib_Hunt_Kritchy',
+'/Hibiscus/Enemies/_Unique/Hunt_Kritchy/Character/BPChar_Hib_Hunt_Kritchy.BPChar_Hib_Hunt_Kritchy_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability',
+'(BaseValueConstant=50.00)'
+)
+mod.newline()
+
+mod.comment('Giving Fungal Gorger Flama Diddle')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Lost_Mush_Child',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/UniqueEnemyDrops/ItemPool_Hibiscus_Mutant',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Mutant/Balance/Balance_AR_JAK_Mutant.Balance_AR_JAK_Mutant\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/Omen/Balance/Balance_SG_TED_Omen.Balance_SG_TED_Omen\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Upping Fungal Gorgers Dedicated Pool Rate to Compensate')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Lost_Mush_Child',
+'//Hibiscus/Enemies/_Unique/Rare_MushroomGiant/Character/BPChar_Lost_Mush_Child.BPChar_Lost_Mush_Child_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools.ItemPools[0].PoolProbability',
+'(BaseValueConstant=70.00)'
 )
 mod.newline()
 
@@ -163,7 +359,7 @@ anoints=[
 ]
 
 for anoint in anoints:
-    mod.comment('Removing from Pool')
+    mod.comment('Removing Anoint from Pool')
     mod.reg_hotfix(Mod.PATCH, '',
     anoint,
     'MinGameStage',
@@ -732,13 +928,6 @@ mod.newline()
 
 
 # Formula Balancing (Basically Just Giving V1 to People Except FL4K)
-# V1 Damage Below
-# "AttributeData": [
-# "Att_DamageDealtMultiplier",
-# "/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier"
-# Tenacious Defense, Click Click, Desperate Measures, Samsara, Jab Cross, Donnybrook, Confident Competence 
-# Seems Only Status File is Needed for Actual Values, Passive is Needed for UI
-# Buff Samsara and Wrath Here too
 # Probably Buff FL4K in Some Areas
 
 passive_to_v1=[
@@ -779,12 +968,147 @@ for passive in passive_to_v1:
     )
     mod.newline()
 
+mod.comment('Buffing Samsara Damage Values')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues',
+'Samsara_GunDamage',
+'Value',
+'(BaseValueConstant=0.0498)'
+)
+mod.newline()
 
-# Adding 2 More SubStats to COMs (Doesn't Seem to Work Currently, Look Further Into It)
-mod.comment('Increasing SubStat Rolls')
+mod.comment('Buffing Wrath Damage Values')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues',
+'Wrath_DamageBonus',
+'Value',
+'(BaseValueConstant=0.1665)'
+)
+mod.newline()
+
+
+# Buffing Sniper Crit Bonus
+mod.comment('Buffing Sniper Crit Bonus')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data',
+'SniperRifle',
+'CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C',
+1.5
+)
+mod.newline()
+
+
+# Buffing Grenades Across the Board
+mod.comment('Buffing Grenades')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase',
+'PlayerGrenadeModDamage',
+'Base_2_5C32556442B4DA4D7EAE1A8610E0A950',
+95
+)
+mod.newline()
+
+
+# Buffing Uniques (Blue and Purple Rarity Weapons) Across the Board
+mod.comment('Buffing Purples')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
+'VeryRare',
+'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
+1.22
+)
+mod.newline()
+
+mod.comment('Buffing Blues')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
+'Rare',
+'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
+1.15
+)
+mod.newline()
+
+
+# Click Click Green Monster Fix
+mod.comment('Fixing Green Monster Click Click Points')
+gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'
+clickclick_part='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1' 
+
+data = BL3Data()
+gm_bal = Balance.from_data(data, gm_bal_name)
+for cat in gm_bal.categories:
+    if cat.index == 5 & cat.num_max == 5:
+        cat.add_part_name(clickclick_part, 1)
+        cat.add_part_name(clickclick_part, 1)
+        break
+gm_bal.hotfix_full(mod)
+mod.newline()
+
+
+# Adding Trials Dedicated Pools to the Guardian Gem Goblin
+mod.comment('Adding the Pools to Gem Goblin')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_GuardianGemGoblin',
+'/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools',
+"""
+(
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    )
+)
+""")
+mod.newline()
+
+
+# Adding DLC World Drop Legendaries to Gun Gun Alt Fire
+mod.comment('Adding DLC World Drops to Gun Gun')
 mod.reg_hotfix(Mod.PATCH, '',
-'/Game/Gear/ClassMods/_Design/PartSets/PartSet_ClassMod',
-'ActorPartLists.ActorPartLists[3].MultiplePartSelectionRange',
-'(Min=3,Max=3)'
+'/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire',
+'BalancedItems',
+"""
+(
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards\"',
+        Weight=(BaseValueConstant=0.25,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
 )
 mod.newline()

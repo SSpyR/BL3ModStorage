@@ -42,6 +42,9 @@ C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apoc
 #BL3 Flux
 bl3_flux
 
+#FL4K Multiple Pets Test
+#2petstest
+
 #God Mode Pets
 #god_skag
 #god_bear
