@@ -5,4 +5,4 @@ Along with my mods I also store apocalyptech's mods here for some reference whil
 
 Coding Structure to gen mods was also kindly provided by apocalyptech, everything I have referenced from him can be found in his repo here: https://github.com/apocalyptech/bl3hotfixmodding
 
-Note: Probably my most ambitious mod to date, that being my Runtime Randomizer mod, currently cannot be normally stored on Github due to its size. I will work out a way to regularly upload/update it there but in the meantime you can download the repo and build the text file on your machine and it should work just fine.
+Quick Note: Inside my mod folder you will find an archive folder, this is where I keep mods that didn't work or I don't care to work on further

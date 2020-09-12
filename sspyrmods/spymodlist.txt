@@ -26,7 +26,7 @@
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
 
 #Misc
-C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\nvhm_gamestage_follows_level
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
@@ -40,10 +40,7 @@ C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apoc
 ###
 
 #BL3 Flux
-bl3_flux
-
-#FL4K Multiple Pets Test
-#2petstest
+#bl3_flux
 
 #God Mode Pets
 #god_skag
@@ -54,24 +51,9 @@ bl3_flux
 #mayhem2_mods_no_weights
 
 #Randomizer Stuff
-#randomizer_runtime
-#skill_randomizer
-
-#Base Randomizer Stuff (No Longer Working On)
-#randomizer_mal
-#randomizer_ted
-#randomizer_vla
-#randomizer_dal (not done)
-#randomizer_tor (not done)
-#randomizer_jak
-#randomizer_cov
-#randomizer_hyp (not done)
-#randomizer_atl
-
-#Misc
-#skill_replacement_test
-#idleregen_test
-#pearl_rarity_test
+randomizer_runtime
+skill_randomizer
+spawn_randomizer
 
 ###
 ### Balance and Loot
@@ -80,18 +62,10 @@ bl3_flux
 #No World Drop Legendaries
 #no_world_drops
 
-#Loot Test
-#loot_test
-
 #Takedown Loot Stuff
-#takedown_loot_changes
 #guardiantd_healthloot_changes
 
-#Shiv Things
-#give_shiv_drop
-
 #Anoints 
-#fix_siren_rad
 #no_anoint_balance
 
 #Various Weapons Stuff
@@ -99,31 +73,8 @@ bl3_flux
 #dna_buff
 #double_anarchy
 
-#Mongol Fix
-#mongol_fix_and_buff
-
 #Trials Loot Stuff
 #trials_loot_changes
 
 #Green Monster Fix
 #green_monster_clickclick_fix
-
-#Legendary Amp Fix
-#fix_legendary_amp
-
-
-###
-### RANDOMIZER MOD PACK
-###
-
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\early_bloomer
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\first_gun_full_loadout
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\expanded_legendary_pools
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respec
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\free_respawn
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\mission_reward_randomizer
-#randomizer_runtime
-#skill_randomizer
-#mayhem2_mods_no_weights

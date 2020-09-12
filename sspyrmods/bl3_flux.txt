@@ -80,6 +80,18 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_
 # Adjusting to Remove Legendaries from World Drops
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium.ItemPool_Shields_All_Geranium,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
 
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Guns_All_Alisma.ItemPool_Guns_All_Alisma,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Guns_All_Alisma.ItemPool_Guns_All_Alisma,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Shields_All_Alisma.ItemPool_Shields_All_Alisma,BalancedItems.BalancedItems[4].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
+# Adjusting to Remove Legendaries from World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Shields_All_Alisma.ItemPool_Shields_All_Alisma,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
+
 # Adding Firestorm Back to Traunt
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Heavy_Traunt),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_CaptTraunt.ItemPool_CaptTraunt,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 
@@ -611,6 +623,36 @@ SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table
 # Adjusting Passive Skill Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F,0,,0
 
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
+# Adjusting Environmental Damage Values
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
+
 # Making Melee Crit (10 FPSs Credit Here)
 SparkPatchEntry,(1,1,0,),/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C,bCanCauseCriticals,0,,true
 
@@ -637,19 +679,33 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Pas
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA.StatusEffect_Siren_BareKnuckle_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
 # Adjusting Cards for V1 Changes
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.Default__PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.Default__PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.Default__PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] $VALUE$
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.Default__PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.Default__PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] $VALUE$
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.Default__PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] $VALUE$ per enemy damaged
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] $VALUE$
 
 # Buffing Samsara Damage Values
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Samsara_GunDamage,Value,0,,(BaseValueConstant=0.0498)
@@ -678,10 +734,8 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Inv
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=0.100000)))
 
 # Adding DLC World Drops to Gun Gun
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary"',Weight=(BaseValueConstant=1,,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary"',Weight=(BaseValueConstant=1,,BaseValueScale=1)))
 
 # FL4K Pets Can Melee Crit
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/DamageSources/DamageSource_BeastmasterPet_Melee.DamageSource_BeastmasterPet_Melee,bCanCauseCriticals,0,,true
-
-# Adding DLC Mission Rewards to Earls
 

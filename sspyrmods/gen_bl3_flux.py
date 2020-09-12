@@ -1,10 +1,5 @@
-from bl3hotfixmod import Mod, Balance, ItemPool, BVC
+from bl3hotfixmod import Mod, Balance, ItemPool, ItemPoolEntry, BVC
 from bl3data import BL3Data
-
-# I think its time for the big big mod
-
-# Nerf Stinger Base (Maybe Done?)
-# Make DLC Missions Rewards Added to GunGun and Vet Machine
 
 
 mod=Mod('bl3_flux.txt',
@@ -49,7 +44,9 @@ dlcpools=[
     '/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_Guns_All_Hibiscus',
     '/Game/PatchDLC/Hibiscus/GameData/Loot/ItemPool_GrenadeMods_All_Hibiscus', 
     '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Guns_All_Geranium',
-    '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium'
+    '/Game/PatchDLC/Geranium/GameData/Loot/ItemPool_Shields_All_Geranium',
+    '/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Guns_All_Alisma',
+    '/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Shields_All_Alisma'
 ]
 
 for dlcpool in dlcpools:
@@ -881,7 +878,7 @@ asd,
 )
 mod.newline()
 
-# Getting Rid of Mayhem Scaling on Skills
+# Getting Rid of Mayhem Scaling on Skills and Environmental Damage
 mlevel=1
 while mlevel <= 10:
     mod.comment('Adjusting Passive Skill Values')
@@ -889,6 +886,18 @@ while mlevel <= 10:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     mlevel,
     passiveskill,
+    0
+    )
+    mod.newline()
+    mlevel+=1
+
+mlevel=1
+while mlevel <= 10:
+    mod.comment('Adjusting Environmental Damage Values')
+    mod.table_hotfix(Mod.PATCH, '',
+    '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
+    mlevel,
+    env,
     0
     )
     mod.newline()
@@ -931,13 +940,13 @@ mod.newline()
 # Probably Buff FL4K in Some Areas
 
 passive_to_v1=[
-    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute'
+    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.Default__PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.Default__PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.Default__PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute'
 ]
 status_to_v1=[
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/Status_FullCan_LowHPDamage_P',
@@ -958,13 +967,25 @@ for status in status_to_v1:
     )
     mod.newline()
 
-# UI Change Still Not Working, Will Look Into
 mod.comment('Adjusting Cards for V1 Changes')
 for passive in passive_to_v1:
     mod.reg_hotfix(Mod.PATCH, '',
-    passive,
+     passive,
     'Attribute',
     '/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier'
+    )
+    mod.newline()
+
+for passive in passive_to_v1:
+    desc='[skillbold]Bonus Damage:[/skillbold] $VALUE$'
+    if 'LowHPDamage' in passive or 'ConfidentCompetence' in passive or 'ClickClick' in passive:
+        desc='[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$'
+    if 'Samsara' in passive:
+        desc='[skillbold]Bonus Damage:[/skillbold] $VALUE$ per enemy damaged'
+    mod.reg_hotfix(Mod.PATCH, '',
+    passive,
+    'FormatText',
+    desc
     )
     mod.newline()
 
@@ -1106,7 +1127,11 @@ mod.reg_hotfix(Mod.PATCH, '',
     ),
     (
         ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
+        Weight=(BaseValueConstant=1,,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,,BaseValueScale=1)
     )
 )
 """
@@ -1121,25 +1146,4 @@ mod.reg_hotfix(Mod.PATCH, '',
 'bCanCauseCriticals',
 'true'
 )
-mod.newline()
-
-
-# Adding DLC Mission Rewards to Earls Shop
-# Automating This, Just Input Balances and Mission Complete Attributes and We Good
-balances=[
-    ''
-]
-
-missionatr=[
-    ''
-]
-
-itempool='/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards'
-newpool=ItemPool(itempool)
-
-for bal, atr in zip(balances, missionatr):
-    mod.comment('Adding DLC Mission Rewards to Earls')
-    newpool.add_balance(bal, BVC(bvc=1,bva=atr,bvs=1))
-
-newpool.__str__()
 mod.newline()

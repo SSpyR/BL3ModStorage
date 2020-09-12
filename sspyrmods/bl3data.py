@@ -24,7 +24,9 @@ import re
 import json
 import glob
 import appdirs
-#import MySQLdb
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
 import subprocess
 import configparser
 
@@ -137,14 +139,14 @@ class BL3Data(object):
         if not os.path.exists(self.config_file):
             config = configparser.ConfigParser()
             config['filesystem'] = {
-                    'data_dir': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/FoundFiles/Game',
+                    'data_dir': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/FoundFiles',
                     'ueserialize_path': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/parser/john-wick-parse.exe',
                     }
             config['mysql'] = {
-                    'host': 'CHANGEME',
-                    'db': 'CHANGEME',
-                    'user': 'CHANGEME',
-                    'passwd': 'CHANGEME',
+                    'host': '',
+                    'db': 'bl3refs.sql',
+                    'user': 'root',
+                    'passwd': 'admin',
                     }
             with open(self.config_file, 'w') as odf:
                 config.write(odf)
@@ -200,7 +202,8 @@ class BL3Data(object):
         """
         if obj_name not in self.cache:
 
-            base_path = '{}{}'.format(self.data_dir, obj_name)
+            dir='C:/Users/Angel LaVoie/Downloads/BL3/Datamining/FoundFiles'
+            base_path = '{}{}'.format(dir, str.rstrip(obj_name))
             json_file = '{}.json'.format(base_path)
             print(json_file)
             if not os.path.exists(json_file):

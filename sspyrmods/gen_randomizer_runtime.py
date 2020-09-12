@@ -1,7 +1,8 @@
 from bl3hotfixmod import Mod, Balance
 from bl3data import BL3Data
 
-#Skill Randomizer Technically Can Work (see gen_skill_randomizer.py)
+# Finally better randomize some items (looking at you COMs and Artifacts)
+# Had to remove randomization of weapon materials in order to play with other randomizers
 
 mod=Mod('randomizer_runtime.txt',
 'Runtime Randomizer',
@@ -447,7 +448,25 @@ wbal_name=[
     '/Game/PatchDLC/Geranium/Gear/Weapon/_Unique/SpeakEasy/Balance/Balance_SG_JAK_SpeakEasy',
     '/Game/PatchDLC/Geranium/Gear/Weapon/_Unique/Splinter/Balance/Balance_SG_JAK_Splinter',
     '/Game/PatchDLC/Geranium/Gear/Weapon/_Unique/StoneThrow/Balance/Balance_AR_JAK_Stonethrow',
-    '/Game/PatchDLC/Geranium/Gear/Weapon/_Unique/UnkemptHarold/Balance/Balance_PS_TOR_UnkemptHarold'
+    '/Game/PatchDLC/Geranium/Gear/Weapon/_Unique/UnkemptHarold/Balance/Balance_PS_TOR_UnkemptHarold',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/AshenBeast/Balance/Balance_SM_DAL_ETech_AshenBeast',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/AshenBeast/Balance/Balance_SM_DAL_ETech_AshenBeast_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/BanditLauncher/Balance/Balance_HW_COV_BanditLauncher',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/BanditLauncher/Balance/Balance_HW_COV_BanditLauncher_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/BlindBandit/Balance/Balance_SG_MAL_BlindBandit',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/BlindBandit/Balance/Balance_SG_MAL_BlindBandit_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Convergence/Balance/Balance_SG_HYP_Convergence',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Convergence/Balance/Balance_SG_HYP_Convergence_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/LovableRogue/Balance/Balance_AR_TOR_LovableRogue',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/LovableRogue/Balance/Balance_AR_TOR_LovableRogue_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/PAT_Mk3/Balance/Balance_SM_TED_PatMk3',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/PAT_Mk3/Balance/Balance_SM_TED_PatMk3_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Sawhorse/Balance/Balance_AR_COV_Sawhorse',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Sawhorse/Balance/Balance_AR_COV_Sawhorse_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Septimator/Balance/Balance_VLA_SR_Septimator',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Septimator/Balance/Balance_VLA_SR_Septimator_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Voice/Balance/Balance_PS_TOR_Voice',
+    '/Game/PatchDLC/Alisma/Gear/Weapon/_Unique/Voice/Balance/Balance_PS_TOR_Voice_Epic'
 ]
 
 for bal in wbal_name:
@@ -470,43 +489,43 @@ for bal in wbal_name:
             cat.select_multiple=True
             cat.num_min=1
             cat.num_max=3
-#        magcheck=cat.str_partlist()
-#        if 'mag' in magcheck.lower():
-#            for bals2 in wbal_name:
-#                wbalslist2=Balance.from_data(data, bals2)
-#                for cats2 in wbalslist2.categories:
-#                    magchecks=cats2.str_partlist()
-#                    if ('mag' in magchecks.lower()) & (len(cats2)!=0):
-#                        parts=cats2.str_partlist()
-#                        partsplit=parts.split('=')
-#                        check=len(partsplit)-1
-#                        i=0
-#                        while i < check:
-#                            if '/Game' in partsplit[i]:
-#                                parts_adj=partsplit[i].replace(',Weight', '')
-#                                parts_adjsplit=parts_adj.split('.')
-#                                part_path=parts_adjsplit[0]
-#                                print(part_path)
-#                                cat.add_part_name(part_path, 1)
-#                            i=i+1
-        if cat.index==mat_type-1:
-            for bals3 in wbal_name:
-                wbalslist3=Balance.from_data(data, bals3)
-                for cats3 in wbalslist3.categories:
-                    if len(cats3)!=0:
-                        parts=cats3.str_partlist()
-                        partsplit=parts.split('=')
-                        parts_adj=partsplit[1]
-                        parts_adj=parts_adj.replace(',Weight', '')
-                        parts_adjsplit=parts_adj.split('.')
-                        part_path=parts_adjsplit[0]
-                        if 'material' in part_path.lower():
-                            print(part_path)
-                            cat.add_part_name(part_path, 1)
-                        if '_mat_' in part_path.lower():
-                            print(part_path)
-                            cat.add_part_name(part_path, 1)
-            break
+        #magcheck=cat.str_partlist()
+        #if 'mag' in magcheck.lower():
+        #    for bals2 in wbal_name:
+        #        wbalslist2=Balance.from_data(data, bals2)
+        #        for cats2 in wbalslist2.categories:
+        #            magchecks=cats2.str_partlist()
+        #            if ('mag' in magchecks.lower()) & (len(cats2)!=0):
+        #                parts=cats2.str_partlist()
+        #                partsplit=parts.split('=')
+        #                check=len(partsplit)-1
+        #                i=0
+        #                while i < check:
+        #                    if '/Game' in partsplit[i]:
+        #                        parts_adj=partsplit[i].replace(',Weight', '')
+        #                        parts_adjsplit=parts_adj.split('.')
+        #                        part_path=parts_adjsplit[0]
+        #                        print(part_path)
+        #                        cat.add_part_name(part_path, 1)
+        #                    i=i+1
+        #if cat.index==mat_type-1:
+        #    for bals3 in wbal_name:
+        #        wbalslist3=Balance.from_data(data, bals3)
+        #        for cats3 in wbalslist3.categories:
+        #            if len(cats3)!=0:
+        #                parts=cats3.str_partlist()
+        #                partsplit=parts.split('=')
+        #                parts_adj=partsplit[1]
+        #                parts_adj=parts_adj.replace(',Weight', '')
+        #                parts_adjsplit=parts_adj.split('.')
+        #                part_path=parts_adjsplit[0]
+        #                if 'material' in part_path.lower():
+        #                    print(part_path)
+        #                    cat.add_part_name(part_path, 1)
+        #                if '_mat_' in part_path.lower():
+        #                    print(part_path)
+        #                    cat.add_part_name(part_path, 1)
+        #    break
     wbals.hotfix_full(mod)
 
 
@@ -571,7 +590,11 @@ sbal_name=[
     '/Game/PatchDLC/Event2/Gear/Shield/_Unique/MEAT/Balance/InvBalD_Shield_Legendary_MEAT',
     '/Game/PatchDLC/Event2/Gear/Shield/_Unique/Wattson/Balance/InvBalD_Shield_Legendary_Wattson',
     '/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Balance/InvBalD_Shield_LGD_Stinger',
-    '/Game/PatchDLC/Takedown2/Gear/Shields/Aesclepius/Balance/InvBalD_Shield_LGD_Aesclepius'
+    '/Game/PatchDLC/Takedown2/Gear/Shields/Aesclepius/Balance/InvBalD_Shield_LGD_Aesclepius',
+    '/Game/PatchDLC/Alisma/Gear/Shields/_Uniques/FaultyStar/Balance/InvBalD_Shield_Legendary_FaultyStar',
+    '/Game/PatchDLC/Alisma/Gear/Shields/_Uniques/FaultyStar/Balance/InvBalD_Shield_Legendary_FaultyStar_Epic',
+    '/Game/PatchDLC/Alisma/Gear/Shields/_Uniques/PlusUltra/Balance/InvBalD_Shield_Legendary_PlusUltra',
+    '/Game/PatchDLC/Alisma/Gear/Shields/_Uniques/PlusUltra/Balance/InvBalD_Shield_Legendary_PlusUltra_Epic'
 ]
 
 for bal in sbal_name:
@@ -876,6 +899,7 @@ cbal_name=[
     '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_Raid1',
     '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_DLC1',
     '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/BSM/InvBalD_CM_Beastmaster_Hib',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/BSM/InvBalD_CM_Beastmaster_Alisma',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_01_Common',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_02_Uncommon',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Gunner_03_Rare',
@@ -889,6 +913,7 @@ cbal_name=[
     '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_Raid1',
     '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1',
     '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/GUN/InvBalD_CM_Gunner_Hib',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/GUN/InvBalD_CM_Gunner_Alisma',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_01_Common',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_02_Uncommon',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Operative_03_Rare',
@@ -902,6 +927,7 @@ cbal_name=[
     '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/OPE/InvBalD_CM_Operative_Raid1',
     '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/OPE/InvBalD_CM_Operative_DLC1',
     '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/OPE/InvBalD_CM_Operative_Hib',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/OPE/InvBalD_CM_Operative_Alisma',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_01_Common',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_02_Uncommon',
     '/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_03_Rare',
@@ -914,7 +940,8 @@ cbal_name=[
     '/Game/PatchDLC/Raid1/Gear/ClassMods/Siren/InvBalD_ClassMod_Siren_Phasezerker',
     '/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_Raid1',
     '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_DLC1',
-    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/InvBalD_CM_Siren_Hib'
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/InvBalD_CM_Siren_Hib',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/SRN/InvBalD_CM_Siren_Alisma'
 ]
 
 cmod_part=[
@@ -1063,7 +1090,19 @@ cmod_part=[
     '/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/SRN/Skills/ClassMod_Part_Skill_Siren_Mindfulness_dlc1',
     '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_Awakening_Hib',
     '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_DoHarm_Hib',
-    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_ViolentTapestry_Hib'
+    '/Game/PatchDLC/Hibiscus/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_ViolentTapestry_Hib',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/BSM/ClassMod_Part_Skill_BeastMaster_AmbushPredator_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/BSM/ClassMod_Part_Skill_BeastMaster_EagerToImpress_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/BSM/ClassMod_Part_Skill_BeastMaster_InterplanetaryStalker_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/GUN/ClassMod_Part_Skill_Gunner_CloudOfLead_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/GUN/ClassMod_Part_Skill_Gunner_MeansOfDestruction_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/GUN/ClassMod_Part_Skill_Gunner_SpecialistBear_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/OPE/CM_Part_Skill_OPE_Adrenaline_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/OPE/CM_Part_Skill_OPE_Brainfreeze_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/OPE/CM_Part_Skill_OPE_LikeAGhost_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_IlluminatedFist_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_JabCross_Alisma',
+    '/Game/PatchDLC/Alisma/Gear/ClassMods/_Design/SRN/CM_Part_Skill_Siren_LaidBare_Alisma'
 ]
 
 cbase_bal=[
