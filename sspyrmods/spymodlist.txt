@@ -26,7 +26,7 @@
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
 
 #Misc
-#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\nvhm_gamestage_follows_level
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
@@ -39,8 +39,8 @@
 ### SSpyR Mods
 ###
 
-#BL3 Flux
-#bl3_flux
+#BL3 Sspypatch
+bl3_sspypatch
 
 #God Mode Pets
 #god_skag
@@ -51,9 +51,9 @@
 #mayhem2_mods_no_weights
 
 #Randomizer Stuff
-randomizer_runtime
-skill_randomizer
-spawn_randomizer
+#randomizer_runtime
+#skill_randomizer
+#spawn_randomizer
 
 ###
 ### Balance and Loot

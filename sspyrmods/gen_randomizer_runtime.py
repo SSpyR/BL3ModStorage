@@ -826,6 +826,11 @@ for bal in gbal_name:
 #List the Balances
 abal_name=[
     '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact',
+    '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact_01_Common',
+    '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact_02_Uncommon',
+    '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact_03_Rare',
+    '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact_04_VeryRare',
+    '/Game/Gear/Artifacts/_Design/BalanceDefs/InvBalD_Artifact_05_Legendary',
     '/Game/Gear/Artifacts/_Design/PartSets/Abilities/_Unique/ElDragonJr/Balance/InvBalD_Artifact_ElDragonJr',
     '/Game/Gear/Artifacts/_Design/PartSets/Abilities/_Unique/ElectricBanjo/Balance/InvBalD_Artifact_ElectricBanjo',
     '/Game/Gear/Artifacts/_Design/PartSets/Abilities/_Unique/Grave/Balance/InvBalD_Artifact_Grave',

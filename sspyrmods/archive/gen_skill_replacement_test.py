@@ -47,3 +47,17 @@ mod.reg_hotfix(Mod.PATCH, '',
             '(/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/Inventory/AbilityTree_Branch_BottomlessMag.Tiers.Tiers[1].Object..Items.Items[1].Object..ItemFrameName)')
 
 mod.close()
+
+
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/Inventory/AbilityTree_Siren_Brawl',
+'Tiers.Tiers[0].Object..Items.Items[0].Object..AugmentData',
+Mod.get_full_cond('/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill2_Cloak/ActionSkill/ActionSkill_Cloak.ActionSkill_C', 'BlueprintGeneratedClass')
+)
+mod.newline()
+
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/ActionSkill/ActionSkillSlot_Siren_AttackComponent',
+'SupportedAugments.SupportedAugments[0]',
+'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/ActionSkills/Skill2_Cloak/ActionSkill/ActionSkill_Cloak.ActionSkill_C'
+)

@@ -1,19 +1,66 @@
 from bl3hotfixmod import Mod, Balance, ItemPool, ItemPoolEntry, BVC
 from bl3data import BL3Data
 
+# Adjust sell price of customizations
+# Purple E-Tech Pistols
+# Adjust self-splash damage if possible
+# Give Mission Only Rewards to something (Ember's Purge to Stanley Bot, Scoville to Tony Bordel)
+# Grenades from Loaders in DLC1 bypass Player Shields?
+# Vibra Pulse and Moxxi's Embrace to pool with Crit and Hail
+# Maybe give some specific mod packs specific drops (like Cobra in BL2)
+# Add in Scrapped Legendaries that are completely (Heckle and Hyde, Networker, RYNAH, etc.)
+# Leave World Drop Artifacts and Class Mods until I can adjust their RNG
 
-mod=Mod('bl3_flux.txt',
-'BL3 Flux Mod',
+"""
+FiringPatternLines(0)=
+(
+    StartPoint =
+    (Pitch=4369,Yaw=0,Roll=0),
+    EndPoint =
+    (Pitch=0,Yaw=0,Roll=0),
+    bUseStartPointOnly = True,
+    CustomWaveMotion =
+    (
+        bUseCustomWaveMotion = False,
+        WaveFreq =
+        (X=0.000000,Y=0.000000,Z=0.000000),
+        WaveAmp =
+        (X=0.000000,Y=0.000000,Z=0.000000),
+        WavePhase =
+        (X=0.000000,Y=0.000000,Z=0.000000)
+    )
+)
+"""
+
+# Balance Idea List
+"""
+Destructor Spinner Buff
+Rebel Yell Buff
+Either Give Zane V1 to something other than Donnybrook, or nerf DB numbers (likely the latter)
+Adjust Hail's firing arc to more akin to BL2's (see BL2's for reference)
+Change some Legendaries to Blues and Purps (M6 and M4 Legendaries are good idea for this +_others)
+Maybe make only utility anoints thing?
+Barrels are still fucking Barrels
+Look into probably nerfing Facepuncher
+"""
+
+mod=Mod('bl3_sspypatch.txt',
+'BL3 SspyPatch',
 'SSpyR',
 [
     'My personal take on a large-scale overhaul mod for Borderlands 3.',
     'This mod takes things from some of my other mods and puts them together with a',
     'bunch of other changes, examples being: No More Anoints, Melee Can Crit, Skill Formula Adjustments',
     'and more. This mod so far is very much in the early stages and some portions could likely be made',
-    'irrelevant by Gearbox at some point but it will be an active project for right now.'
+    'irrelevant by Gearbox at some point but it will be an active project for right now.',
+    'Name Credit: Pirek'
 ],
 lic=Mod.CC_BY_SA_40,
 )
+
+###
+### LOOT ADJUSTMENTS
+###
 
 # No World Drop Legendaries 
 pools=[
@@ -62,6 +109,36 @@ for dlcpool in dlcpools:
     dlcpool,
     'BalancedItems.BalancedItems[5].Weight',
     '(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)'
+    )
+    mod.newline()
+
+legendary=[
+    '/Game/GameData/Loot/ItemPools/Guns/AssaultRifles/ItemPool_AssaultRifles_Legendary',
+    '/Game/GameData/Loot/ItemPools/Guns/Heavy/ItemPool_Heavy_Legendary',
+    '/Game/GameData/Loot/ItemPools/Guns/SniperRifles/ItemPool_SnipeRifles_Legendary',
+    '/Game/GameData/Loot/ItemPools/Guns/Shotguns/ItemPool_Shotguns_Legendary',
+    '/Game/GameData/Loot/ItemPools/Guns/SMG/ItemPool_SMGs_Legendary',
+    '/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_Legendary',
+    '/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_05_Legendary',
+    '/Game/GameData/Loot/ItemPools/GrenadeMods/ItemPool_GrenadeMods_05_Legendary',
+    '/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary',
+    '/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Shields_Legendary',
+    '/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary',
+    '/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Shields_Legendary',
+    '/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary',
+    '/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary',
+    '/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Shields_Legendary'
+]
+
+for wdrop in legendary:
+    mod.comment('Adjusting to Remove Legendaries from World Drops')
+    mod.reg_hotfix(Mod.PATCH, '',
+    wdrop,
+    'BalancedItems',
+    """
+    (
+    )
+    """
     )
     mod.newline()
 
@@ -364,6 +441,271 @@ for anoint in anoints:
     )
     mod.newline()
 
+
+# Adding Trials Dedicated Pools to the Guardian Gem Goblin
+mod.comment('Adding the Pools to Gem Goblin')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_GuardianGemGoblin',
+'/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE',
+'DropOnDeathItemPools.ItemPools',
+"""
+(
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    ),
+    (
+        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian\"',
+        PoolProbability=(BaseValueConstant=0.100000)
+    )
+)
+""")
+mod.newline()
+
+
+# Adding DLC World Drop Legendaries to Gun Gun Alt Fire (This might have been made obsolete oops)
+mod.comment('Adding DLC World Drops to Gun Gun')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire',
+'BalancedItems',
+"""
+(
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards\"',
+        Weight=(BaseValueConstant=0.25,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary\"',
+        Weight=(BaseValueConstant=1,,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+
+# Make Veterans Machine Only Quest Rewards (Adjust this if I bring some Anoints back)
+# getall ItemPoolData BalancedItems name=DA_ItemPool_VendingMachine_CrazyEarl
+mod.comment('Adjusting Veterans Machine Pool')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl',
+'BalancedItems',
+"""
+(
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards\"',
+        Weight=(BaseValueConstant=3,DataTableValue=(),BaseValueAttribute=GbxAttributeData'\"/Game/GameData/Loot/RarityWeighting/Att_RarityWeight_03_Rare.Att_RarityWeight_03_Rare\"'BaseValueScale=0.3),
+        Quantity=(BaseValueConstant=9)
+    )
+)
+"""
+)
+mod.newline()
+
+
+# Adding Heckle and Hyde as Drops
+mod.comment('Adding in Heckle and Hyde')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_Goliath_Bounty01',
+'/Game/GameData/Loot/ItemPools/Unique/ItemPool_Pestilence_HeckleandHyde.ItemPool_Pestilence_HeckleandHyde',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/Contagion/Balance/Balance_PS_COV_Contagion.Balance_PS_COV_Contagion,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/Contagion/Balance/Balance_PS_COV_Contagion.Balance_PS_COV_Contagion\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1) 
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Heckle/Balance/Balance_PS_TOR_Heckle.Balance_PS_TOR_Heckle,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Heckle/Balance/Balance_PS_TOR_Heckle.Balance_PS_TOR_Heckle\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Hyde/Balance/Balance_PS_TOR_Hyde.Balance_PS_TOR_Hyde,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Hyde/Balance/Balance_PS_TOR_Hyde.Balance_PS_TOR_Hyde\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
+
+mod.comment('Adjust Drop Rate Accordingly')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds',
+'HeckleAndHyde',
+'LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111',
+0.60
+)
+mod.newline()
+
+
+# Adjust Maliwan Takedown Loot Pools and Adding P2P Networker
+mod.comment('Adjusting weights and pool (adding Networker too)')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
+'/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',
+        Weight=(BaseValueConstant=0,BaseValueScale=0)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',
+        Weight=(BaseValueConstant=0,BaseValueScale=0)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',
+        Weight=(BaseValueConstant=0,BaseValueScale=0)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',
+        Weight=(BaseValueConstant=0,BaseValueScale=0)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=0.60)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Customizations/ItemPool_Raid1_Customization.ItemPool_Raid1_Customization\"',
+        Weight=(BaseValueConstant=1)
+    )
+)
+""")
+mod.newline()
+
+mod.comment('Adjusting weights and pool')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_MechRaidBossBar',
+'/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=0.60)
+    )
+)
+""")
+mod.newline()
+
+
+# Giving Crew Challenge Items and Mission Rewards from DLCs a Drop Location (Legendaries, not Uniques)
+#mod.comment('Giving Embers Purge a Drop Source')
+#mod.reg_hotfix(Mod.CHAR, '',
+#''
+#)
+#mod.newline()
+
+#mod.comment('Giving Scoville a Drop Source')
+#mod.reg_hotfix(Mod.CHAR, '',
+#''
+#)
+#mod.newline()
+
+#mod.comment('Giving Rico a Drop Source')
+#mod.reg_hotfix(Mod.CHAR, '',
+#''
+#)
+#mod.newline()
+
+#mod.comment('Giving Seventh Sense a Drop Source')
+#mod.reg_hotfix(Mod.CHAR, '',
+#''
+#)
+#mod.newline()
+
+#mod.comment('Giving Pearl a Drop Source')
+#mod.reg_hotfix(Mod.CHAR, '',
+#''
+#)
+#mod.newline()
+
+
+
+###
+### MAYHEM MOD ADJUSTMENTS
+###
 
 # Mayhem 2 No Modifiers
 mod.comment('Setting Easy Modifiers Weights to 0')
@@ -904,15 +1246,10 @@ while mlevel <= 10:
     mlevel+=1
 
 
-# Melee Crit
-mod.comment('Making Melee Crit (10 FPSs Credit Here)')
-mod.reg_hotfix(Mod.PATCH, '',
-'/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C',
-'bCanCauseCriticals',
-'true'
-)
-mod.newline()
 
+###
+### BALANCE ADJUSTMENTS
+###
 
 # Stinger Nerf
 mod.comment('Removing Nova Berner Scaling')
@@ -943,7 +1280,7 @@ passive_to_v1=[
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.Default__PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
-    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/PassiveSkill_Operative_Donnybrook.Default__PassiveSkill_Operative_Donnybrook_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
+    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/MultiTasker/PassiveSkill_Operative_Multitasker.Default__PassiveSkill_Operative_Multitasker_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.Default__PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute'
@@ -952,8 +1289,8 @@ status_to_v1=[
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/Status_FullCan_LowHPDamage_P',
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Status_Gunner_Tenacious_WeaponDamage_DA',
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/StatusEffect_Gunner_ClickClick_WeaponDamage_DA',
-    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/Donnybrook/StatusEffect_Operative_Donnybrook',
     '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/StatusEffect_Operative_ConfidentCompetence',
+    '/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/MultiTasker/StatusEffect_Operative_Multitasker',
     '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/StatusEffect_Siren_Samsara',
     '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA'
 ]
@@ -982,6 +1319,8 @@ for passive in passive_to_v1:
         desc='[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$'
     if 'Samsara' in passive:
         desc='[skillbold]Bonus Damage:[/skillbold] $VALUE$ per enemy damaged'
+    if 'Multitasker' in passive:
+        desc='[skillbold]Bonus Damage:[/skillbold] $VALUE$ per active action skill'
     mod.reg_hotfix(Mod.PATCH, '',
     passive,
     'FormatText',
@@ -1050,6 +1389,39 @@ mod.table_hotfix(Mod.PATCH, '',
 mod.newline()
 
 
+# Changing Legendary Shield Amp
+mod.comment('Adjusting Re-Router')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/Gear/Shields/_Design/_Uniques/Vamp/Parts/Part_Shield_Aug_ANS_LGD_ReRouter.Part_Shield_Aug_ANS_LGD_ReRouter:AspectList_ShieldAugmentAspectData.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
+'bDistributeBetweenProjectiles',
+'false'
+)
+mod.newline()
+
+mod.comment('Adjusting Version O.m')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Parts/Part_Shield_Aug_ANS_LGD_VersionOmNom.Part_Shield_Aug_ANS_LGD_VersionOmNom:AspectList_ShieldAugmentAspectData_0.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
+'bDistributeBetweenProjectiles',
+'false'
+)
+mod.newline()
+
+
+
+###
+### MISC ADJUSTMENTS/FIXES
+###
+
+# Melee Crit
+mod.comment('Making Melee Crit (10 FPSs Credit Here)')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C',
+'bCanCauseCriticals',
+'true'
+)
+mod.newline()
+
+
 # Click Click Green Monster Fix
 mod.comment('Fixing Green Monster Click Click Points')
 gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'
@@ -1066,79 +1438,6 @@ gm_bal.hotfix_full(mod)
 mod.newline()
 
 
-# Adding Trials Dedicated Pools to the Guardian Gem Goblin
-mod.comment('Adding the Pools to Gem Goblin')
-mod.reg_hotfix(Mod.CHAR, 'BPChar_GuardianGemGoblin',
-'/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE',
-'DropOnDeathItemPools.ItemPools',
-"""
-(
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    ),
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    ),
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    ),
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    ),
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    ),
-    (
-        ItemPool=ItemPoolData'\"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian\"',
-        PoolProbability=(BaseValueConstant=0.100000)
-    )
-)
-""")
-mod.newline()
-
-
-# Adding DLC World Drop Legendaries to Gun Gun Alt Fire
-mod.comment('Adding DLC World Drops to Gun Gun')
-mod.reg_hotfix(Mod.PATCH, '',
-'/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire',
-'BalancedItems',
-"""
-(
-    (
-        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
-    ),
-    (
-        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards\"',
-        Weight=(BaseValueConstant=0.25,BaseValueScale=1)
-    ),
-    (
-        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
-    ),
-    (
-        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
-    ),
-    (
-        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,,BaseValueScale=1)
-    ),
-    (
-        ItemPoolData=ItemPoolData'\"/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary\"',
-        Weight=(BaseValueConstant=1,,BaseValueScale=1)
-    )
-)
-"""
-)
-mod.newline()
-
-
 # Allowing FL4K Pets to Melee Crit
 mod.comment('FL4K Pets Can Melee Crit')
 mod.reg_hotfix(Mod.PATCH, '',
@@ -1147,3 +1446,119 @@ mod.reg_hotfix(Mod.PATCH, '',
 'true'
 )
 mod.newline()
+
+
+# Enabling Cartels Event (Credit to apocalyptech)
+mod.comment('Global Cartel activation switches')
+mod.reg_hotfix(Mod.PATCH, '',
+        '/Game/GameData/GameplayGlobals',
+        'LeagueInstance',
+        1)
+mod.newline()
+
+mod.comment('Global Cartel activation switches')
+mod.reg_hotfix(Mod.PATCH, '',
+        '/Game/GameData/GameplayGlobals',
+        'ActiveLeague',
+        'OL_TheCartels')
+mod.newline()
+
+mod.comment('Global Cartel activation switches')
+mod.reg_hotfix(Mod.PATCH, '',
+        '/Game/GameData/Spawning/GlobalSpawnDLCData',
+        'DLCs',
+        """(
+            (
+                Data=/Game/PatchDLC/Event2/GameData/SpawnDLCSCripts/SpawnDLC_Cartels.SpawnDLC_Cartels,
+                IsEnabled=(BaseValueConstant=1.000000)
+            )
+        )""")
+mod.newline()
+
+mod.comment('Cartel Seasonal NPC')
+mod.reg_hotfix(Mod.EARLYLEVEL, 'Sanctuary3_P',
+        '/Game/Maps/Sanctuary3/Sanctuary3_Season.Sanctuary3_Season:PersistentLevel.OakMissionSpawner_1.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single',
+        'SpawnOptions',
+        "SpawnOptionData'/Game/PatchDLC/Event2/NonPlayerCharacters/LeagueNPC/_Design/Spawning/SpawnOptions_LeagueNPC_Season02.SpawnOptions_LeagueNPC_Season02'")
+
+mod.newline()
+
+mod.comment('Cartel Main Menu')
+mod.table_hotfix(Mod.PATCH, '',
+        '/Game/Common/_Design/Table_MicropatchSwitches',
+        'MainMenuAltBackground',
+        'Value',
+        BVC(bvc=5))
+mod.newline()
+
+mod.comment('Cartel Bugfixes')
+mod.reg_hotfix(Mod.LEVEL, 'Cartels_P',
+        '/Game/PatchDLC/Event2/Maps/Cartels_Mission.Cartels_Mission:PersistentLevel.OakMissionWaypointBox_ACtivateStairSlide.CollisionComp',
+        'RelativeScale3D',
+        '(X=1.000000,Y=1.000000,Z=1.600000)')
+mod.newline()
+
+
+# P2P Networker Secondary Element Fix (Credit to apocalyptech)
+mod.comment('Fixing P2P Networker secondary element parts')
+p2p_bal_name = '/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link'
+extra_elements = [
+        '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_01_Fire',
+        '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_02_Cryo',
+        '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_03_Shock',
+        '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_04_Radiation',
+        '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_05_Corrosive',
+        ]
+
+data = BL3Data()
+p2p_bal = Balance.from_data(data, p2p_bal_name)
+for cat in p2p_bal.categories:
+    if len(cat) == 0:
+        cat.enabled = True
+        for element in extra_elements:
+            cat.add_part_name(element, 1)
+        break
+p2p_bal.hotfix_full(mod)
+mod.newline()
+
+
+# Fixing Purple E-Tech Pistols not Spawning
+mod.comment('Fixing Purple E-Tech Pistols not Spawning')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_ETech_VeryRare',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/COV/Balance/Balance_PS_COV_ETech_VeryRare.Balance_PS_COV_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/COV/Balance/Balance_PS_COV_ETech_VeryRare.Balance_PS_COV_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Dahl/Balance/Balance_DAL_PS_ETech_VeryRare.Balance_DAL_PS_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Dahl/Balance/Balance_DAL_PS_ETech_VeryRare.Balance_DAL_PS_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/MAL/Balance/Balance_PS_MAL_ETech_VeryRare.Balance_PS_MAL_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/MAL/Balance/Balance_PS_MAL_ETech_VeryRare.Balance_PS_MAL_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TED/Balance/Balance_PS_Tediore_ETech_VeryRare.Balance_PS_Tediore_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TED/Balance/Balance_PS_Tediore_ETech_VeryRare.Balance_PS_Tediore_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TOR/Balance/Balance_PS_TOR_ETech_VeryRare.Balance_PS_TOR_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TOR/Balance/Balance_PS_TOR_ETech_VeryRare.Balance_PS_TOR_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Vladof/Balance/Balance_PS_VLA_ETech_VeryRare.Balance_PS_VLA_ETech_VeryRare,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Vladof/Balance/Balance_PS_VLA_ETech_VeryRare.Balance_PS_VLA_ETech_VeryRare\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
