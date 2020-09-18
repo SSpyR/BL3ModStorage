@@ -94,49 +94,58 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Shields_Al
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/ItemPool_Shields_All_Alisma.ItemPool_Shields_All_Alisma,BalancedItems.BalancedItems[5].Weight,0,,(BaseValueConstant=0,BaseValueAttribute=None,BaseValueScale=0)
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/AssaultRifles/ItemPool_AssaultRifles_Legendary.ItemPool_AssaultRifles_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/AssaultRifles/ItemPool_AssaultRifles_Legendary.ItemPool_AssaultRifles_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Heavy/ItemPool_Heavy_Legendary.ItemPool_Heavy_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Heavy/ItemPool_Heavy_Legendary.ItemPool_Heavy_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/SniperRifles/ItemPool_SnipeRifles_Legendary.ItemPool_SnipeRifles_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/SniperRifles/ItemPool_SnipeRifles_Legendary.ItemPool_SnipeRifles_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Shotguns/ItemPool_Shotguns_Legendary.ItemPool_Shotguns_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Shotguns/ItemPool_Shotguns_Legendary.ItemPool_Shotguns_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/SMG/ItemPool_SMGs_Legendary.ItemPool_SMGs_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/SMG/ItemPool_SMGs_Legendary.ItemPool_SMGs_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_Legendary.ItemPool_Pistols_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_Legendary.ItemPool_Pistols_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_05_Legendary.ItemPool_Shields_05_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_05_Legendary.ItemPool_Shields_05_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/GrenadeMods/ItemPool_GrenadeMods_05_Legendary.ItemPool_GrenadeMods_05_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/GrenadeMods/ItemPool_GrenadeMods_05_Legendary.ItemPool_GrenadeMods_05_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Shields_Legendary.ItemPool_Dandelion_Shields_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Shields_Legendary.ItemPool_Dandelion_Shields_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Shields_Legendary.ItemPool_Hibiscus_Shields_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Shields_Legendary.ItemPool_Hibiscus_Shields_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary,BalancedItems,0,,
 
 # Adjusting to Remove Legendaries from World Drops
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Shields_Legendary.ItemPool_Alisma_Shields_Legendary,BalancedItems,0,,()
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Shields_Legendary.ItemPool_Alisma_Shields_Legendary,BalancedItems,0,,
+
+# Attempting to Fix DLC4 Still Getting World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/EnemyPools/ItemPoolList_Boss_Alisma.ItemPoolList_Boss_Alisma,ItemPools.Itempools[7].PoolProbability,0,,(BaseValueConstant=0,BaseValueScale=0)
+
+# Attempting to Fix DLC4 Still Getting World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Alisma/GameData/Loot/EnemyPools/ItemPoolList_Boss_Alisma.ItemPoolList_Boss_Alisma,ItemPools.Itempools[8].PoolProbability,0,,(BaseValueConstant=0,BaseValueScale=0)
+
+# Attempting to Fix DLC2 Still Getting World Drops
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/GameData/Loot/EnemyPools/ItemPoolList_Hib_MinionLoot.ItemPoolList_Hib_MinionLoot,ItemPools.Itempools[12].PoolProbability,0,,(BaseValueConstant=0,BaseValueScale=0)
 
 # Adding Firestorm Back to Traunt
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Heavy_Traunt),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_CaptTraunt.ItemPool_CaptTraunt,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/GrenadeMods/_Design/_Unique/FireStorm/Balance/InvBalD_GM_VLA_FireStorm.InvBalD_GM_VLA_FireStorm"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
@@ -447,26 +456,143 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic
 # Removing Anoint from Pool
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillStart_ShieldRecharge/GPart_All_SkillStart_OverchargeShield.GPart_All_SkillStart_OverchargeShield,MinGameStage,0,,(BaseValueConstant=100.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 
-# Adding the Pools to Gem Goblin
+# Adding the Trials Pools to Trials Gem Goblin
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianGemGoblin),/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSkag.ItemPool_TrialBossSkag"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGuardian.ItemPool_TrialBossGuardian"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossTink.ItemPool_TrialBossTink"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossGoon.ItemPool_TrialBossGoon"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossMech.ItemPool_TrialBossMech"',PoolProbability=(BaseValueConstant=0.100000)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_TrialBossSaurian.ItemPool_TrialBossSaurian"',PoolProbability=(BaseValueConstant=0.100000)))
 
-# Adding DLC World Drops to Gun Gun
+# Adding DLC World Drops to Gun Gun (Made Basically Obsolete by No World Drops Method Now, Oops)
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_Legendary.ItemPool_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=0.25,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Dandelion/GameData/Loot/Legendary/ItemPool_Dandelion_Guns_Legendary.ItemPool_Dandelion_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Hibiscus/GameData/Loot/Legendary/ItemPool_Hibiscus_Guns_Legendary.ItemPool_Hibiscus_Guns_Legendary"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Geranium/GameData/Loot/Legendary/ItemPool_Geranium_Guns_Legendary.ItemPool_Geranium_Guns_Legendary"',Weight=(BaseValueConstant=1,,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Guns_Legendary.ItemPool_Alisma_Guns_Legendary"',Weight=(BaseValueConstant=1,,BaseValueScale=1)))
 
-# Adjusting Veterans Machine Pool
+# Adjusting Veterans Machine Pool to Only Have Quest Rewards
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl.DA_ItemPool_VendingMachine_CrazyEarl,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=3,DataTableValue=(),BaseValueAttribute=GbxAttributeData'"/Game/GameData/Loot/RarityWeighting/Att_RarityWeight_03_Rare.Att_RarityWeight_03_Rare"'BaseValueScale=0.3),Quantity=(BaseValueConstant=9)))
 
 # Adding in Heckle and Hyde
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Goliath_Bounty01),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Pestilence_HeckleandHyde.ItemPool_Pestilence_HeckleandHyde,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/Contagion/Balance/Balance_PS_COV_Contagion.Balance_PS_COV_Contagion,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/Contagion/Balance/Balance_PS_COV_Contagion.Balance_PS_COV_Contagion"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Heckle/Balance/Balance_PS_TOR_Heckle.Balance_PS_TOR_Heckle,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Heckle/Balance/Balance_PS_TOR_Heckle.Balance_PS_TOR_Heckle"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Hyde/Balance/Balance_PS_TOR_Hyde.Balance_PS_TOR_Hyde,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/_Unique/HeckelAndHyde/Hyde/Balance/Balance_PS_TOR_Hyde.Balance_PS_TOR_Hyde"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 
-# Adjust Drop Rate Accordingly
+# Adjust Heckle and Hyde Pool Drop Rate Accordingly
 SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds,HeckleAndHyde,LegendaryDropChance_Playthrough2_50_11E6C8E8493E0A73AF9B35891E7CE111,0,,0.6
 
-# Adjusting weights and pool (adding Networker too)
+# Adjusting weights and pool of Wotan (adding Networker too)
 SparkCharacterLoadedEntry,(1,1,0,BPChar_BehemothRaid),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Weapons/HandCannon/Balance/Balance_PS_TOR_HandCannon.Balance_PS_TOR_HandCannon"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Weapons/KybsWorth/Balance/Balance_SM_MAL_KybsWorth.Balance_SM_MAL_KybsWorth"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Weapons/TiggsBoom/Balance/Balance_SG_Torgue_TiggsBoom.Balance_SG_Torgue_TiggsBoom"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Weapons/Fork2/Balance/Balance_SM_HYP_Fork2.Balance_SM_HYP_Fork2"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner"',Weight=(BaseValueConstant=0,BaseValueScale=0)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries"',Weight=(BaseValueConstant=1,BaseValueScale=0.60)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Raid1/Customizations/ItemPool_Raid1_Customization.ItemPool_Raid1_Customization"',Weight=(BaseValueConstant=1)))
 
-# Adjusting weights and pool
+# Adjusting weights and pool of Valkyries
 SparkCharacterLoadedEntry,(1,1,0,BPChar_MechRaidBossBar),/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_Recharger/InvBalD_Shield_SlideKickRecharger.InvBalD_Shield_SlideKickRecharger"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/SlideKick_FrozenHeart/Balance/InvBalD_Shield_SlideKickFrozenHeart.InvBalD_Shield_SlideKickFrozenHeart"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/Shields/_HybridLegendary/SlideKickHybrid/ReCharger_Berner/InvBalD_Shield_LGD_ReCharger_Berner.InvBalD_Shield_LGD_ReCharger_Berner"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/PatchDLC/Raid1/Re-Engagement/ItemPool/ItemPool_Mayhem4_Legendaries.ItemPool_Mayhem4_Legendaries"',Weight=(BaseValueConstant=1,BaseValueScale=0.60)))
+
+# Zeroing Out Geranium Legendary Pools
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_AssaultRifles_Legendary.ItemPool_GER_AssaultRifles_Legendary,BalancedItems,0,,
+
+# Zeroing Out Geranium Legendary Pools
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_Shotguns_Legendary.ItemPool_GER_Shotguns_Legendary,BalancedItems,0,,
+
+# Zeroing Out Geranium Legendary Pools
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_SMGs_Legendary.ItemPool_GER_SMGs_Legendary,BalancedItems,0,,
+
+# Zeroing Out Geranium Legendary Pools
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_Pistols_Legendary.ItemPool_GER_Pistols_Legendary,BalancedItems,0,,
+
+# Taking Facepuncher Out of a Spawn
+SparkCharacterLoadedEntry,(1,1,0,BPChar_EnforcerAnointed),/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_Muldock.ItemPool_Muldock,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/Shields/_Design/_Uniques/Rectifier/Balance/InvBalD_Shield_LGD_Rectifier.InvBalD_Shield_LGD_Rectifier,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Shields/_Design/_Uniques/Rectifier/Balance/InvBalD_Shield_LGD_Rectifier.InvBalD_Shield_LGD_Rectifier"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_All.ItemPool_Guns_All"',Weight=(BaseValueConstant=4.5,BaseValueScale=1)))
+
+# Adding Vibra Pulse to Moxxi Tip Pool
+SparkCharacterLoadedEntry,(1,1,0,),/Game/InteractiveObjects/TipJar/ItemPool_MoxxiTip_GunRewards.ItemPool_MoxxiTip_GunRewards,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Backburner/Balance/Balance_HW_VLA_ETech_BackBurner.Balance_HW_VLA_ETech_BackBurner,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/DNA/Balance/Balance_SM_MAL_DNA.Balance_SM_MAL_DNA,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/DoubleTap/Balance/Balance_PS_ATL_DoubleTap.Balance_PS_ATL_DoubleTap,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Kaoson/Balance/Balance_SM_DAHL_Kaoson.Balance_SM_DAHL_Kaoson,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Monarch/Balance/Balance_AR_VLA_Monarch.Balance_AR_VLA_Monarch,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Plague/Balance/Balance_HW_TOR_Plague.Balance_HW_TOR_Plague,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Reflux/Balance/Balance_SG_HYP_Reflux.Balance_SG_HYP_Reflux,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/SandHawk/Balance/Balance_SR_DAL_SandHawk.Balance_SR_DAL_SandHawk,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/CraderMP5/Balance/Balance_SM_DAHL_CraderMP5.Balance_SM_DAHL_CraderMP5,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/DeathGrip/Balance/Balance_SG_MAL_DeathGrip.Balance_SG_MAL_DeathGrip,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Execute/Balance/Balance_PS_TED_Execute.Balance_PS_TED_Execute,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Juju/Balance/Balance_DAL_AR_ETech_Juju.Balance_DAL_AR_ETech_Juju,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Juliet/Balance/Balance_AR_TOR_Juliet_WorldDrop.Balance_AR_TOR_Juliet_WorldDrop,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman.Balance_SR_HYP_Tankman,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/ZheitsevEruption/Balance/Balance_AR_COV_Zheitsev.Balance_AR_COV_Zheitsev,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/CloudKill/Balance/Balance_SM_MAL_CloudKill.Balance_SM_MAL_CloudKill,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/PsychoStabber/Balance/Balance_PS_COV_PsychoStabber.Balance_PS_COV_PsychoStabber,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/HeartBreaker/Balance/Balance_SG_HYP_HeartBreaker.Balance_SG_HYP_HeartBreaker,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/SlowHand/Balance/Balance_SG_HYP_SlowHand.Balance_SG_HYP_SlowHand,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/Creamer/Balance/Balance_HW_TOR_Creamer.Balance_HW_TOR_Creamer,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/Sabre/Balance/Balance_PS_Tediore_Sabre.Balance_PS_Tediore_Sabre,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Jakobs/_Shared/_Design/_Unique/AmazingGrace/Balance/Balance_PS_JAK_AmazingGrace.Balance_PS_JAK_AmazingGrace,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Shotguns/Jakobs/_Shared/_Design/_Unique/TheWave/Balance/Balance_SG_JAK_Unique_Wave.Balance_SG_JAK_Unique_Wave,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Torgue/_Shared/_Design/_Unique/Bearcat/Balance/Balance_AR_TOR_Bearcat.Balance_AR_TOR_Bearcat,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Hive/Balance/Balance_HW_TOR_Hive.Balance_HW_TOR_Hive,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Rampager/Balance/Balance_HW_TOR_Rampager.Balance_HW_TOR_Rampager,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Vladof/_Shared/_Design/_Unique/Sickle/Balance/Balance_AR_VLA_Sickle.Balance_AR_VLA_Sickle,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom.InvBalD_Shield_Legendary_VersionOmNom,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/BigBoomBlaster/Balance/InvBalD_Shield_LGD_BigBoomBlaster.InvBalD_Shield_LGD_BigBoomBlaster,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/MessyBreakup/bALANCE/InvBalD_Shield_MessyBreakup.InvBalD_Shield_MessyBreakup,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/BlackHole/Balance/InvBalD_Shield_LGD_BlackHole.InvBalD_Shield_LGD_BlackHole,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss.InvBalD_GM_Piss,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
+
+# Making a Unique instead of Legendary
+SparkPatchEntry,(1,1,0,),/Game/Gear/GrenadeMods/_Design/_Unique/TranFusion/Balance/InvBalD_GM_TranFusion.InvBalD_GM_TranFusion,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare"'
 
 # Setting Easy Modifiers Weights to 0
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/PartyTime/Ability_Mayhem2_PartyTime.Ability_Mayhem2_PartyTime_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/AimForTheSky/Ability_Mayhem2_AimForTheSky.Ability_Mayhem2_AimForTheSky_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RoidRage/Ability_Mayhem2_RoidRage.Ability_Mayhem2_RoidRage_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/SoulStealer/Ability_Mayhem2_SoulStealer.Ability_Mayhem2_SoulStealer_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Shared/Bighetti/Ability_Mayhem2_Bighetti.Ability_Mayhem2_Bighetti_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/FinishThem/Ability_Mayhem2_FinishThem.Ability_Mayhem2_FinishThem_C,Weight=(BaseValueConstant=0)))
@@ -481,94 +607,94 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard,ModifierSets,0,,((ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/DeathFromBeyond/Ability_Mayhem2_DeathFromBeyond.Ability_Mayhem2_DeathFromBeyond_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/RogueLite/Ability_Mayhem2_RogueLite.Ability_Mayhem2_RogueLite_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/CriticalFailure/Ability_Mayhem2_CritFail.Ability_Mayhem2_CritFail_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Player/Sharpshot/Ability_Mayhem2_Sharpshot.Ability_Mayhem2_Sharpshot_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/PriorityTarget/Ability_Mayhem2_PriorityTarget.Ability_Mayhem2_PriorityTarget_C,Weight=(BaseValueConstant=0)),(ModifierAbility=/Game/PatchDLC/Mayhem2/Abilities/Enemy/ElementalInfusion/Ability_Mayhem2_ElementalInfusion_All.Ability_Mayhem2_ElementalInfusion_All_C,Weight=(BaseValueConstant=0)))
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,1.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,1.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,2.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,3.0
 
 # Adjusting HP Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,3.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,4.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,4.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,7.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,11.25
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,15.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,22.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,22.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,33.75
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,30.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,45.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,40.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,60.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,50.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68,0,,75.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,1.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,1.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,2.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,3.0
 
 # Adjusting HP Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,3.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,4.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,4.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,7.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,11.25
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,15.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,22.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,22.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,33.75
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,30.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,45.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,40.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,60.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,50.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6,0,,75.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,1.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,1.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,2.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,3.0
 
 # Adjusting HP Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,3.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,4.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,4.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,7.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,11.25
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,15.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,22.5
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,22.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,33.75
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,30.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,45.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,40.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,60.0
 
 # Adjusting HP Values
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,50.0
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,ShieldSimpleScalar_43_417C36C54DA2550A4CABC7B26A5E24A8,0,,75.0
 
 # Adjusting Melee Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageScalarMelee_67_9948929F4FF34364CED2EAB51A881946,0,,2.4
@@ -720,41 +846,73 @@ SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table
 # Adjusting Environmental Damage Values
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageScalarEnviornmental_111_E2A582AA47FC000789FC68BBD31D2CFC,0,,0
 
-# Removing Nova Berner Scaling
+# Buffing Sniper Crit Bonus
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.5
+
+# Buffing Purples
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,VeryRare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.22
+
+# Buffing Blues
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,Rare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.15
+
+# Buffing Grenades
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,95
+
+# Removing Nova Berner Scaling from Stinger
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[0],0,,DataTableValue=(DataTable=None,RowName="",ValueName="")
 
+# Removing Nova Berner Scaling from Stinger
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[1],0,,DataTableValue=(DataTable=None,RowName="",ValueName="")
 
+# Removing Nova Berner Scaling from Stinger
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger.Part_Shield_Aug_Stinger,SecondaryStackValues.SecondaryStackValues[2],0,,DataTableValue=(DataTable=None,RowName="",ValueName="")
+
+# Adjusting Re-Router Amp Pellet Split
+SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/Vamp/Parts/Part_Shield_Aug_ANS_LGD_ReRouter.Part_Shield_Aug_ANS_LGD_ReRouter:AspectList_ShieldAugmentAspectData.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier,bDistributeBetweenProjectiles,0,,false
+
+# Adjusting Version O.m Amp Pellet Split
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Parts/Part_Shield_Aug_ANS_LGD_VersionOmNom.Part_Shield_Aug_ANS_LGD_VersionOmNom:AspectList_ShieldAugmentAspectData_0.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier,bDistributeBetweenProjectiles,0,,false
 
 # Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/Status_FullCan_LowHPDamage_P.Status_FullCan_LowHPDamage_P,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Status_Gunner_Tenacious_WeaponDamage_DA.Status_Gunner_Tenacious_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/StatusEffect_Gunner_ClickClick_WeaponDamage_DA.StatusEffect_Gunner_ClickClick_WeaponDamage_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/StatusEffect_Operative_ConfidentCompetence.StatusEffect_Operative_ConfidentCompetence,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/MultiTasker/StatusEffect_Operative_Multitasker.StatusEffect_Operative_Multitasker,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/StatusEffect_Siren_Samsara.StatusEffect_Siren_Samsara,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Making Skills V1
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA.StatusEffect_Siren_BareKnuckle_DA,AttributeEffects.AttributeEffects[0].AttributeData,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
 # Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_BottomlessMags/ClickClick/PassiveSkill_Gunner_ClickClick.Default__PassiveSkill_Gunner_ClickClick_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/MultiTasker/PassiveSkill_Operative_Multitasker.Default__PassiveSkill_Operative_Multitasker_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/ConfidentCompetence/PassiveSkill_Operative_ConfidentCompetence.Default__PassiveSkill_Operative_ConfidentCompetence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
+# Adjusting Cards for V1 Changes
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] Up to $VALUE$
@@ -771,30 +929,95 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Pas
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/PassiveSkill_Siren_BareKnuckle.Default__PassiveSkill_Siren_BareKnuckle_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Bonus Damage:[/skillbold] $VALUE$
 
+# Changing Fire in the Skag Den to Scale with Passives (Credit to 10 FPS)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/ConditionalDamage_FireInSkagDen.ConditionalDamage_FireInSkagDen,OptionalOverrideDamageSource,0,,DamageSource_Passive_Skill.DamageSource_Passive_Skill_C
+
 # Buffing Samsara Damage Values
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Samsara_GunDamage,Value,0,,(BaseValueConstant=0.0498)
 
 # Buffing Wrath Damage Values
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues.DataTable_Siren_ConstantValues,Wrath_DamageBonus,Value,0,,(BaseValueConstant=0.1665)
 
-# Buffing Sniper Crit Bonus
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.5
+# Nerfing Overall Iron Bear Damage
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/Att_Calc_Gunner_GlobalSkillDamage.Att_Calc_Gunner_GlobalSkillDamage,Value.Power,0,,(BaseValueConstant=0.225)
 
-# Buffing Grenades
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,95
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Minigun,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.018
 
-# Buffing Purples
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,VeryRare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.22
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Minigun_Mod1,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.018
 
-# Buffing Blues
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats.DataTable_Weapon_Rarity_Stats,Rare,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,1.15
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Minigun_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.19
 
-# Adjusting Re-Router
-SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/Vamp/Parts/Part_Shield_Aug_ANS_LGD_ReRouter.Part_Shield_Aug_ANS_LGD_ReRouter:AspectList_ShieldAugmentAspectData.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier,bDistributeBetweenProjectiles,0,,false
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Minigun_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.06
 
-# Adjusting Version O.m
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Parts/Part_Shield_Aug_ANS_LGD_VersionOmNom.Part_Shield_Aug_ANS_LGD_VersionOmNom:AspectList_ShieldAugmentAspectData_0.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier,bDistributeBetweenProjectiles,0,,false
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,BearFist,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.21
 
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,BearFist_Mod1,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,BearFist_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.14
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,BearFist_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,GL,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.07
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,GL_Mod1,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.032
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,GL_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.29
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,GL_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.056
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,FalconStrike,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.05
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,FalconStrike_Mod1,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.0174
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,FalconStrike_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.023
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,FalconStrike_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.17
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Salamander,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.005
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Salamander_Mod1,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.195
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Salamander_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.06
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Salamander_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.013
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Railgun,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.19
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Railgun_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.08
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Railgun_Mod3,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.15
+
+# Nerfing Iron Bear Weapons
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,Railgun_Mod3_Corrosive,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.04
+
+# Nerfing Barrel Damage
+SparkPatchEntry,(1,1,0,),/Game/InteractiveObjects/ExplodingBarrels/_Shared/_Design/Balance/Att_Destructible_Barrel_DamageScalar.Att_Destructible_Barrel_DamageScalar:BP_ConstantValueResolver_C_0,Value.BaseValueConstant,0,,0.0001
+
+# Nerfing Barrel Damage
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,InteractiveObjectDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,5.0
 # Making Melee Crit (10 FPSs Credit Here)
 SparkPatchEntry,(1,1,0,),/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C,bCanCauseCriticals,0,,true
 
@@ -824,10 +1047,17 @@ SparkPatchEntry,(1,2,0,),/Game/Common/_Design/Table_MicropatchSwitches.Table_Mic
 # Cartel Bugfixes
 SparkLevelPatchEntry,(1,1,0,Cartels_P),/Game/PatchDLC/Event2/Maps/Cartels_Mission.Cartels_Mission:PersistentLevel.OakMissionWaypointBox_ACtivateStairSlide.CollisionComp,RelativeScale3D,0,,(X=1.000000,Y=1.000000,Z=1.600000)
 
-# Fixing P2P Networker secondary element parts
+# Fixing P2P Networker secondary element parts (Credit to apocalyptech)
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/InvPartSet_SM_MAL_Link.InvPartSet_SM_MAL_Link,ActorPartLists,0,,((PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=0,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=1,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=1,Max=1),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=2,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=3,bCanSelectMultipleParts=True,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=2,Max=2),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=4,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=5,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=6,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=7,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=8,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=9,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=10,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()),(PartTypeEnum=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/EPartList_Maliwan_SMG.EPartList_Maliwan_SMG,PartType=11,bCanSelectMultipleParts=False,bUseWeightWithMultiplePartSelection=False,MultiplePartSelectionRange=(Min=0,Max=0),bEnabled=True,Parts=()))
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link,RuntimePartList.PartTypeTOC,0,,((StartIndex=0,NumParts=1),(StartIndex=1,NumParts=1),(StartIndex=2,NumParts=1),(StartIndex=3,NumParts=2),(StartIndex=5,NumParts=1),(StartIndex=6,NumParts=1),(StartIndex=7,NumParts=3),(StartIndex=10,NumParts=2),(StartIndex=12,NumParts=3),(StartIndex=15,NumParts=5),(StartIndex=20,NumParts=5),(StartIndex=25,NumParts=1))
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link.Balance_SM_MAL_Link,RuntimePartList.AllParts,0,,((PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Body/Part_SM_MAL_Body.Part_SM_MAL_Body,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Body/Part_SM_MAL_Body_B.Part_SM_MAL_Body_B,Weight=(BaseValueConstant=1.0)),(PartData=/Game/PatchDLC/Raid1/Gear/Weapons/Link/Parts/Part_SM_MAL_Barrel_Link.Part_SM_MAL_Barrel_Link,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_02/Part_SM_MAL_Barrel_02_B.Part_SM_MAL_Barrel_02_B,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Barrel/Barrel_02/Part_SM_MAL_Barrel_02_A.Part_SM_MAL_Barrel_02_A,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Scope/Part_SM_MAL_Scope_03.Part_SM_MAL_Scope_03,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Mag/Part_SM_MAL_Mag_01.Part_SM_MAL_Mag_01,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Grip/Part_SM_MAL_Grip_03.Part_SM_MAL_Grip_03,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Grip/Part_SM_MAL_Grip_02.Part_SM_MAL_Grip_02,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Grip/Part_SM_MAL_Grip_01.Part_SM_MAL_Grip_01,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Grip/Part_SM_MAL_Grip_03_A.Part_SM_MAL_Grip_03_A,Weight=(BaseValueConstant=0.5)),(PartData=None,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Stock/Part_SM_MAL_Stock_01.Part_SM_MAL_Stock_01,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Stock/Part_SM_MAL_Stock_02.Part_SM_MAL_Stock_02,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Stock/Part_SM_MAL_Stock_03.Part_SM_MAL_Stock_03,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Primary/Part_SM_Mal_ElemPrimary_01_Fire.Part_SM_Mal_ElemPrimary_01_Fire,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Primary/Part_SM_Mal_ElemPrimary_02_Cryo.Part_SM_Mal_ElemPrimary_02_Cryo,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Primary/Part_SM_Mal_ElemPrimary_03_Shock.Part_SM_Mal_ElemPrimary_03_Shock,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Primary/Part_SM_Mal_ElemPrimary_04_Radiation.Part_SM_Mal_ElemPrimary_04_Radiation,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Primary/Part_SM_Mal_ElemPrimary_05_Corrosive.Part_SM_Mal_ElemPrimary_05_Corrosive,Weight=(BaseValueConstant=1.0)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_01_Fire.Part_SM_Mal_ElemSecondary_01_Fire,Weight=(BaseValueConstant=1)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_02_Cryo.Part_SM_Mal_ElemSecondary_02_Cryo,Weight=(BaseValueConstant=1)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_03_Shock.Part_SM_Mal_ElemSecondary_03_Shock,Weight=(BaseValueConstant=1)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_04_Radiation.Part_SM_Mal_ElemSecondary_04_Radiation,Weight=(BaseValueConstant=1)),(PartData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_05_Corrosive.Part_SM_Mal_ElemSecondary_05_Corrosive,Weight=(BaseValueConstant=1)),(PartData=/Game/PatchDLC/Raid1/Gear/Weapons/Link/Parts/Part_SM_MAL_Material_Link.Part_SM_MAL_Material_Link,Weight=(BaseValueConstant=1.0)))
 
 # Fixing Purple E-Tech Pistols not Spawning
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_ETech_VeryRare.ItemPool_Pistols_ETech_VeryRare,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/COV/Balance/Balance_PS_COV_ETech_VeryRare.Balance_PS_COV_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/COV/Balance/Balance_PS_COV_ETech_VeryRare.Balance_PS_COV_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Dahl/Balance/Balance_DAL_PS_ETech_VeryRare.Balance_DAL_PS_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Dahl/Balance/Balance_DAL_PS_ETech_VeryRare.Balance_DAL_PS_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/MAL/Balance/Balance_PS_MAL_ETech_VeryRare.Balance_PS_MAL_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/MAL/Balance/Balance_PS_MAL_ETech_VeryRare.Balance_PS_MAL_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TED/Balance/Balance_PS_Tediore_ETech_VeryRare.Balance_PS_Tediore_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TED/Balance/Balance_PS_Tediore_ETech_VeryRare.Balance_PS_Tediore_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TOR/Balance/Balance_PS_TOR_ETech_VeryRare.Balance_PS_TOR_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/TOR/Balance/Balance_PS_TOR_ETech_VeryRare.Balance_PS_TOR_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Vladof/Balance/Balance_PS_VLA_ETech_VeryRare.Balance_PS_VLA_ETech_VeryRare,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Pistol/Vladof/Balance/Balance_PS_VLA_ETech_VeryRare.Balance_PS_VLA_ETech_VeryRare"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
+
+# Giving Psycho Stabber Bullets Melee Damage Instead
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/PsychoStabber/Parts/Part_PS_COV_Barrel_PsychoStabber.Part_PS_COV_Barrel_PsychoStabber:AspectList_WeaponUseModeAspectData.WeaponUseComponent_WeaponFireProjectileComponent,DamageSource,0,,BlueprintGeneratedClass'/Game/GameData/DamageSources/DamageSource_Melee.DamageSource_Melee_C'
+
+# Adjusting Hails Arc to be more akin to BL2s
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/LightProjectile_Hail.Default__LightProjectile_Hail_C,InitialRelativeRotation,0,,(pitch=14,yaw=0,roll=0)
+

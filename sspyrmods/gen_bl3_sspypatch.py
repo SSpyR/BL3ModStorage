@@ -1,47 +1,27 @@
 from bl3hotfixmod import Mod, Balance, ItemPool, ItemPoolEntry, BVC
 from bl3data import BL3Data
 
-# Adjust sell price of customizations
-# Purple E-Tech Pistols
-# Adjust self-splash damage if possible
-# Give Mission Only Rewards to something (Ember's Purge to Stanley Bot, Scoville to Tony Bordel)
-# Grenades from Loaders in DLC1 bypass Player Shields?
-# Vibra Pulse and Moxxi's Embrace to pool with Crit and Hail
-# Maybe give some specific mod packs specific drops (like Cobra in BL2)
-# Add in Scrapped Legendaries that are completely (Heckle and Hyde, Networker, RYNAH, etc.)
-# Leave World Drop Artifacts and Class Mods until I can adjust their RNG
+#TODO Talk to FPS when its time for Custom Items
+#TODO Adjust sell price of customizations
+#TODO Grenades from Loaders in DLC1 bypass Player Shields?
+#TODO Maybe give some specific mod packs specific drops (like Cobra in BL2) (Trial and Slaughter Dedicated Drops Dropped from Mobs inside?)
+#TODO Raise quantity of lower rarity World Drops
+#TODO Maybe make only utility anoints a thing?
+#TODO Change some Legendaries to Blues and Purps (M6 and M4 Legendaries are good idea for this + others [ex: Cloud Kill])
+#TODO Change Legendary COMs to have set stat rolls per COM maybe?
+#TODO Maybe add in RYNAH and change it a bit, look into Bite Size
+#TODO Skill swaps are a go, time for re-organization
+#TODO Reduce Amara CDs (except TTB and Base Grasp)
 
-"""
-FiringPatternLines(0)=
-(
-    StartPoint =
-    (Pitch=4369,Yaw=0,Roll=0),
-    EndPoint =
-    (Pitch=0,Yaw=0,Roll=0),
-    bUseStartPointOnly = True,
-    CustomWaveMotion =
-    (
-        bUseCustomWaveMotion = False,
-        WaveFreq =
-        (X=0.000000,Y=0.000000,Z=0.000000),
-        WaveAmp =
-        (X=0.000000,Y=0.000000,Z=0.000000),
-        WavePhase =
-        (X=0.000000,Y=0.000000,Z=0.000000)
-    )
-)
-"""
-
-# Balance Idea List
+#!Balance Idea List
+#!use MatchAlls for number tuning
 """
 Destructor Spinner Buff
-Rebel Yell Buff
-Either Give Zane V1 to something other than Donnybrook, or nerf DB numbers (likely the latter)
-Adjust Hail's firing arc to more akin to BL2's (see BL2's for reference)
-Change some Legendaries to Blues and Purps (M6 and M4 Legendaries are good idea for this +_others)
-Maybe make only utility anoints thing?
-Barrels are still fucking Barrels
-Look into probably nerfing Facepuncher
+Rebel Yell Buff (add actual shock to it)
+Monarch Nerf
+Reflux Nerf
+Robins Call Buff
+Magnificent Buff
 """
 
 mod=Mod('bl3_sspypatch.txt',
@@ -62,7 +42,9 @@ lic=Mod.CC_BY_SA_40,
 ### LOOT ADJUSTMENTS
 ###
 
-# No World Drop Legendaries 
+### WORLD DROP ADJUSTMENTS ###
+#! Leave World Drop Artifacts and Class Mods until I can adjust their RNG
+
 pools=[
     '/Game/GameData/Loot/ItemPools/GrenadeMods/ItemPool_GrenadeMods_All',
     '/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_All',
@@ -130,17 +112,39 @@ legendary=[
     '/Game/PatchDLC/Alisma/GameData/Loot/Legendary/ItemPool_Alisma_Shields_Legendary'
 ]
 
+#!test ingame to see if it works (DLCs 2-4 just Don't Change)
 for wdrop in legendary:
     mod.comment('Adjusting to Remove Legendaries from World Drops')
     mod.reg_hotfix(Mod.PATCH, '',
     wdrop,
     'BalancedItems',
-    """
-    (
-    )
-    """
+    ''
     )
     mod.newline()
+
+mod.comment('Attempting to Fix DLC4 Still Getting World Drops')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PatchDLC/Alisma/GameData/Loot/EnemyPools/ItemPoolList_Boss_Alisma.ItemPoolList_Boss_Alisma',
+'ItemPools.Itempools[7].PoolProbability',
+'(BaseValueConstant=0,BaseValueScale=0)'
+)
+mod.newline()
+
+mod.comment('Attempting to Fix DLC4 Still Getting World Drops')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PatchDLC/Alisma/GameData/Loot/EnemyPools/ItemPoolList_Boss_Alisma.ItemPoolList_Boss_Alisma',
+'ItemPools.Itempools[8].PoolProbability',
+'(BaseValueConstant=0,BaseValueScale=0)'
+)
+mod.newline()
+
+mod.comment('Attempting to Fix DLC2 Still Getting World Drops')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PatchDLC/Hibiscus/GameData/Loot/EnemyPools/ItemPoolList_Hib_MinionLoot.ItemPoolList_Hib_MinionLoot',
+'ItemPools.Itempools[12].PoolProbability',
+'(BaseValueConstant=0,BaseValueScale=0)'
+)
+mod.newline()
 
 mod.comment('Adding Firestorm Back to Traunt')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_Heavy_Traunt',
@@ -337,8 +341,8 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_Lost_Mush_Child',
 )
 mod.newline()
 
+### ANOINT POOL ADJUSTMENTS ###
 
-# No Anoints 
 anoints=[
     '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/GPart_All_SkillEnd_AccuracyHandling',
     '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CooldownRate/GPart_All_SkillEnd_CooldownRate',
@@ -432,7 +436,27 @@ anoints=[
     '/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillStart_ShieldRecharge/GPart_All_SkillStart_OverchargeShield'
 ]
 
+#! single nade anoint for utility isnt worth it, repurpose others to be utility if I want to use them
+utilanoints=[
+    '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CooldownRate/GPart_All_SkillEnd_CooldownRate',
+    '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_DamageReduction/GPart_All_SkillEnd_DamageReduction',
+    '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_FireRateReload/GPart_All_SkillEnd_FireRateReload',
+    '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MoveSpeed/GPart_All_SkillEnd_MoveSpeed',
+    '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_ProjectileSpeed/GPart_All_SkillEnd_ProjectileSpeed',
+    '/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/FireRate/GPart_EG_WhileSliding_FireRate'
+    '/Game/PatchDLC/Raid1/Gear/Anointed/WhileSliding/AccuracyAndHandling/GPart_EG_WhileSliding_AccuracyHandling',
+    '/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/AccuracyAndHandling/GPart_EG_WhileAirborn_AccuracyHandling',
+    '/Game/PatchDLC/Raid1/Gear/Anointed/WhileAirborn/FireRate/GPart_EG_WhileAirborn_FireRate',
+    '/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/Passive_SlideRegenShields/GPart_All_SlideRegenShields',
+    '/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillEnd_HealingPool/GPart_All_HealingPool',
+    '/Game/PatchDLC/Event2/Gear/Weapon/EndGameParts/_Generic/SkillActive_DamageMitigation/GPart_All_DamageMitigation'
+]
+
+utility=False
 for anoint in anoints:
+    if utility==True:
+        if anoint in utilanoints:
+            continue
     mod.comment('Removing Anoint from Pool')
     mod.reg_hotfix(Mod.PATCH, '',
     anoint,
@@ -441,9 +465,12 @@ for anoint in anoints:
     )
     mod.newline()
 
+#!if utility==true:
+    #!Reduce anoint spawn here
 
-# Adding Trials Dedicated Pools to the Guardian Gem Goblin
-mod.comment('Adding the Pools to Gem Goblin')
+### MISC LOOT ADJUSTMENTS ###s
+
+mod.comment('Adding the Trials Pools to Trials Gem Goblin')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_GuardianGemGoblin',
 '/Game/Enemies/Guardian/_Unique/GemGoblin/_Design/Character/BPChar_GuardianGemGoblin.BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE',
 'DropOnDeathItemPools.ItemPools',
@@ -477,9 +504,7 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_GuardianGemGoblin',
 """)
 mod.newline()
 
-
-# Adding DLC World Drop Legendaries to Gun Gun Alt Fire (This might have been made obsolete oops)
-mod.comment('Adding DLC World Drops to Gun Gun')
+mod.comment('Adding DLC World Drops to Gun Gun (Made Basically Obsolete by No World Drops Method Now, Oops)')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire',
 'BalancedItems',
@@ -514,10 +539,7 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Make Veterans Machine Only Quest Rewards (Adjust this if I bring some Anoints back)
-# getall ItemPoolData BalancedItems name=DA_ItemPool_VendingMachine_CrazyEarl
-mod.comment('Adjusting Veterans Machine Pool')
+mod.comment('Adjusting Veterans Machine Pool to Only Have Quest Rewards')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl',
 'BalancedItems',
@@ -533,8 +555,6 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Adding Heckle and Hyde as Drops
 mod.comment('Adding in Heckle and Hyde')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_Goliath_Bounty01',
 '/Game/GameData/Loot/ItemPools/Unique/ItemPool_Pestilence_HeckleandHyde.ItemPool_Pestilence_HeckleandHyde',
@@ -561,7 +581,7 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_Goliath_Bounty01',
 )
 mod.newline()
 
-mod.comment('Adjust Drop Rate Accordingly')
+mod.comment('Adjust Heckle and Hyde Pool Drop Rate Accordingly')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/GameData/Loot/ItemPools/Table_LegendarySpecificLootOdds.Table_LegendarySpecificLootOdds',
 'HeckleAndHyde',
@@ -570,9 +590,7 @@ mod.table_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Adjust Maliwan Takedown Loot Pools and Adding P2P Networker
-mod.comment('Adjusting weights and pool (adding Networker too)')
+mod.comment('Adjusting weights and pool of Wotan (adding Networker too)')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidBoss_Pool.ItemPool_RaidBoss_Pool',
 'BalancedItems',
@@ -635,7 +653,7 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_BehemothRaid',
 """)
 mod.newline()
 
-mod.comment('Adjusting weights and pool')
+mod.comment('Adjusting weights and pool of Valkyries')
 mod.reg_hotfix(Mod.CHAR, 'BPChar_MechRaidBossBar',
 '/Game/PatchDLC/Raid1/GameData/Loot/ItemPool_RaidMiniBosses_Pool.ItemPool_RaidMiniBosses_Pool',
 'BalancedItems',
@@ -669,45 +687,127 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_MechRaidBossBar',
 """)
 mod.newline()
 
+gerleg=[
+    '/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_AssaultRifles_Legendary',
+    '/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_Shotguns_Legendary',
+    '/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_SMGs_Legendary',
+    '/Game/PatchDLC/Geranium/GameData/Loot/Guns/ItemPool_GER_Pistols_Legendary'
+]
+for ger in gerleg:
+    mod.comment('Zeroing Out Geranium Legendary Pools')
+    mod.reg_hotfix(Mod.PATCH, '',
+    ger,
+    'BalancedItems',
+    ''
+    )
+    mod.newline()
 
-# Giving Crew Challenge Items and Mission Rewards from DLCs a Drop Location (Legendaries, not Uniques)
-#mod.comment('Giving Embers Purge a Drop Source')
-#mod.reg_hotfix(Mod.CHAR, '',
-#''
-#)
-#mod.newline()
+mod.comment('Taking Facepuncher Out of a Spawn')
+mod.reg_hotfix(Mod.CHAR, 'BPChar_EnforcerAnointed',
+'/Game/PatchDLC/Raid1/GameData/Loot/ItemPools/ItemPool_Muldock',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/Gear/Shields/_Design/_Uniques/Rectifier/Balance/InvBalD_Shield_LGD_Rectifier.InvBalD_Shield_LGD_Rectifier,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Shields/_Design/_Uniques/Rectifier/Balance/InvBalD_Shield_LGD_Rectifier.InvBalD_Shield_LGD_Rectifier\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        ItemPoolData=ItemPoolData'\"/Game/GameData/Loot/ItemPools/Guns/ItemPool_Guns_All.ItemPool_Guns_All\"',
+        Weight=(BaseValueConstant=4.5,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
 
-#mod.comment('Giving Scoville a Drop Source')
-#mod.reg_hotfix(Mod.CHAR, '',
-#''
-#)
-#mod.newline()
+mod.comment('Adding Vibra Pulse to Moxxi Tip Pool')
+mod.reg_hotfix(Mod.CHAR, '',
+'/Game/InteractiveObjects/TipJar/ItemPool_MoxxiTip_GunRewards',
+'BalancedItems',
+"""
+(
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    ),
+    (
+        InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse,
+        ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse\"',
+        Weight=(BaseValueConstant=1,BaseValueScale=1)
+    )
+)
+"""
+)
+mod.newline()
 
-#mod.comment('Giving Rico a Drop Source')
-#mod.reg_hotfix(Mod.CHAR, '',
-#''
-#)
-#mod.newline()
+#! (Structure of code Credit to apocalyptech)
+newuniques=[
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Backburner/Balance/Balance_HW_VLA_ETech_BackBurner',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/DNA/Balance/Balance_SM_MAL_DNA',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/DoubleTap/Balance/Balance_PS_ATL_DoubleTap',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Kaoson/Balance/Balance_SM_DAHL_Kaoson',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Monarch/Balance/Balance_AR_VLA_Monarch',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Plague/Balance/Balance_HW_TOR_Plague',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/Reflux/Balance/Balance_SG_HYP_Reflux',
+    '/Game/PatchDLC/Mayhem2/Gear/Weapon/_Shared/_Unique/SandHawk/Balance/Balance_SR_DAL_SandHawk',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/CraderMP5/Balance/Balance_SM_DAHL_CraderMP5',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/DeathGrip/Balance/Balance_SG_MAL_DeathGrip',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Execute/Balance/Balance_PS_TED_Execute',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Juju/Balance/Balance_DAL_AR_ETech_Juju',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Juliet/Balance/Balance_AR_TOR_Juliet_WorldDrop',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Tankman/Balance/Balance_SR_HYP_Tankman',
+    '/Game/PatchDLC/Raid1/Re-Engagement/Weapons/ZheitsevEruption/Balance/Balance_AR_COV_Zheitsev',
+    '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/CloudKill/Balance/Balance_SM_MAL_CloudKill',
+    '/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/PsychoStabber/Balance/Balance_PS_COV_PsychoStabber',
+    '/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/HeartBreaker/Balance/Balance_SG_HYP_HeartBreaker',
+    '/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/SlowHand/Balance/Balance_SG_HYP_SlowHand',
+    '/Game/PatchDLC/Dandelion/Gear/Weapon/_Unique/Creamer/Balance/Balance_HW_TOR_Creamer',
+    '/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/Sabre/Balance/Balance_PS_Tediore_Sabre',
+    '/Game/Gear/Weapons/Pistols/Jakobs/_Shared/_Design/_Unique/AmazingGrace/Balance/Balance_PS_JAK_AmazingGrace',
+    '/Game/Gear/Weapons/Shotguns/Jakobs/_Shared/_Design/_Unique/TheWave/Balance/Balance_SG_JAK_Unique_Wave',
+    '/Game/Gear/Weapons/AssaultRifles/Torgue/_Shared/_Design/_Unique/Bearcat/Balance/Balance_AR_TOR_Bearcat',
+    '/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Hive/Balance/Balance_HW_TOR_Hive',
+    '/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Rampager/Balance/Balance_HW_TOR_Rampager',
+    '/Game/Gear/Weapons/AssaultRifles/Vladof/_Shared/_Design/_Unique/Sickle/Balance/Balance_AR_VLA_Sickle',
+    '/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Balance/InvBalD_Shield_Legendary_VersionOmNom',
+    '/Game/Gear/Shields/_Design/_Uniques/BigBoomBlaster/Balance/InvBalD_Shield_LGD_BigBoomBlaster',
+    '/Game/Gear/Shields/_Design/_Uniques/MessyBreakup/bALANCE/InvBalD_Shield_MessyBreakup',
+    '/Game/Gear/Shields/_Design/_Uniques/BlackHole/Balance/InvBalD_Shield_LGD_BlackHole',
+    '/Game/Gear/GrenadeMods/_Design/_Unique/Piss/Balance/InvBalD_GM_Piss',
+    '/Game/Gear/GrenadeMods/_Design/_Unique/TranFusion/Balance/InvBalD_GM_TranFusion'
+]
 
-#mod.comment('Giving Seventh Sense a Drop Source')
-#mod.reg_hotfix(Mod.CHAR, '',
-#''
-#)
-#mod.newline()
+data=BL3Data()
+to_rarity = '/Game/GameData/Loot/RarityData/RarityData_03_Rare.RarityData_03_Rare'
+to_rarity_full = Mod.get_full_cond(to_rarity, 'OakInventoryRarityData')
 
-#mod.comment('Giving Pearl a Drop Source')
-#mod.reg_hotfix(Mod.CHAR, '',
-#''
-#)
-#mod.newline()
+for leg in newuniques:
+    bal=data.get_data(leg)[0]
+    if bal['RarityData'][1] != to_rarity:
+        mod.comment('Making a Unique instead of Legendary')
+        mod.reg_hotfix(Mod.PATCH, '',
+        leg,
+        'RarityData',
+        to_rarity_full
+        )
+        mod.newline()
 
 
 
 ###
-### MAYHEM MOD ADJUSTMENTS
+### MAYHEM MODE ADJUSTMENTS
 ###
 
-# Mayhem 2 No Modifiers
+### REMOVAL OF TIERED MODIFIERS ###
+
 mod.comment('Setting Easy Modifiers Weights to 0')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy',
@@ -860,9 +960,8 @@ mod.reg_hotfix(Mod.PATCH, '',
 """)
 mod.newline()
 
+### SCALING VALUE ADJUSTMENTS ###
 
-# Mayhem Scaling Balancing
-# /Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet (1-10) <- Modifier Table
 enemyhp=[
 "HealthSimpleScalar_42_0499AACF43FDF39B7084E2BB63E4BF68",
 "ArmorSimpleScalar_44_BCAAA445479831C25B0D55AF294A15D6",
@@ -891,14 +990,13 @@ gear="DamageScalarGear_119_9FC89117424C6619F2CA958FA2842FC2"
 pethp="PetHealth_84_E5B903B4452F4310CCD13C931474E12B"
 comphp="CompanionHealth_89_294A6BE7439072AE9F934CAA127D8D83"
 
-# Enemy HP Adjustments (Cutting by 50% for Right Now)
 for hptype in enemyhp:
     mod.comment('Adjusting HP Values')
     mod.table_hotfix(Mod.PATCH, '',
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '1',
     hptype,
-    1.0
+    1.5
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -906,7 +1004,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '2',
     hptype,
-    2.0
+    3.0
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -922,7 +1020,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '4',
     hptype,
-    4.0
+    4.5
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -930,7 +1028,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '5',
     hptype,
-    7.5
+    11.25
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -938,7 +1036,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '6',
     hptype,
-    15.0
+    22.5
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -946,7 +1044,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '7',
     hptype,
-    22.50
+    33.75
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -954,7 +1052,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '8',
     hptype,
-    30.0
+    45.0
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -962,7 +1060,7 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '9',
     hptype,
-    40.0
+    60.0
     )
     mod.newline()
     mod.comment('Adjusting HP Values')
@@ -970,11 +1068,10 @@ for hptype in enemyhp:
     '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
     '10',
     hptype,
-    50.0
+    75.0
     )
     mod.newline()
 
-# Melee Buff (Doubling for Now)
 mod.comment('Adjusting Melee Values')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
@@ -1056,7 +1153,6 @@ melee,
 )
 mod.newline()
 
-# AS Damage Buffing (Doubling for Now)
 mod.comment('Adjusting AS Values')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
@@ -1138,7 +1234,6 @@ asd,
 )
 mod.newline()
 
-# Pet Damage Buffing (Doubling for Now)
 mod.comment('Adjusting Pet Values')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet',
@@ -1220,7 +1315,6 @@ asd,
 )
 mod.newline()
 
-# Getting Rid of Mayhem Scaling on Skills and Environmental Damage
 mlevel=1
 while mlevel <= 10:
     mod.comment('Adjusting Passive Skill Values')
@@ -1251,20 +1345,67 @@ while mlevel <= 10:
 ### BALANCE ADJUSTMENTS
 ###
 
-# Stinger Nerf
-mod.comment('Removing Nova Berner Scaling')
+### GEAR ###
+
+## WEAPONS
+
+mod.comment('Buffing Sniper Crit Bonus')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data',
+'SniperRifle',
+'CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C',
+1.5
+)
+mod.newline()
+
+mod.comment('Buffing Purples')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
+'VeryRare',
+'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
+1.22
+)
+mod.newline()
+
+mod.comment('Buffing Blues')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
+'Rare',
+'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
+1.15
+)
+mod.newline()
+
+## GRENADES
+
+mod.comment('Buffing Grenades')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase',
+'PlayerGrenadeModDamage',
+'Base_2_5C32556442B4DA4D7EAE1A8610E0A950',
+95
+)
+mod.newline()
+
+## SHIELDS
+
+mod.comment('Removing Nova Berner Scaling from Stinger')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger',
 'SecondaryStackValues.SecondaryStackValues[0]',
 'DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")'
 )
 mod.newline()
+
+mod.comment('Removing Nova Berner Scaling from Stinger')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger',
 'SecondaryStackValues.SecondaryStackValues[1]',
 'DataTableValue=(DataTable=None,RowName=\"\",ValueName=\"\")'
 )
 mod.newline()
+
+mod.comment('Removing Nova Berner Scaling from Stinger')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PatchDLC/Takedown2/Gear/Shields/Stinger/Parts/Part_Shield_Aug_Stinger',
 'SecondaryStackValues.SecondaryStackValues[2]',
@@ -1272,10 +1413,28 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
+mod.comment('Adjusting Re-Router Amp Pellet Split')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/Gear/Shields/_Design/_Uniques/Vamp/Parts/Part_Shield_Aug_ANS_LGD_ReRouter.Part_Shield_Aug_ANS_LGD_ReRouter:AspectList_ShieldAugmentAspectData.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
+'bDistributeBetweenProjectiles',
+'false'
+)
+mod.newline()
 
-# Formula Balancing (Basically Just Giving V1 to People Except FL4K)
-# Probably Buff FL4K in Some Areas
+mod.comment('Adjusting Version O.m Amp Pellet Split')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Parts/Part_Shield_Aug_ANS_LGD_VersionOmNom.Part_Shield_Aug_ANS_LGD_VersionOmNom:AspectList_ShieldAugmentAspectData_0.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
+'bDistributeBetweenProjectiles',
+'false'
+)
+mod.newline()
 
+### CHARACTERS ###
+
+## FORMULA CHANGE
+
+#!edit descriptions too maybe
+#!confident competence didnt get text update
 passive_to_v1=[
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
     '/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/TenaciousDefense/Passive_Gunner_Tenacious.Default__Passive_Gunner_Tenacious_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',
@@ -1295,8 +1454,8 @@ status_to_v1=[
     '/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/BareKnuckle/StatusEffect_Siren_BareKnuckle_DA'
 ]
 
-mod.comment('Making Skills V1')
 for status in status_to_v1:
+    mod.comment('Making Skills V1')
     mod.reg_hotfix(Mod.PATCH, '',
     status,
     'AttributeEffects.AttributeEffects[0].AttributeData',
@@ -1304,8 +1463,8 @@ for status in status_to_v1:
     )
     mod.newline()
 
-mod.comment('Adjusting Cards for V1 Changes')
 for passive in passive_to_v1:
+    mod.comment('Adjusting Cards for V1 Changes')
     mod.reg_hotfix(Mod.PATCH, '',
      passive,
     'Attribute',
@@ -1328,6 +1487,17 @@ for passive in passive_to_v1:
     )
     mod.newline()
 
+mod.comment('Changing Fire in the Skag Den to Scale with Passives (Credit to 10 FPS)')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/ConditionalDamage_FireInSkagDen.ConditionalDamage_FireInSkagDen',
+'OptionalOverrideDamageSource',
+'DamageSource_Passive_Skill.DamageSource_Passive_Skill_C'
+)
+mod.newline()
+
+## NUMBER TUNING
+#!Probably Buff FL4K in Some Areas
+
 mod.comment('Buffing Samsara Damage Values')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/PlayerCharacters/_Shared/_Design/Balance/Siren/DataTable_Siren_ConstantValues',
@@ -1346,65 +1516,248 @@ mod.table_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Buffing Sniper Crit Bonus
-mod.comment('Buffing Sniper Crit Bonus')
-mod.table_hotfix(Mod.PATCH, '',
-'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data',
-'SniperRifle',
-'CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C',
-1.5
+#!might not actually be working, maybe just nerf individual weapons
+mod.comment('Nerfing Overall Iron Bear Damage')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/Att_Calc_Gunner_GlobalSkillDamage',
+'Value.Power',
+'(BaseValueConstant=0.225)'
 )
 mod.newline()
 
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Minigun',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.018
+)
+mod.newline()
 
-# Buffing Grenades Across the Board
-mod.comment('Buffing Grenades')
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Minigun_Mod1',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.018
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Minigun_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.19
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Minigun_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.06
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'BearFist',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.21
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'BearFist_Mod1',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.10
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'BearFist_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.14
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'BearFist_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.10
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'GL',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.07
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'GL_Mod1',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.032
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'GL_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.29
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'GL_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.056
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'FalconStrike',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.05
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'FalconStrike_Mod1',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.0174
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'FalconStrike_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.023
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'FalconStrike_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.17
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Salamander',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.005
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Salamander_Mod1',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.195
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Salamander_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.06
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Salamander_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.013
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Railgun',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.19
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Railgun_Mod2',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.08
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Railgun_Mod3',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.15
+)
+mod.newline()
+
+mod.comment('Nerfing Iron Bear Weapons')
+mod.table_hotfix(Mod.PATCH, '',
+'/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
+'Railgun_Mod3_Corrosive',
+'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
+0.04
+)
+mod.newline()
+
+### MISC BALANCE ###
+
+mod.comment('Nerfing Barrel Damage')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/InteractiveObjects/ExplodingBarrels/_Shared/_Design/Balance/Att_Destructible_Barrel_DamageScalar.Att_Destructible_Barrel_DamageScalar:BP_ConstantValueResolver_C_0',
+'Value.BaseValueConstant',
+0.00010
+)
+mod.newline()
+
+mod.comment('Nerfing Barrel Damage')
 mod.table_hotfix(Mod.PATCH, '',
 '/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase',
-'PlayerGrenadeModDamage',
+'InteractiveObjectDamage',
 'Base_2_5C32556442B4DA4D7EAE1A8610E0A950',
-95
+5.0
 )
-mod.newline()
-
-
-# Buffing Uniques (Blue and Purple Rarity Weapons) Across the Board
-mod.comment('Buffing Purples')
-mod.table_hotfix(Mod.PATCH, '',
-'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
-'VeryRare',
-'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
-1.22
-)
-mod.newline()
-
-mod.comment('Buffing Blues')
-mod.table_hotfix(Mod.PATCH, '',
-'/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats',
-'Rare',
-'DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0',
-1.15
-)
-mod.newline()
-
-
-# Changing Legendary Shield Amp
-mod.comment('Adjusting Re-Router')
-mod.reg_hotfix(Mod.PATCH, '',
-'/Game/Gear/Shields/_Design/_Uniques/Vamp/Parts/Part_Shield_Aug_ANS_LGD_ReRouter.Part_Shield_Aug_ANS_LGD_ReRouter:AspectList_ShieldAugmentAspectData.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
-'bDistributeBetweenProjectiles',
-'false'
-)
-mod.newline()
-
-mod.comment('Adjusting Version O.m')
-mod.reg_hotfix(Mod.PATCH, '',
-'/Game/PatchDLC/Raid1/Gear/Shields/VersionOmNom/Parts/Part_Shield_Aug_ANS_LGD_VersionOmNom.Part_Shield_Aug_ANS_LGD_VersionOmNom:AspectList_ShieldAugmentAspectData_0.Augment_ShieldAug_VersionOmNom.ShotModifier_WeaponShotModifier',
-'bDistributeBetweenProjectiles',
-'false'
-)
-mod.newline()
 
 
 
@@ -1412,7 +1765,6 @@ mod.newline()
 ### MISC ADJUSTMENTS/FIXES
 ###
 
-# Melee Crit
 mod.comment('Making Melee Crit (10 FPSs Credit Here)')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/GameData/DamageSources/DamageSource_Melee.Default__DamageSource_Melee_C',
@@ -1421,8 +1773,6 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Click Click Green Monster Fix
 mod.comment('Fixing Green Monster Click Click Points')
 gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'
 clickclick_part='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1' 
@@ -1437,8 +1787,6 @@ for cat in gm_bal.categories:
 gm_bal.hotfix_full(mod)
 mod.newline()
 
-
-# Allowing FL4K Pets to Melee Crit
 mod.comment('FL4K Pets Can Melee Crit')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/PlayerCharacters/_Shared/_Design/DamageSources/DamageSource_BeastmasterPet_Melee.DamageSource_BeastmasterPet_Melee',
@@ -1447,8 +1795,7 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-
-# Enabling Cartels Event (Credit to apocalyptech)
+#!(Credit to apocalyptech)
 mod.comment('Global Cartel activation switches')
 mod.reg_hotfix(Mod.PATCH, '',
         '/Game/GameData/GameplayGlobals',
@@ -1498,9 +1845,7 @@ mod.reg_hotfix(Mod.LEVEL, 'Cartels_P',
         '(X=1.000000,Y=1.000000,Z=1.600000)')
 mod.newline()
 
-
-# P2P Networker Secondary Element Fix (Credit to apocalyptech)
-mod.comment('Fixing P2P Networker secondary element parts')
+mod.comment('Fixing P2P Networker secondary element parts (Credit to apocalyptech)')
 p2p_bal_name = '/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link'
 extra_elements = [
         '/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/Parts/Elemental_Secondary/Part_SM_Mal_ElemSecondary_01_Fire',
@@ -1521,8 +1866,6 @@ for cat in p2p_bal.categories:
 p2p_bal.hotfix_full(mod)
 mod.newline()
 
-
-# Fixing Purple E-Tech Pistols not Spawning
 mod.comment('Fixing Purple E-Tech Pistols not Spawning')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_ETech_VeryRare',
@@ -1562,3 +1905,20 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 """
 )
+mod.newline()
+
+mod.comment('Giving Psycho Stabber Bullets Melee Damage Instead')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/Pistols/ChildrenOfTheVault/_Shared/_Design/_Unique/PsychoStabber/Parts/Part_PS_COV_Barrel_PsychoStabber.Part_PS_COV_Barrel_PsychoStabber:AspectList_WeaponUseModeAspectData.WeaponUseComponent_WeaponFireProjectileComponent',
+'DamageSource',
+'BlueprintGeneratedClass\'/Game/GameData/DamageSources/DamageSource_Melee.DamageSource_Melee_C\''
+)
+mod.newline()
+
+mod.comment('Adjusting Hails Arc to be more akin to BL2s')
+mod.reg_hotfix(Mod.PATCH, '',
+'/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/LightProjectile_Hail.Default__LightProjectile_Hail_C',
+'InitialRelativeRotation',
+'(pitch=14,yaw=0,roll=0)'
+)
+mod.newline()

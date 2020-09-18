@@ -26,7 +26,7 @@
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\boss_drop_randomizer
 
 #Misc
-C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
+#C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\red_text_explainer
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\p2p_networker_element_fix
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\nvhm_gamestage_follows_level
 #C:\Users\Angel LaVoie\Downloads\BL3\StandaloneHotfixInjection\HotfixStorage\apocmods(for reference)\vehicle_unlocks
@@ -72,6 +72,7 @@ bl3_sspypatch
 #webslinger_buff
 #dna_buff
 #double_anarchy
+#jakobs_pistols_fix
 
 #Trials Loot Stuff
 #trials_loot_changes
