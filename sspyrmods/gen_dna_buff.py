@@ -2,13 +2,14 @@ from bl3hotfixmod import Mod
 
 #Buff other aspects (bullet speed and firerate feel weird for it)
 
-mod=Mod('dna_buff.txt',
+mod=Mod('dna_buff.bl3hotfix',
 'Buff for DNA',
 'SSpyR',
 [
     ''
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='gear-smg'
 )
 
 mod.comment('Buffing')

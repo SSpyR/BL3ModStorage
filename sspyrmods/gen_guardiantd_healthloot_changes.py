@@ -2,14 +2,15 @@ from bl3hotfixmod import Mod
 
 #Adjust the M4 drops to M6 instead
 
-mod=Mod('guardiantd_healthloot_changes.txt',
+mod=Mod('guardiantd_healthloot_changes.bl3hotfix',
 'Guardian Takedown Loot and Health Balancing',
 'SSpyR',
 [
     'Buff health of mobs.',
-    'Increasing drop rates'
+    'Increasing drop rates (dont think I ever did, GBX did though)'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='scaling'
 )
 
 #Iterate through lists, make duplicates and check for them if they use anything past primary

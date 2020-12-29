@@ -139,7 +139,7 @@ class BL3Data(object):
         if not os.path.exists(self.config_file):
             config = configparser.ConfigParser()
             config['filesystem'] = {
-                    'data_dir': 'D:\\',
+                    'data_dir': 'D:/BL3Datamining',
                     'ueserialize_path': 'C:/Users/Angel LaVoie/Downloads/BL3/Datamining/parser/john-wick-parse.exe',
                     }
             config['mysql'] = {
@@ -202,7 +202,7 @@ class BL3Data(object):
         """
         if obj_name not in self.cache:
 
-            dir='D:\\'
+            dir='D:/BL3Datamining'
             base_path = '{}{}'.format(dir, str.rstrip(obj_name))
             json_file = '{}.json'.format(base_path)
             print(json_file)

@@ -5,13 +5,15 @@ from bl3hotfixmod import Mod
 
 
 
-mod=Mod('no_anoint_balance.txt',
+mod=Mod('no_anoint_balance.bl3hotfix',
 'No Anoint Balance Pass',
 'SSpyR',
 [
-    ''
+    'No Anoints.',
+    'Need to update.'
 ],
 lic=Mod.CC_BY_SA_40,
+cats='gear-anointments'
 )
 
 anoints=[

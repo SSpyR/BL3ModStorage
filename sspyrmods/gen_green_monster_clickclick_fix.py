@@ -2,7 +2,7 @@ from bl3hotfixmod import Mod, Balance
 from bl3data import BL3Data
 
 
-mod = Mod('green_monster_clickclick_fix.txt',
+mod = Mod('green_monster_clickclick_fix.bl3hotfix',
         'Green Monster Click Click Points Fix',
         'SSpyR',
         [
@@ -10,6 +10,7 @@ mod = Mod('green_monster_clickclick_fix.txt',
             'This mod adds 2 other Click Click parts to fix that.'
         ],
         lic=Mod.CC_BY_SA_40,
+        cats='bugfix, gear-com'
         )
 
 gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'

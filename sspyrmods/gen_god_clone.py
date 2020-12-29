@@ -2,7 +2,7 @@ from bl3hotfixmod import Mod
 
 #Boom Enhance buff?
 
-mod=Mod('god_clone.txt',
+mod=Mod('god_clone.bl3hotfix',
 'God Clone',
 'SSpyR',
 [
@@ -10,7 +10,8 @@ mod=Mod('god_clone.txt',
     'Also why have a swap cooldown?',
     'And making Doppelbanger ridic cause why not.'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='cheat, joke'
 )
 
 mod.comment('Reducing Clone cooldown')

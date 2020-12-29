@@ -4,14 +4,15 @@ from bl3hotfixmod import Mod
 #Buff Attack Command
 #Buff Radius?
 
-mod=Mod('god_skag.txt',
+mod=Mod('god_skag.bl3hotfix',
 'God Skag',
 'SSpyR',
 [
     'Buffs Skag Damage by a lot.',
     'Also infinite Gamma Burst'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='cheat, joke'
 )
 
 mod.comment('Buffing Skag melee damage multiplier')

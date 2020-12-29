@@ -3,14 +3,16 @@ from bl3hotfixmod import Mod
 # Make Legendaries not World Drop (Except DLC COMs)
 # Look Back Here and Edit for DLC4
 
-mod=Mod('no_world_drops.txt',
+mod=Mod('no_world_drops.bl3hotfix',
 'Legendaries No World Drop',
 'SSpyR',
 [
     'Taking Away World Drop Legendaries.',
-    'Except Those That are Only World Drops'
+    'Except Those That are Only World Drops.',
+    'Still need to update this file specifically with DLC stuff.'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='loot-system'
 )
 
 pools=[

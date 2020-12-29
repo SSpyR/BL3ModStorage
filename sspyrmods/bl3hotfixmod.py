@@ -663,7 +663,7 @@ class Balance(object):
         self.raw_ps_data = raw_ps_data
 
     @staticmethod
-    def from_data(data, bal_name, replace=False):
+    def from_data(data, bal_name):
         """
         Loads in all our data from a BL3Data instance, given a balance name.  Returns
         a fully-populated Balance object.
@@ -740,9 +740,8 @@ class Balance(object):
                     select_multiple=apl['bCanSelectMultipleParts'],
                     use_weight_with_mult=apl['bUseWeightWithMultiplePartSelection'],
                     enabled=apl['bEnabled'])
-            if partcat.index != 3 and partcat.index != 4:
-                for part, weight in partlist:
-                    partcat.add_part_name(part, weight=weight)
+            for part, weight in partlist:
+                partcat.add_part_name(part, weight=weight)
             bal.add_category(partcat)
 
         # That... should be all?

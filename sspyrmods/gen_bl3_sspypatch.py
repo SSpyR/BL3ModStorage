@@ -1,37 +1,37 @@
 from bl3hotfixmod import Mod, Balance, ItemPool, ItemPoolEntry, BVC
 from bl3data import BL3Data
 
-#TODO Talk to FPS when its time for Custom Items (only unused items)
-#TODO Maybe give some specific mod packs specific drops (like Cobra in BL2) (Areas like Konrads Hold?)
+#TODO Talk to FPS when its time for Custom Items (only unused items, maybe powercreeped ones)
+#TODO Maybe give some specific mob packs specific drops (like Cobra in BL2) (Areas like Konrads Hold?)
 #TODO Update other FL4K Hunt Skills to Update the Card with Bonuses
 #TODO Some IB Weapons got Nerfed too hard (Capacitive Armature, Shock Hammer?)
 #TODO Make FFYL mean something again?
 #TODO Buff Lifesteal % on Lifesteal Weapons and Nerf Lifesteal on Skills
+#TODO Up priority of Mayhem Exclusive text
+#TODO COMs need balancing still
+#TODO Terror Anoints still spawn for some reason
+#TODO Green Monster Stat Issue (Either do stats and skills at the same time or get rid of one) (got rid of clickclick fix for now)
+#TODO Torgue Double Pellet Parts, Make them actually double pellets?
+#TODO Make Maliwan EMP Dogs do shock damage
 
 #! Gear Balance Idea List
 #! overall buff went well, specific balance is key now
 #! use MatchAlls for number tuning
 """
-Destructor Spinner Buff
-Rebel Yell Buff (add actual shock to it)
-Monarch Nerf
-Reflux Nerf
-Robins Call Buff
-Magnificent Buff
+Add Shock to Rebel Yell
 Buff Weapons that use more than 1 ammo per shot (More Damage or More Mag)
-Buff Polybius
-Buff Creeping Death
-Buff Scourge
 Buff E-Tech ARs (Torgue ARs especially)
 Buff EMP
-Nerf Psycho Stabber a bit
-Buff Hail
-Buff Bekah
-Nerf Prompt Critical
 Give some CoV ARs more elements
 Give Seein Dead more Kill Skill Duration too
-Buff Devoted
-Buff Thunderball Fists
+Buff Tidal and TK Wave Damage and Spread
+Buff Redis Damage
+Buff Tunguska Damage
+Buff Woodblocker Damage
+Buff Unforgiven Damage
+Buff Maliwan E-Tech SMGs?
+Buff Barrage
+Buff Warlord
 """
 
 #! Skill Balance List
@@ -42,7 +42,7 @@ Buff Passives on Pets (at least 10% instead of 5%)
 Reduce Amara CDs (except TTB and Base Grasp)
 """
 
-mod=Mod('bl3_sspypatch.txt',
+mod=Mod('bl3_sspypatch.bl3hotfix',
 'BL3 SspyPatch',
 'SSpyR',
 [
@@ -54,6 +54,7 @@ mod=Mod('bl3_sspypatch.txt',
     'Name Credit: Pirek'
 ],
 lic=Mod.CC_BY_SA_40,
+cats='major-pack, mayhem, event, char-overhaul, gear-general, gear-anointments, enemy-drops, loot-system, loot-sources, text, qol, bugfix'
 )
 
 ###
@@ -528,7 +529,11 @@ anoints=[
     '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/_Generic/Terror6/GPart_All_Passive_TerrorCritDamage',
     '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/_Generic/Terror7/GPart_All_Passive_TerrorDamageMitigation',
     '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/_Generic/Terror8/GPart_All_Passive_TerrorHealthRegen',
-    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/_Generic/Terror9/GPart_All_Passive_TerrorProjectilesPerShot'
+    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/_Generic/Terror9/GPart_All_Passive_TerrorProjectilesPerShot',
+    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/Character/OP1/GPart_Operative_DroneActiveTerrorLifesteal',
+    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/Character/Gunner/ReloadTerrorNova/GPart_Gunner_Reload_TerrorNova',
+    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/Character/Beastmaster/AtkCmdTerrorFireDmg/GPart_Beast_AttackCmd_TerrorFireDMG',
+    '/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/Character/Siren/Grasp_TerrorSkulls/GPart_Siren_Grasp_TerrorSkulls'
 ]
 
 #! single nade anoint for utility isnt worth it, repurpose others to be utility if I want to use them
@@ -818,25 +823,25 @@ mod.reg_hotfix(Mod.CHAR, 'BPChar_EnforcerAnointed',
 mod.newline()
 
 mod.comment('Adding Vibra Pulse to Moxxi Tip Pool')
-mod.reg_hotfix(Mod.CHAR, '',
-'/Game/InteractiveObjects/TipJar/ItemPool_MoxxiTip_GunRewards',
+mod.reg_hotfix(Mod.CHAR, 'MatchAll',
+'/Game/InteractiveObjects/TipJar/ItemPool_MoxxiTip_GunRewards.ItemPool_MoxxiTip_GunRewards',
 'BalancedItems',
 """
 (
     (
         InventoryBalanceData=/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail,
         ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_Unique/Hail/Balance/Balance_DAL_AR_Hail.Balance_DAL_AR_Hail\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
+        Weight=(BaseValueConstant=1.0,BaseValueScale=1.0)
     ),
     (
         InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit,
         ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Crit/Balance/Balance_SM_MAL_Crit.Balance_SM_MAL_Crit\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
+        Weight=(BaseValueConstant=1.0,BaseValueScale=1.0)
     ),
     (
         InventoryBalanceData=/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse,
         ResolvedInventoryBalanceData=InventoryBalanceData'\"/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/VibraPulse/Balance/Balance_SM_MAL_VibraPulse.Balance_SM_MAL_VibraPulse\"',
-        Weight=(BaseValueConstant=1,BaseValueScale=1)
+        Weight=(BaseValueConstant=1.0,BaseValueScale=1.00)
     )
 )
 """
@@ -951,7 +956,7 @@ mod.comment('Adjusting Anointed Text to say Mayhem Exclusive')
 mod.reg_hotfix(Mod.PATCH, '',
 '/Game/Gear/Weapons/_Shared/_Design/EndGameParts/UIStat/UIStat_Generic_WeaponFoiler',
 'FormatText',
-'[endgamebold]Mayhem Exclusive.[/endgamebold]'
+'[endgamebold]<font color="#FF212C">Mayhem Exclusive.</font>[/endgamebold]'
 )
 mod.newline()
 
@@ -1583,6 +1588,149 @@ hibis='/Game/PatchDLC/Hibiscus/Gear/Weapon/DataTable_WeaponBalance_Hibiscus'
 mayhem2='/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2'
 gtd='/Game/PatchDLC/Takedown2/Gear/Weapons/DataTable_WeaponBalance_Takedown2'
 
+#mod.comment('')
+#mod.table_hotfix(Mod.PATCH, 'MatchAll',
+#,
+#'',
+#'',
+
+#)
+#mod.newline()
+
+mod.comment('Buffing Destructo Spinner Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+mal,
+'SM_DestructoSpin',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.4
+)
+mod.newline()
+
+mod.comment('Buffing Rebel Yell and Carrier Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+atl,
+'AR_Carrier',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1
+)
+mod.newline()
+
+mod.comment('Nerfing Monarch Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+mayhem2,
+'AR_TheMonarch',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.2
+)
+mod.newline()
+
+mod.comment('Nerfing Reflux Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+mayhem2,
+'SG_Reflux',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.4
+)
+mod.newline()
+
+mod.comment('Buffing Robins Call Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+geran,
+'SG_SpeakEasy',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.47
+)
+mod.newline()
+
+mod.comment('Buffing Magnificient Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+vla,
+'PS_Magnificent',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1
+)
+mod.newline()
+
+mod.comment('Buffing Polybius Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+ted,
+'SG_Polybius',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.4
+)
+mod.newline()
+
+mod.comment('Buffing Creeping Death Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+ted,
+'SG_Sludge',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.3
+)
+mod.newline()
+
+mod.comment('Buffing Scourge Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+tor,
+'HW_Swarm',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.25
+)
+mod.newline()
+
+mod.comment('Nerfing Psycho Stabber Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+cov,
+'PS_PsychoStabber',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.10
+)
+mod.newline()
+
+mod.comment('Buffing Hail Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+dal,
+'AR_Hail',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.35
+)
+mod.newline()
+
+mod.comment('Buffing Bekah Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+jak,
+'AR_Bekah',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.2
+)
+mod.newline()
+
+mod.comment('Nerfing Prompt Critical Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+alisma,
+'PS_Voice',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.1
+)
+mod.newline()
+
+mod.comment('Buffing Devoted Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+mal,
+'SM_Devoted',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.2
+)
+mod.newline()
+
+mod.comment('Buffing Thunderball Fist Damage')
+mod.table_hotfix(Mod.PATCH, 'MatchAll',
+mal,
+'PS_ThunderballFists',
+'DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53',
+1.45
+)
+mod.newline()
 
 mod.comment('Buffing Sniper Crit Bonus')
 mod.table_hotfix(Mod.PATCH, '',
@@ -2238,7 +2386,7 @@ mod.table_hotfix(Mod.PATCH, '',
 '/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance',
 'Railgun_Mod2',
 'DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD',
-0.08
+0.50
 )
 mod.newline()
 
@@ -2544,19 +2692,19 @@ mod.reg_hotfix(Mod.PATCH, '',
 )
 mod.newline()
 
-mod.comment('Fixing Green Monster Click Click Points')
-gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'
-clickclick_part='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1' 
+#mod.comment('Fixing Green Monster Click Click Points')
+#gm_bal_name='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/InvBalD_CM_Gunner_DLC1'
+#clickclick_part='/Game/PatchDLC/Dandelion/Gear/CM/_D/PartSets/_U/GUN/Skills/ClassMod_Part_Skill_Gunner_ClickClikc_DLC1' 
 
-data = BL3Data()
-gm_bal = Balance.from_data(data, gm_bal_name)
-for cat in gm_bal.categories:
-    if cat.index == 5 & cat.num_max == 5:
-        cat.add_part_name(clickclick_part, 1)
-        cat.add_part_name(clickclick_part, 1)
-        break
-gm_bal.hotfix_full(mod)
-mod.newline()
+#data = BL3Data()
+#gm_bal = Balance.from_data(data, gm_bal_name)
+#for cat in gm_bal.categories:
+#    if cat.index == 5 & cat.num_max == 5:
+#        cat.add_part_name(clickclick_part, 1)
+#        cat.add_part_name(clickclick_part, 1)
+#        break
+#gm_bal.hotfix_full(mod)
+#mod.newline()
 
 mod.comment('FL4K Pets Can Melee Crit')
 mod.reg_hotfix(Mod.PATCH, '',
@@ -2632,7 +2780,7 @@ for cat in p2p_bal.categories:
     if len(cat) == 0:
         cat.enabled = True
         for element in extra_elements:
-            cat.add_part_name(element, 1)
+            cat.add_part_name(element, 1.0)
         break
 p2p_bal.hotfix_full(mod)
 mod.newline()
@@ -2805,3 +2953,6 @@ mod.reg_hotfix(Mod.PATCH, '',
 """
 )
 mod.newline()
+
+
+mod.close()

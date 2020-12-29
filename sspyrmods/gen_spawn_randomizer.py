@@ -5,14 +5,16 @@ import os, random
 # Utils: spawnoptions.txt and bpchars.txt
 # Maybe make spawn points higher to prevent falling throug the earth
 # Some enemy spawns may not be under and /Enemies directory (see Dandelion's CrewChallenges/Kill/ directory)
+# See if you can assign multiple things to one SpawnOption (doesn't look possible)
 
-mod=Mod('spawn_randomizer.txt',
+mod=Mod('spawn_randomizer.bl3hotfix',
 'Spawn Randomizer',
 'SSpyR',
 [
    'Mod that randomizes enemies spawns to varying success'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='spawns'
 )
 
 data=BL3Data()

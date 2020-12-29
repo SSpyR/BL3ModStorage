@@ -1,12 +1,13 @@
 from bl3hotfixmod import Mod 
 
-mod=Mod('webslinger_buff.txt',
+mod=Mod('webslinger_buff.bl3hotfix',
 'Buff for Webslinger',
 'SSpyR',
 [
     ''
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='gear-ar'
 )
 
 mod.comment('Buffing')

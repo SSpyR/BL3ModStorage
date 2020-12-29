@@ -3,14 +3,16 @@ from bl3hotfixmod import Mod
 #BPChar_GuardianGemGoblin_C:AIBalanceState_GEN_VARIABLE.DropOnDeathItemPools = 
 #(ItemPools=,ItemPoolLists=(ItemPoolListData'"/Game/GameData/Loot/ItemPools/ItemPoolList_BadassEnemyGunsGear.ItemPoolList_BadassEnemyGunsGear"'))
 
-mod=Mod('trials_loot_changes.txt',
+mod=Mod('trials_loot_changes.bl3hotfix',
 'Trials Loot Adjustments',
 'SSpyR',
 [
     'Adjusts Trial Boss Drop Rate and Quantity of Drops.',
-    'Also gave the Mid-Trial Guardian a chance to drop something from all the Trial Pools.'
+    'Also gave the Mid-Trial Guardian a chance to drop something from all the Trial Pools.',
+    '(Half of this is obsolete now but oh well)'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='enemy-drops'
 )
 
 mod.comment('Adjusting Skag Rate')

@@ -1,12 +1,13 @@
 from bl3hotfixmod import Mod 
 
-mod=Mod('double_anarchy.txt',
+mod=Mod('double_anarchy.bl3hotfix',
 'Changing the name of Light Show to Double Anarchy',
 'SSpyR',
 [
     ''
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='gear-pistol, text'
 )
 
 mod.comment('Name Change')

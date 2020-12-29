@@ -2,10 +2,12 @@ from bl3hotfixmod import Mod
 from bl3data import BL3Data
 import random
 
-#No way to really restructure each time, will need to just re-build the mod each time
-#Find a way for ItemFrameName to work cross class (Doesn't look like you can? Just do blanks)
+# No way to really restructure each time, will need to just re-build the mod each time
+# Find a way for ItemFrameName to work cross class (Doesn't look like you can? Just do blanks)
+# Do purple tree
+# Get capstones to work with multiple points
 
-mod=Mod('skill_randomizer.txt',
+mod=Mod('skill_randomizer.bl3hotfix',
 'Skill Randomizer',
 'SSpyR',
 [
@@ -13,6 +15,7 @@ mod=Mod('skill_randomizer.txt',
     'will randomize skills on your character with skills from all VHs.'
 ],
 lic=Mod.CC_BY_SA_40,
+cats='skill-system'
 )
 
 data=BL3Data()

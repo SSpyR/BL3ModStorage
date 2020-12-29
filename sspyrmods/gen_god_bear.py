@@ -1,6 +1,6 @@
 from bl3hotfixmod import Mod  
 
-mod=Mod('god_bear.txt',
+mod=Mod('god_bear.bl3hotfix',
 'God Bear',
 'SSpyR',
 [
@@ -8,7 +8,8 @@ mod=Mod('god_bear.txt',
     'Also buffing general Iron Bear stuff.',
     'God.'
 ],
-lic=Mod.CC_BY_SA_40
+lic=Mod.CC_BY_SA_40,
+cats='cheat, joke'
 )
 
 mod.comment('Increasing Iron Bear Damage')

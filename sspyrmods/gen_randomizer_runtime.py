@@ -4,21 +4,21 @@ from bl3data import BL3Data
 # Finally better randomize some items (looking at you COMs and Artifacts)
 # Had to remove randomization of weapon materials in order to play with other randomizers
 
-mod=Mod('randomizer_runtime.txt',
+mod=Mod('randomizer_runtime.bl3hotfix',
 'Runtime Randomizer',
 'SSpyR',
 [
     'Runtime Randomizer for Borderlands 3 which randomizes',
     'parts within different pieces of gear (weapons, shields, grenades,',
-    'class mods, and artifacts). Eventually I want to expand this to randomizing more',
-    'things like enemy spawns (which should be possible?) and maybe skills if possible.'
+    'class mods, and artifacts).',
     'This mod is unlike my manufacturer-specific randomizers where',
     'it randomizes all parts among all types and manufacturers which',
     'means that upon a save/quit things may break but it makes things a lot',
     'more crazy for sure. This is only the case for weapons however, other forms of gear',
-    'stay upon a sasve/quit.'
+    'stay upon a save/quit.'
 ],
 lic=Mod.CC_BY_SA_40,
+cats='gear-general'
 )
 
 data=BL3Data()
