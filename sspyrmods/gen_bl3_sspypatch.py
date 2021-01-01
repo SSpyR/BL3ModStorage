@@ -2715,54 +2715,6 @@ mod.reg_hotfix(Mod.PATCH, '',
 mod.newline()
 
 #!(Credit to apocalyptech)
-mod.comment('Global Cartel activation switches')
-mod.reg_hotfix(Mod.PATCH, '',
-        '/Game/GameData/GameplayGlobals',
-        'LeagueInstance',
-        1)
-mod.newline()
-
-mod.comment('Global Cartel activation switches')
-mod.reg_hotfix(Mod.PATCH, '',
-        '/Game/GameData/GameplayGlobals',
-        'ActiveLeague',
-        'OL_TheCartels')
-mod.newline()
-
-mod.comment('Global Cartel activation switches')
-mod.reg_hotfix(Mod.PATCH, '',
-        '/Game/GameData/Spawning/GlobalSpawnDLCData',
-        'DLCs',
-        """(
-            (
-                Data=/Game/PatchDLC/Event2/GameData/SpawnDLCSCripts/SpawnDLC_Cartels.SpawnDLC_Cartels,
-                IsEnabled=(BaseValueConstant=1.000000)
-            )
-        )""")
-mod.newline()
-
-mod.comment('Cartel Seasonal NPC')
-mod.reg_hotfix(Mod.EARLYLEVEL, 'Sanctuary3_P',
-        '/Game/Maps/Sanctuary3/Sanctuary3_Season.Sanctuary3_Season:PersistentLevel.OakMissionSpawner_1.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single',
-        'SpawnOptions',
-        "SpawnOptionData'/Game/PatchDLC/Event2/NonPlayerCharacters/LeagueNPC/_Design/Spawning/SpawnOptions_LeagueNPC_Season02.SpawnOptions_LeagueNPC_Season02'")
-
-mod.newline()
-
-mod.comment('Cartel Main Menu')
-mod.table_hotfix(Mod.PATCH, '',
-        '/Game/Common/_Design/Table_MicropatchSwitches',
-        'MainMenuAltBackground',
-        'Value',
-        BVC(bvc=5))
-mod.newline()
-
-mod.comment('Cartel Bugfixes')
-mod.reg_hotfix(Mod.LEVEL, 'Cartels_P',
-        '/Game/PatchDLC/Event2/Maps/Cartels_Mission.Cartels_Mission:PersistentLevel.OakMissionWaypointBox_ACtivateStairSlide.CollisionComp',
-        'RelativeScale3D',
-        '(X=1.000000,Y=1.000000,Z=1.600000)')
-mod.newline()
 
 mod.comment('Fixing P2P Networker secondary element parts (Credit to apocalyptech)')
 p2p_bal_name = '/Game/PatchDLC/Raid1/Gear/Weapons/Link/Balance/Balance_SM_MAL_Link'
